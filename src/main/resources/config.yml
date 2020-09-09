@@ -1,0 +1,35 @@
+#
+#
+#
+Gathering:
+  Lumbering:
+    LogXP:
+      ACACIA: 5
+      BIRCH: 5
+      DARK_OAK: 5
+      SPRUCE: 5
+      OAK: 5
+      JUNGLE: 5
+  Butchering:
+    MeatXP:
+      PORK: 5
+      BEEF: 5
+      MUTTON: 5
+      CHICKEN: 5
+      RABBIT: 5
+  Mining:
+    BlockXP:
+      STONE: 1
+      COAL: 3
+      IRON: 5
+      GOLD: 7
+      REDSTONE: 7
+      LAPIS: 7
+      EMERALD: 15
+      DIAMOND: 12
+      QUARTZ: 5
+      DEBRIS: 20
+      NETHERACK: 1
+Cooking:
+Alchemy:
+Riding:

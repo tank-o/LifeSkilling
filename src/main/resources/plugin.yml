@@ -1,0 +1,4 @@
+name: LifeSkills
+version: ${project.version}
+main: me.tanko_.lifeskills.LifeSkills
+api-version: 1.16
