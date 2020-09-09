@@ -15,30 +15,23 @@ public class OnJoin implements Listener {
 
         if (!PlayerData.getFile().contains(ID)) {
             PlayerData.getFile().createSection(ID);
+            //Gathering
+            PlayerData.getFile().createSection(ID + ".Gathering");
+            PlayerData.getFile().createSection(ID + ".Gathering.Level");
+            PlayerData.getFile().createSection(ID + ".Gathering.Mastery");
+            PlayerData.getFile().set(ID + ".Gathering.Mastery",0);
             //Butchering
-            PlayerData.getFile().createSection(ID + ".Butchering");
-            PlayerData.getFile().createSection(ID + ".Butchering.Level");
-            PlayerData.getFile().createSection(ID + ".Butchering.XP");
-            PlayerData.getFile().createSection(ID + ".Butchering.Mastery");
-            PlayerData.getFile().set(ID + ".Butchering.Level",0);
-            PlayerData.getFile().set(ID + ".Butchering.XP",0);
-            PlayerData.getFile().set(ID + ".Butchering.Mastery",0);
+            PlayerData.getFile().createSection(ID + ".Gathering.Butchering");
+            PlayerData.getFile().createSection(ID + ".Gathering.Butchering.Mastery");
+            PlayerData.getFile().set(ID + ".Gathering.Butchering.Mastery",0);
             //Lumbering
-            PlayerData.getFile().createSection(ID + ".Lumbering");
-            PlayerData.getFile().createSection(ID + ".Lumbering.Level");
-            PlayerData.getFile().createSection(ID + ".Lumbering.XP");
-            PlayerData.getFile().createSection(ID + ".Lumbering.Mastery");
-            PlayerData.getFile().set(ID + ".Lumbering.Level",0);
-            PlayerData.getFile().set(ID + ".Lumbering.XP",0);
-            PlayerData.getFile().set(ID + ".Lumbering.Mastery",0);
+            PlayerData.getFile().createSection(ID + ".Gathering.Lumbering");
+            PlayerData.getFile().createSection(ID + ".Gathering.Lumbering.Mastery");
+            PlayerData.getFile().set(ID + ".Gathering.Lumbering.Mastery",0);
             //Mining
-            PlayerData.getFile().createSection(ID + ".Mining");
-            PlayerData.getFile().createSection(ID + ".Mining.Level");
-            PlayerData.getFile().createSection(ID + ".Mining.XP");
-            PlayerData.getFile().createSection(ID + ".Mining.Mastery");
-            PlayerData.getFile().set(ID + ".Mining.Level",0);
-            PlayerData.getFile().set(ID + ".Mining.XP",0);
-            PlayerData.getFile().set(ID + ".Mining.Mastery",0);
+            PlayerData.getFile().createSection(ID + ".Gathering.Mining");
+            PlayerData.getFile().createSection(ID + ".Gathering.Mining.Mastery");
+            PlayerData.getFile().set(ID + ".Gathering.Mining.Mastery",0);
             //Cooking
             PlayerData.getFile().createSection(ID + ".Cooking");
             PlayerData.getFile().createSection(ID + ".Cooking.Level");

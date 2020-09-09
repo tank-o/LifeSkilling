@@ -21,7 +21,19 @@ public class BlockBreak implements Listener {
         }else{
                 if (tool.equals(Material.WOODEN_AXE)||tool.equals(Material.STONE_AXE)||tool.equals(Material.IRON_AXE)
                 ||tool.equals(Material.GOLDEN_AXE)||tool.equals(Material.DIAMOND_AXE)||tool.equals(Material.NETHERITE_AXE)){
+                    if (block.getType().equals(Material.ACACIA_WOOD)){
 
+                    }else if (block.getType().equals(Material.BIRCH_WOOD)){
+
+                    }else if (block.getType().equals(Material.SPRUCE_WOOD)){
+
+                    }else if (block.getType().equals(Material.OAK_WOOD)){
+
+                    }else if (block.getType().equals(Material.JUNGLE_WOOD)){
+
+                    }else if (block.getType().equals(Material.DARK_OAK_WOOD)){
+
+                    }
 
                 }
             }

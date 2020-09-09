@@ -1,35 +1,524 @@
 #
 #
 #
+#How Mastery Works -> 50 = 0-49, 349 = 300-349, 599 = 550-599
+#
+
 Gathering:
-  Lumbering:
+  Lumbering: #Lumbering LifeSkill
+    Mastery:
+      50:
+        Common:       #Tier 1 Mats - Logs
+        Rare:         #Tier 2 Mats - Planks, Basic Enhancement Materials, Basic Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+      100:
+        Common:
+        Rare:
+        Legendary:
+      150:
+        Common:
+        Rare:
+        Legendary:
+      200:
+        Common:
+        Rare:
+        Legendary:
+      250:
+        Common:
+        Rare:
+        Legendary:
+      300:
+        Common:
+        Rare:
+        Legendary:
+      350:
+        Common:
+        Rare:
+        Legendary:
+      400:
+        Common:
+        Rare:
+        Legendary:
+      450:
+        Common:
+        Rare:
+        Legendary:
+      500:
+        Common:
+        Rare:
+        Legendary:
+      550:
+        Common:
+        Rare:
+        Legendary:
+      600:
+        Common:
+        Rare:
+        Legendary:
+      650:
+        Common:
+        Rare:
+        Legendary:
+      700:
+        Common:
+        Rare:
+        Legendary:
+      750:
+        Common:
+        Rare:
+        Legendary:
+      800:
+        Common:
+        Rare:
+        Legendary:
+      850:
+        Common:
+        Rare:
+        Legendary:
+      900:
+        Common:
+        Rare:
+        Legendary:
+      950:
+        Common:
+        Rare:
+        Legendary:
+      1000:
+        Common:
+        Rare:
+        Legendary:
+      1050:
+        Common:
+        Rare:
+        Legendary:
+      1100:
+        Common:
+        Rare:
+        Legendary:
+      1150:
+        Common:
+        Rare:
+        Legendary:
+      1200:
+        Common:
+        Rare:
+        Legendary:
+      1250:
+        Common:
+        Rare:
+        Legendary:
+      1300:
+        Common:
+        Rare:
+        Legendary:
+      1350:
+        Common:
+        Rare:
+        Legendary:
+      1400:
+        Common:
+        Rare:
+       Legendary:
+      1450:
+        Common:
+        Rare:
+        Legendary:
+      1500:
+        Common:
+        Rare:
+        Legendary:
+      1550:
+        Common:
+        Rare:
+        Legendary:
+      1600:
+        Common:
+        Rare:
+        Legendary:
+      1650:
+        Common:
+        Rare:
+        Legendary:
+      1700:
+        Common:
+        Rare:
+        Legendary:
+      1750:
+        Common:
+        Rare:
+        Legendary:
+      1800:
+        Common:
+        Rare:
+        Legendary:
+      1850:
+        Common:
+        Rare:
+        Legendary:
+      1900:
+        Common:
+        Rare:
+        Legendary:
+      1950:
+        Common:
+        Rare:
+        Legendary:
+      2000:
+        Common:
+        Rare:
+        Legendary:
     LogXP:
-      ACACIA: 5
-      BIRCH: 5
-      DARK_OAK: 5
-      SPRUCE: 5
-      OAK: 5
-      JUNGLE: 5
-  Butchering:
+      Multiplier: 1.0
+      ACACIA: 5.0
+      BIRCH: 5.0
+      DARK_OAK: 5.0
+      SPRUCE: 5.0
+      OAK: 5.0
+      JUNGLE: 5.0
+
+  Butchering: #Butchering LifeSkill
     MeatXP:
-      PORK: 5
-      BEEF: 5
-      MUTTON: 5
-      CHICKEN: 5
-      RABBIT: 5
-  Mining:
+      PORK: 5.0
+      BEEF: 5.0
+      MUTTON: 5.0
+      CHICKEN: 5.0
+      RABBIT: 5.0
+    Mastery:
+      50:
+        Common:       #Tier 1 Mats - Meat
+        Rare:         #Tier 2 Mats - Basic Enhancement Materials
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials
+      100:
+        Common:
+        Rare:
+        Legendary:
+      150:
+        Common:
+        Rare:
+        Legendary:
+      200:
+        Common:
+        Rare:
+        Legendary:
+      250:
+        Common:
+        Rare:
+        Legendary:
+      300:
+        Common:
+        Rare:
+        Legendary:
+      350:
+        Common:
+        Rare:
+        Legendary:
+      400:
+        Common:
+        Rare:
+        Legendary:
+      450:
+        Common:
+        Rare:
+        Legendary:
+      500:
+        Common:
+        Rare:
+        Legendary:
+      550:
+        Common:
+        Rare:
+        Legendary:
+      600:
+        Common:
+        Rare:
+        Legendary:
+      650:
+        Common:
+        Rare:
+        Legendary:
+      700:
+        Common:
+        Rare:
+        Legendary:
+      750:
+        Common:
+        Rare:
+        Legendary:
+      800:
+        Common:
+        Rare:
+        Legendary:
+      850:
+        Common:
+        Rare:
+        Legendary:
+      900:
+        Common:
+        Rare:
+        Legendary:
+      950:
+        Common:
+        Rare:
+        Legendary:
+      1000:
+        Common:
+        Rare:
+        Legendary:
+      1050:
+        Common:
+        Rare:
+        Legendary:
+      1100:
+        Common:
+        Rare:
+        Legendary:
+      1150:
+        Common:
+        Rare:
+        Legendary:
+      1200:
+        Common:
+        Rare:
+        Legendary:
+      1250:
+        Common:
+        Rare:
+        Legendary:
+      1300:
+        Common:
+        Rare:
+        Legendary:
+      1350:
+        Common:
+        Rare:
+        Legendary:
+      1400:
+        Common:
+        Rare:
+        Legendary:
+      1450:
+        Common:
+        Rare:
+        Legendary:
+      1500:
+        Common:
+        Rare:
+        Legendary:
+      1550:
+        Common:
+        Rare:
+        Legendary:
+      1600:
+        Common:
+        Rare:
+        Legendary:
+      1650:
+        Common:
+        Rare:
+        Legendary:
+      1700:
+        Common:
+        Rare:
+        Legendary:
+      1750:
+        Common:
+        Rare:
+        Legendary:
+      1800:
+        Common:
+        Rare:
+        Legendary:
+      1850:
+        Common:
+        Rare:
+        Legendary:
+      1900:
+        Common:
+        Rare:
+        Legendary:
+      1950:
+        Common:
+        Rare:
+        Legendary:
+      2000:
+        Common:
+        Rare:
+        Legendary:
+  Mining: #Mining LifeSkill
     BlockXP:
-      STONE: 1
-      COAL: 3
-      IRON: 5
-      GOLD: 7
-      REDSTONE: 7
-      LAPIS: 7
-      EMERALD: 15
-      DIAMOND: 12
-      QUARTZ: 5
-      DEBRIS: 20
-      NETHERACK: 1
-Cooking:
-Alchemy:
-Riding:
+      STONE: 1.0
+      COAL: 3.0
+      IRON: 5.0
+      GOLD: 7.0
+      REDSTONE: 7.0
+      LAPIS: 7.0
+      EMERALD: 15.0
+      DIAMOND: 12.0
+      QUARTZ: 5.0
+      DEBRIS: 20.0
+      NETHERACK: 1.0
+    Mastery:
+      50:
+        Common:       #Tier 1 Mats - Ores/Stones
+        Rare:         #Tier 2 Mats - Ore Shards, Basic Enhancement Materials, Basic Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+      100:
+        Common:
+        Rare:
+        Legendary:
+      150:
+        Common:
+        Rare:
+        Legendary:
+      200:
+        Common:
+        Rare:
+        Legendary:
+      250:
+        Common:
+        Rare:
+        Legendary:
+      300:
+        Common:
+        Rare:
+        Legendary:
+      350:
+        Common:
+        Rare:
+        Legendary:
+      400:
+        Common:
+        Rare:
+        Legendary:
+      450:
+        Common:
+        Rare:
+        Legendary:
+      500:
+        Common:
+        Rare:
+        Legendary:
+      550:
+        Common:
+        Rare:
+        Legendary:
+      600:
+        Common:
+        Rare:
+        Legendary:
+      650:
+        Common:
+        Rare:
+        Legendary:
+      700:
+        Common:
+        Rare:
+        Legendary:
+      750:
+        Common:
+        Rare:
+        Legendary:
+      800:
+        Common:
+        Rare:
+        Legendary:
+      850:
+        Common:
+        Rare:
+        Legendary:
+      900:
+        Common:
+        Rare:
+        Legendary:
+      950:
+        Common:
+        Rare:
+        Legendary:
+      1000:
+        Common:
+        Rare:
+        Legendary:
+      1050:
+        Common:
+        Rare:
+        Legendary:
+      1100:
+        Common:
+        Rare:
+        Legendary:
+      1150:
+        Common:
+        Rare:
+        Legendary:
+      1200:
+        Common:
+        Rare:
+        Legendary:
+      1250:
+        Common:
+        Rare:
+        Legendary:
+      1300:
+        Common:
+        Rare:
+        Legendary:
+      1350:
+        Common:
+        Rare:
+        Legendary:
+      1400:
+        Common:
+        Rare:
+        Legendary:
+      1450:
+        Common:
+        Rare:
+        Legendary:
+      1500:
+        Common:
+        Rare:
+        Legendary:
+      1550:
+        Common:
+        Rare:
+        Legendary:
+      1600:
+        Common:
+        Rare:
+        Legendary:
+      1650:
+        Common:
+        Rare:
+        Legendary:
+      1700:
+        Common:
+        Rare:
+        Legendary:
+      1750:
+        Common:
+        Rare:
+        Legendary:
+      1800:
+        Common:
+        Rare:
+        Legendary:
+      1850:
+        Common:
+        Rare:
+        Legendary:
+      1900:
+        Common:
+        Rare:
+        Legendary:
+      1950:
+        Common:
+        Rare:
+        Legendary:
+      2000:
+        Common:
+        Rare:
+        Legendary:
+Cooking: #Cooking LifeSkill
+Alchemy: #Alchemy LifeSkill
+Riding: #Riding LifeSkill
+Fishing: #Fishing LifeSkill
