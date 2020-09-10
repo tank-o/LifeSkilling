@@ -4,6 +4,7 @@ import me.tanko_.lifeskills.CustomItems.LumberingMaterials;
 import me.tanko_.lifeskills.CustomItems.OtherMaterials;
 import me.tanko_.lifeskills.Data.PlayerData;
 import me.tanko_.lifeskills.LifeSkills;
+import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
@@ -53,8 +54,13 @@ public class Lumbering {
         }else if (lootNum <= LegendaryChance){
             LegendaryDrops(Drops,LegendaryAmount,lootNum,LegendaryChance);
         }
-    }
+        LumberingXP(player,Wood);
 
+        for(int i = 0; i < Drops.size(); i++)
+        {
+            player.getInventory().addItem(Drops.get(i));
+        }
+    }
     public static void CommonDrops(ArrayList<ItemStack> Drops,int lootNum,int timberAmount, String wood,int logAmount){
         ItemStack Wood = LumberingMaterials.OakTimber();
         switch(wood){
@@ -112,6 +118,32 @@ public class Lumbering {
         }
     }
     public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
+        if ((lootNum >= 0) || (lootNum <= chance)){
+            for (int i=0;i < amount;i++) {
+                Drops.add(OtherMaterials.EnhanceStone());
+            }
+        }
 
+    }
+
+    public static void LumberingXP(Player player,String Wood){
+        String ID = player.getUniqueId().toString();
+        double XP = PlayerData.getFile().getDouble(ID + ".Gathering.Lumbering.XP");
+        int Level = PlayerData.getFile().getInt(ID + ".Gathering.Lumbering.Level");
+        double XPToNext = (Level * Math.pow(1.3,Level/5) * 1000);
+        double XPMulti = PlayerData.getFile().getDouble(ID + ".Gathering.Lumbering.XPMulti");
+        if (Wood.equalsIgnoreCase("acacia")){
+
+        }else if (Wood.equalsIgnoreCase("birch")){
+
+        }else if (Wood.equalsIgnoreCase("oak")){
+
+        }else if (Wood.equalsIgnoreCase("darkoak")){
+
+        }else if (Wood.equalsIgnoreCase("spruce")){
+
+        }else if (Wood.equalsIgnoreCase("jungle")){
+
+        }
     }
 }

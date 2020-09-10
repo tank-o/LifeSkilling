@@ -23,7 +23,7 @@ public class OtherMaterials {
         return GlowDust;
     }
     public static ItemStack EnhanceFragment(){
-        ItemStack EnhanceFragment = new ItemStack(Material.QUARTZ);
+        ItemStack EnhanceFragment = new ItemStack(Material.SCUTE);
         ItemMeta EnhanceFragmentMeta = EnhanceFragment.getItemMeta();
         EnhanceFragmentMeta.setDisplayName(ChatColor.BLUE + "Enhance Fragment");
         ArrayList<String> EnhancementFragmentLore = new ArrayList<String>();
@@ -35,4 +35,17 @@ public class OtherMaterials {
         EnhanceFragment.setItemMeta(EnhanceFragmentMeta);
         return EnhanceFragment;
     }
+    public static ItemStack EnhanceStone(){
+        ItemStack EnhanceStone = new ItemStack(Material.SLIME_BALL);
+        ItemMeta EnhanceStoneMeta = EnhanceStone.getItemMeta();
+        EnhanceStoneMeta.setDisplayName(ChatColor.LIGHT_PURPLE + "Enhance Stone");
+        ArrayList<String> EnhancementStoneLore = new ArrayList<String>();
+        EnhancementStoneLore.add(ChatColor.DARK_GRAY + "Enhancement Material");
+        EnhancementStoneLore.add("");
+        EnhancementStoneLore.add(ChatColor.GRAY + "Use these to improve your gear");
+        EnhanceStoneMeta.setLore(EnhancementStoneLore);
+        EnhanceStone.setItemMeta(EnhanceStoneMeta);
+        return EnhanceStone;
+    }
+
 }

@@ -18,37 +18,45 @@ public class CustomArmour {
         MasterHelmetMeta.setDisplayName(ChatColor.GOLD + "Master Helmet");
         MasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterHelmetLore = new ArrayList<String>();
-        MasterHelmetLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.Base"));
+        MasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.Base"));
+        MasterHelmetMeta.setLore(MasterHelmetLore);
+        MasterHelmet.setItemMeta(MasterHelmetMeta);
         return MasterHelmet;
     }
     public static ItemStack MasterChestPlate(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack MasterChestPlate = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack MasterChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
         LeatherArmorMeta MasterChestPlateMeta = (LeatherArmorMeta) MasterChestPlate.getItemMeta();
-        MasterChestPlateMeta.setDisplayName(ChatColor.GOLD + "Master ChestPlate");
+        MasterChestPlateMeta.setDisplayName(ChatColor.GOLD + "Master Chestplate");
         MasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterChestPlateLore = new ArrayList<String>();
-        MasterChestPlateLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.Base"));
+        MasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.Base"));
+        MasterChestPlateMeta.setLore(MasterChestPlateLore);
+        MasterChestPlate.setItemMeta(MasterChestPlateMeta);
         return MasterChestPlate;
     }
     public static ItemStack MasterLeggings(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack MasterLeggings = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack MasterLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
         LeatherArmorMeta MasterLeggingsMeta = (LeatherArmorMeta) MasterLeggings.getItemMeta();
         MasterLeggingsMeta.setDisplayName(ChatColor.GOLD + "Master Leggings");
         MasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterLeggingsLore = new ArrayList<String>();
-        MasterLeggingsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.Base"));
+        MasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.Base"));
+        MasterLeggingsMeta.setLore(MasterLeggingsLore);
+        MasterLeggings.setItemMeta(MasterLeggingsMeta);
         return MasterLeggings;
     }
     public static ItemStack MasterBoots(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack MasterBoots = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack MasterBoots = new ItemStack(Material.LEATHER_BOOTS);
         LeatherArmorMeta MasterBootsMeta = (LeatherArmorMeta) MasterBoots.getItemMeta();
         MasterBootsMeta.setDisplayName(ChatColor.GOLD + "Master Boots");
         MasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterBootsLore = new ArrayList<String>();
-        MasterBootsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.Base"));
+        MasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.Base"));
+        MasterBootsMeta.setLore(MasterBootsLore);
+        MasterBoots.setItemMeta(MasterBootsMeta);
         return MasterBoots;
         
     }
@@ -59,37 +67,45 @@ public class CustomArmour {
         OneMasterHelmetMeta.setDisplayName(ChatColor.GOLD + "Master Helmet ✪");
         OneMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterHelmetLore = new ArrayList<String>();
-        OneMasterHelmetLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.1Star"));
+        OneMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.1Star"));
+        OneMasterHelmetMeta.setLore(OneMasterHelmetLore);
+        OneMasterHelmet.setItemMeta(OneMasterHelmetMeta);
         return OneMasterHelmet;
     }
     public static ItemStack OneMasterChestPlate(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack OneMasterChestPlate = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack OneMasterChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
         LeatherArmorMeta OneMasterChestPlateMeta = (LeatherArmorMeta) OneMasterChestPlate.getItemMeta();
         OneMasterChestPlateMeta.setDisplayName(ChatColor.GOLD + "Master Chestplate ✪");
         OneMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterChestPlateLore = new ArrayList<String>();
-        OneMasterChestPlateLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.1Star"));
+        OneMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.1Star"));
+        OneMasterChestPlateMeta.setLore(OneMasterChestPlateLore);
+        OneMasterChestPlate.setItemMeta(OneMasterChestPlateMeta);
         return OneMasterChestPlate;
     }
     public static ItemStack OneMasterLeggings(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack OneMasterLeggings = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack OneMasterLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
         LeatherArmorMeta OneMasterLeggingsMeta = (LeatherArmorMeta) OneMasterLeggings.getItemMeta();
         OneMasterLeggingsMeta.setDisplayName(ChatColor.GOLD + "Master Leggings ✪");
         OneMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterLeggingsLore = new ArrayList<String>();
-        OneMasterLeggingsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.1Star"));
+        OneMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.1Star"));
+        OneMasterLeggingsMeta.setLore(OneMasterLeggingsLore);
+        OneMasterLeggings.setItemMeta(OneMasterLeggingsMeta);
         return OneMasterLeggings;
     }
     public static ItemStack OneMasterBoots() {
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack OneMasterBoots = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack OneMasterBoots = new ItemStack(Material.LEATHER_BOOTS);
         LeatherArmorMeta OneMasterBootsMeta = (LeatherArmorMeta) OneMasterBoots.getItemMeta();
         OneMasterBootsMeta.setDisplayName(ChatColor.GOLD + "Master Boots ✪");
         OneMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterBootsLore = new ArrayList<String>();
-        OneMasterBootsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.1Star"));
+        OneMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.1Star"));
+        OneMasterBootsMeta.setLore(OneMasterBootsLore);
+        OneMasterBoots.setItemMeta(OneMasterBootsMeta);
         return OneMasterBoots;
     }
     public static ItemStack TwoMasterHelmet(){
@@ -99,37 +115,45 @@ public class CustomArmour {
         TwoMasterHelmetMeta.setDisplayName(ChatColor.GOLD + "Master Helmet ✪✪");
         TwoMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterHelmetLore = new ArrayList<String>();
-        TwoMasterHelmetLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.2Star"));
+        TwoMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.2Star"));
+        TwoMasterHelmetMeta.setLore(TwoMasterHelmetLore);
+        TwoMasterHelmet.setItemMeta(TwoMasterHelmetMeta);
         return TwoMasterHelmet;
     }
     public static ItemStack TwoMasterChestPlate(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack TwoMasterChestPlate = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack TwoMasterChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
         LeatherArmorMeta TwoMasterChestPlateMeta = (LeatherArmorMeta) TwoMasterChestPlate.getItemMeta();
         TwoMasterChestPlateMeta.setDisplayName(ChatColor.GOLD + "Master Chestplate ✪✪");
         TwoMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterChestPlateLore = new ArrayList<String>();
-        TwoMasterChestPlateLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.2Star"));
+        TwoMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.2Star"));
+        TwoMasterChestPlateMeta.setLore(TwoMasterChestPlateLore);
+        TwoMasterChestPlate.setItemMeta(TwoMasterChestPlateMeta);
         return TwoMasterChestPlate;
     }
     public static ItemStack TwoMasterLeggings(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack TwoMasterLeggings = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack TwoMasterLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
         LeatherArmorMeta TwoMasterLeggingsMeta = (LeatherArmorMeta) TwoMasterLeggings.getItemMeta();
         TwoMasterLeggingsMeta.setDisplayName(ChatColor.GOLD + "Master Leggings ✪✪");
         TwoMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterLeggingsLore = new ArrayList<String>();
-        TwoMasterLeggingsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.2Star"));
+        TwoMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.2Star"));
+        TwoMasterLeggingsMeta.setLore(TwoMasterLeggingsLore);
+        TwoMasterLeggings.setItemMeta(TwoMasterLeggingsMeta);
         return TwoMasterLeggings;
     }
     public static ItemStack TwoMasterBoots() {
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack TwoMasterBoots = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack TwoMasterBoots = new ItemStack(Material.LEATHER_BOOTS);
         LeatherArmorMeta TwoMasterBootsMeta = (LeatherArmorMeta) TwoMasterBoots.getItemMeta();
         TwoMasterBootsMeta.setDisplayName(ChatColor.GOLD + "Master Boots ✪✪");
         TwoMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterBootsLore = new ArrayList<String>();
-        TwoMasterBootsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.2Star"));
+        TwoMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.2Star"));
+        TwoMasterBootsMeta.setLore(TwoMasterBootsLore);
+        TwoMasterBoots.setItemMeta(TwoMasterBootsMeta);
         return TwoMasterBoots;
     }
     public static ItemStack ThreeMasterHelmet(){
@@ -139,37 +163,45 @@ public class CustomArmour {
         ThreeMasterHelmetMeta.setDisplayName(ChatColor.GOLD + "Master Helmet ✪✪✪");
         ThreeMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterHelmetLore = new ArrayList<String>();
-        ThreeMasterHelmetLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.3Star"));
+        ThreeMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.3Star"));
+        ThreeMasterHelmetMeta.setLore(ThreeMasterHelmetLore);
+        ThreeMasterHelmet.setItemMeta(ThreeMasterHelmetMeta);
         return ThreeMasterHelmet;
     }
     public static ItemStack ThreeMasterChestPlate(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack ThreeMasterChestPlate = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack ThreeMasterChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
         LeatherArmorMeta ThreeMasterChestPlateMeta = (LeatherArmorMeta) ThreeMasterChestPlate.getItemMeta();
         ThreeMasterChestPlateMeta.setDisplayName(ChatColor.GOLD + "Master Chestplate ✪✪✪");
         ThreeMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterChestPlateLore = new ArrayList<String>();
-        ThreeMasterChestPlateLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.3Star"));
+        ThreeMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.3Star"));
+        ThreeMasterChestPlateMeta.setLore(ThreeMasterChestPlateLore);
+        ThreeMasterChestPlate.setItemMeta(ThreeMasterChestPlateMeta);
         return ThreeMasterChestPlate;
     }
     public static ItemStack ThreeMasterLeggings(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack ThreeMasterLeggings = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack ThreeMasterLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
         LeatherArmorMeta ThreeMasterLeggingsMeta = (LeatherArmorMeta) ThreeMasterLeggings.getItemMeta();
         ThreeMasterLeggingsMeta.setDisplayName(ChatColor.GOLD + "Master Leggings ✪✪✪");
         ThreeMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterLeggingsLore = new ArrayList<String>();
-        ThreeMasterLeggingsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.3Star"));
+        ThreeMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.3Star"));
+        ThreeMasterLeggingsMeta.setLore(ThreeMasterLeggingsLore);
+        ThreeMasterLeggings.setItemMeta(ThreeMasterLeggingsMeta);
         return ThreeMasterLeggings;
     }
     public static ItemStack ThreeMasterBoots() {
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack ThreeMasterBoots = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack ThreeMasterBoots = new ItemStack(Material.LEATHER_BOOTS);
         LeatherArmorMeta ThreeMasterBootsMeta = (LeatherArmorMeta) ThreeMasterBoots.getItemMeta();
         ThreeMasterBootsMeta.setDisplayName(ChatColor.GOLD + "Master Boots ✪✪✪");
         ThreeMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterBootsLore = new ArrayList<String>();
-        ThreeMasterBootsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.3Star"));
+        ThreeMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.3Star"));
+        ThreeMasterBootsMeta.setLore(ThreeMasterBootsLore);
+        ThreeMasterBoots.setItemMeta(ThreeMasterBootsMeta);
         return ThreeMasterBoots;
     }
     public static ItemStack FourMasterHelmet(){
@@ -179,37 +211,45 @@ public class CustomArmour {
         FourMasterHelmetMeta.setDisplayName(ChatColor.GOLD + "Master Helmet ✪✪✪✪");
         FourMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterHelmetLore = new ArrayList<String>();
-        FourMasterHelmetLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.4Star"));
+        FourMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.4Star"));
+        FourMasterHelmetMeta.setLore(FourMasterHelmetLore);
+        FourMasterHelmet.setItemMeta(FourMasterHelmetMeta);
         return FourMasterHelmet;
     }
     public static ItemStack FourMasterChestPlate(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack FourMasterChestPlate = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack FourMasterChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
         LeatherArmorMeta FourMasterChestPlateMeta = (LeatherArmorMeta) FourMasterChestPlate.getItemMeta();
         FourMasterChestPlateMeta.setDisplayName(ChatColor.GOLD + "Master ChestPlate ✪✪✪✪");
         FourMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterChestPlateLore = new ArrayList<String>();
-        FourMasterChestPlateLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.4Star"));
+        FourMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.4Star"));
+        FourMasterChestPlateMeta.setLore(FourMasterChestPlateLore);
+        FourMasterChestPlate.setItemMeta(FourMasterChestPlateMeta);
         return FourMasterChestPlate;
     }
     public static ItemStack FourMasterLeggings(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack FourMasterLeggings = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack FourMasterLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
         LeatherArmorMeta FourMasterLeggingsMeta = (LeatherArmorMeta) FourMasterLeggings.getItemMeta();
         FourMasterLeggingsMeta.setDisplayName(ChatColor.GOLD + "Master Leggings ✪✪✪✪");
         FourMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterLeggingsLore = new ArrayList<String>();
-        FourMasterLeggingsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.4Star"));
+        FourMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.4Star"));
+        FourMasterLeggingsMeta.setLore(FourMasterLeggingsLore);
+        FourMasterLeggings.setItemMeta(FourMasterLeggingsMeta);
         return FourMasterLeggings;
     }
     public static ItemStack FourMasterBoots() {
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack FourMasterBoots = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack FourMasterBoots = new ItemStack(Material.LEATHER_BOOTS);
         LeatherArmorMeta FourMasterBootsMeta = (LeatherArmorMeta) FourMasterBoots.getItemMeta();
         FourMasterBootsMeta.setDisplayName(ChatColor.GOLD + "Master Boots ✪✪✪✪");
         FourMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterBootsLore = new ArrayList<String>();
-        FourMasterBootsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.4Star"));
+        FourMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.4Star"));
+        FourMasterBootsMeta.setLore(FourMasterBootsLore);
+        FourMasterBoots.setItemMeta(FourMasterBootsMeta);
         return FourMasterBoots;
     }
     public static ItemStack FiveMasterHelmet(){
@@ -219,77 +259,334 @@ public class CustomArmour {
         FiveMasterHelmetMeta.setDisplayName(ChatColor.GOLD + "Master Helmet ✪✪✪✪✪");
         FiveMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterHelmetLore = new ArrayList<String>();
-        FiveMasterHelmetLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.5Star"));
+        FiveMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.5Star"));
+        FiveMasterHelmetMeta.setLore(FiveMasterHelmetLore);
+        FiveMasterHelmet.setItemMeta(FiveMasterHelmetMeta);
         return FiveMasterHelmet;
     }
     public static ItemStack FiveMasterChestPlate(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack FiveMasterChestPlate = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack FiveMasterChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
         LeatherArmorMeta FiveMasterChestPlateMeta = (LeatherArmorMeta) FiveMasterChestPlate.getItemMeta();
         FiveMasterChestPlateMeta.setDisplayName(ChatColor.GOLD + "Master ChestPlate ✪✪✪✪✪");
         FiveMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterChestPlateLore = new ArrayList<String>();
-        FiveMasterChestPlateLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.5Star"));
+        FiveMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.5Star"));
+        FiveMasterChestPlateMeta.setLore(FiveMasterChestPlateLore);
+        FiveMasterChestPlate.setItemMeta(FiveMasterChestPlateMeta);
         return FiveMasterChestPlate;
     }
     public static ItemStack FiveMasterLeggings(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack FiveMasterLeggings = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack FiveMasterLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
         LeatherArmorMeta FiveMasterLeggingsMeta = (LeatherArmorMeta) FiveMasterLeggings.getItemMeta();
         FiveMasterLeggingsMeta.setDisplayName(ChatColor.GOLD + "Master Leggings ✪✪✪✪✪");
         FiveMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterLeggingsLore = new ArrayList<String>();
-        FiveMasterLeggingsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.5Star"));
+        FiveMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.5Star"));
+        FiveMasterLeggingsMeta.setLore(FiveMasterLeggingsLore);
+        FiveMasterLeggings.setItemMeta(FiveMasterLeggingsMeta);
         return FiveMasterLeggings;
     }
     public static ItemStack FiveMasterBoots() {
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack FiveMasterBoots = new ItemStack(Material.LEATHER_HELMET);
+        ItemStack FiveMasterBoots = new ItemStack(Material.LEATHER_BOOTS);
         LeatherArmorMeta FiveMasterBootsMeta = (LeatherArmorMeta) FiveMasterBoots.getItemMeta();
         FiveMasterBootsMeta.setDisplayName(ChatColor.GOLD + "Master Boots ✪✪✪✪✪");
         FiveMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterBootsLore = new ArrayList<String>();
-        FiveMasterBootsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.5Star"));
+        FiveMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.5Star"));
+        FiveMasterBootsMeta.setLore(FiveMasterBootsLore);
+        FiveMasterBoots.setItemMeta(FiveMasterBootsMeta);
         return FiveMasterBoots;
     }
     public static ItemStack ApprenticeHelmet(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         ItemStack ApprenticeHelmet = new ItemStack(Material.LEATHER_HELMET);
-        LeatherArmorMeta ApprenticeHelmetMeta = (LeatherArmorMeta) ApprenticeHelmet().getItemMeta();
+        LeatherArmorMeta ApprenticeHelmetMeta = (LeatherArmorMeta) ApprenticeHelmet.getItemMeta();
         ApprenticeHelmetMeta.setDisplayName(ChatColor.GREEN + "Apprentice Helmet");
         ApprenticeHelmetMeta.setColor(Color.GRAY);
         ArrayList<String> ApprenticeHelmetLore = new ArrayList<String>();
-        ApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery:" + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.Base"));
+        ApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.Base"));
+        ApprenticeHelmetMeta.setLore(ApprenticeHelmetLore);
+        ApprenticeHelmet.setItemMeta(ApprenticeHelmetMeta);
         return ApprenticeHelmet;
     }
     public static ItemStack ApprenticeChestPlate(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack ApprenticeChestPlate = new ItemStack(Material.LEATHER_HELMET);
-        LeatherArmorMeta ApprenticeChestPlateMeta = (LeatherArmorMeta) ApprenticeChestPlate().getItemMeta();
+        ItemStack ApprenticeChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
+        LeatherArmorMeta ApprenticeChestPlateMeta = (LeatherArmorMeta) ApprenticeChestPlate.getItemMeta();
         ApprenticeChestPlateMeta.setDisplayName(ChatColor.GREEN + "Apprentice ChestPlate");
         ApprenticeChestPlateMeta.setColor(Color.GREEN);
         ArrayList<String> ApprenticeChestPlateLore = new ArrayList<String>();
-        ApprenticeChestPlateLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.Base"));
+        ApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.Base"));
+        ApprenticeChestPlateMeta.setLore(ApprenticeChestPlateLore);
+        ApprenticeChestPlate.setItemMeta(ApprenticeChestPlateMeta);
         return ApprenticeChestPlate;
     }
     public static ItemStack ApprenticeLeggings(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack ApprenticeLeggings = new ItemStack(Material.LEATHER_HELMET);
-        LeatherArmorMeta ApprenticeLeggingsMeta = (LeatherArmorMeta) ApprenticeLeggings().getItemMeta();
+        ItemStack ApprenticeLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
+        LeatherArmorMeta ApprenticeLeggingsMeta = (LeatherArmorMeta) ApprenticeLeggings.getItemMeta();
         ApprenticeLeggingsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Leggings");
         ApprenticeLeggingsMeta.setColor(Color.GRAY);
         ArrayList<String> ApprenticeLeggingsLore = new ArrayList<String>();
-        ApprenticeLeggingsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.Base"));
+        ApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.Base"));
+        ApprenticeLeggingsMeta.setLore(ApprenticeLeggingsLore);
+        ApprenticeLeggings.setItemMeta(ApprenticeLeggingsMeta);
         return ApprenticeLeggings;
     }
     public static ItemStack ApprenticeBoots(){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-        ItemStack ApprenticeBoots = new ItemStack(Material.LEATHER_HELMET);
-        LeatherArmorMeta ApprenticeBootsMeta = (LeatherArmorMeta) ApprenticeBoots().getItemMeta();
+        ItemStack ApprenticeBoots = new ItemStack(Material.LEATHER_BOOTS);
+        LeatherArmorMeta ApprenticeBootsMeta = (LeatherArmorMeta) ApprenticeBoots.getItemMeta();
         ApprenticeBootsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Boots");
         ApprenticeBootsMeta.setColor(Color.GREEN);
         ArrayList<String> ApprenticeBootsLore = new ArrayList<String>();
-        ApprenticeBootsLore.add(ChatColor.GRAY + "" + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.Base"));
+        ApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.Base"));
+        ApprenticeBootsMeta.setLore(ApprenticeBootsLore);
+        ApprenticeBoots.setItemMeta(ApprenticeBootsMeta);
         return ApprenticeBoots;
+
+    }
+    public static ItemStack OneApprenticeHelmet(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack OneApprenticeHelmet = new ItemStack(Material.LEATHER_HELMET);
+        LeatherArmorMeta OneApprenticeHelmetMeta = (LeatherArmorMeta) OneApprenticeHelmet.getItemMeta();
+        OneApprenticeHelmetMeta.setDisplayName(ChatColor.GREEN + "Apprentice Helmet ✪");
+        OneApprenticeHelmetMeta.setColor(Color.GRAY);
+        ArrayList<String> OneApprenticeHelmetLore = new ArrayList<String>();
+        OneApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.1Star"));
+        OneApprenticeHelmetMeta.setLore(OneApprenticeHelmetLore);
+        OneApprenticeHelmet.setItemMeta(OneApprenticeHelmetMeta);
+        return OneApprenticeHelmet;
+    }
+    public static ItemStack OneApprenticeChestPlate(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack OneApprenticeChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
+        LeatherArmorMeta OneApprenticeChestPlateMeta = (LeatherArmorMeta) OneApprenticeChestPlate.getItemMeta();
+        OneApprenticeChestPlateMeta.setDisplayName(ChatColor.GREEN + "Apprentice Chestplate ✪");
+        OneApprenticeChestPlateMeta.setColor(Color.GREEN);
+        ArrayList<String> OneApprenticeChestPlateLore = new ArrayList<String>();
+        OneApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.1Star"));
+        OneApprenticeChestPlateMeta.setLore(OneApprenticeChestPlateLore);
+        OneApprenticeChestPlate.setItemMeta(OneApprenticeChestPlateMeta);
+        return OneApprenticeChestPlate;
+    }
+    public static ItemStack OneApprenticeLeggings(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack OneApprenticeLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
+        LeatherArmorMeta OneApprenticeLeggingsMeta = (LeatherArmorMeta) OneApprenticeLeggings.getItemMeta();
+        OneApprenticeLeggingsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Leggings ✪");
+        OneApprenticeLeggingsMeta.setColor(Color.GRAY);
+        ArrayList<String> OneApprenticeLeggingsLore = new ArrayList<String>();
+        OneApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.1Star"));
+        OneApprenticeLeggingsMeta.setLore(OneApprenticeLeggingsLore);
+        OneApprenticeLeggings.setItemMeta(OneApprenticeLeggingsMeta);
+        return OneApprenticeLeggings;
+    }
+    public static ItemStack OneApprenticeBoots() {
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack OneApprenticeBoots = new ItemStack(Material.LEATHER_BOOTS);
+        LeatherArmorMeta OneApprenticeBootsMeta = (LeatherArmorMeta) OneApprenticeBoots.getItemMeta();
+        OneApprenticeBootsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Boots ✪");
+        OneApprenticeBootsMeta.setColor(Color.GREEN);
+        ArrayList<String> OneApprenticeBootsLore = new ArrayList<String>();
+        OneApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.1Star"));
+        OneApprenticeBootsMeta.setLore(OneApprenticeBootsLore);
+        OneApprenticeBoots.setItemMeta(OneApprenticeBootsMeta);
+        return OneApprenticeBoots;
+    }
+    public static ItemStack TwoApprenticeHelmet(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack TwoApprenticeHelmet = new ItemStack(Material.LEATHER_HELMET);
+        LeatherArmorMeta TwoApprenticeHelmetMeta = (LeatherArmorMeta) TwoApprenticeHelmet.getItemMeta();
+        TwoApprenticeHelmetMeta.setDisplayName(ChatColor.GREEN + "Apprentice Helmet ✪✪");
+        TwoApprenticeHelmetMeta.setColor(Color.GRAY);
+        ArrayList<String> TwoApprenticeHelmetLore = new ArrayList<String>();
+        TwoApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.2Star"));
+        TwoApprenticeHelmetMeta.setLore(TwoApprenticeHelmetLore);
+        TwoApprenticeHelmet.setItemMeta(TwoApprenticeHelmetMeta);
+        return TwoApprenticeHelmet;
+    }
+    public static ItemStack TwoApprenticeChestPlate(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack TwoApprenticeChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
+        LeatherArmorMeta TwoApprenticeChestPlateMeta = (LeatherArmorMeta) TwoApprenticeChestPlate.getItemMeta();
+        TwoApprenticeChestPlateMeta.setDisplayName(ChatColor.GREEN + "Apprentice Chestplate ✪✪");
+        TwoApprenticeChestPlateMeta.setColor(Color.GREEN);
+        ArrayList<String> TwoApprenticeChestPlateLore = new ArrayList<String>();
+        TwoApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.2Star"));
+        TwoApprenticeChestPlateMeta.setLore(TwoApprenticeChestPlateLore);
+        TwoApprenticeChestPlate.setItemMeta(TwoApprenticeChestPlateMeta);
+        return TwoApprenticeChestPlate;
+    }
+    public static ItemStack TwoApprenticeLeggings(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack TwoApprenticeLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
+        LeatherArmorMeta TwoApprenticeLeggingsMeta = (LeatherArmorMeta) TwoApprenticeLeggings.getItemMeta();
+        TwoApprenticeLeggingsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Leggings ✪✪");
+        TwoApprenticeLeggingsMeta.setColor(Color.GRAY);
+        ArrayList<String> TwoApprenticeLeggingsLore = new ArrayList<String>();
+        TwoApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.2Star"));
+        TwoApprenticeLeggingsMeta.setLore(TwoApprenticeLeggingsLore);
+        TwoApprenticeLeggings.setItemMeta(TwoApprenticeLeggingsMeta);
+        return TwoApprenticeLeggings;
+    }
+    public static ItemStack TwoApprenticeBoots() {
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack TwoApprenticeBoots = new ItemStack(Material.LEATHER_BOOTS);
+        LeatherArmorMeta TwoApprenticeBootsMeta = (LeatherArmorMeta) TwoApprenticeBoots.getItemMeta();
+        TwoApprenticeBootsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Boots ✪✪");
+        TwoApprenticeBootsMeta.setColor(Color.GREEN);
+        ArrayList<String> TwoApprenticeBootsLore = new ArrayList<String>();
+        TwoApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.2Star"));
+        TwoApprenticeBootsMeta.setLore(TwoApprenticeBootsLore);
+        TwoApprenticeBoots.setItemMeta(TwoApprenticeBootsMeta);
+        return TwoApprenticeBoots;
+    }
+    public static ItemStack ThreeApprenticeHelmet(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack ThreeApprenticeHelmet = new ItemStack(Material.LEATHER_HELMET);
+        LeatherArmorMeta ThreeApprenticeHelmetMeta = (LeatherArmorMeta) ThreeApprenticeHelmet.getItemMeta();
+        ThreeApprenticeHelmetMeta.setDisplayName(ChatColor.GREEN + "Apprentice Helmet ✪✪✪");
+        ThreeApprenticeHelmetMeta.setColor(Color.GRAY);
+        ArrayList<String> ThreeApprenticeHelmetLore = new ArrayList<String>();
+        ThreeApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.3Star"));
+        ThreeApprenticeHelmetMeta.setLore(ThreeApprenticeHelmetLore);
+        ThreeApprenticeHelmet.setItemMeta(ThreeApprenticeHelmetMeta);
+        return ThreeApprenticeHelmet;
+    }
+    public static ItemStack ThreeApprenticeChestPlate(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack ThreeApprenticeChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
+        LeatherArmorMeta ThreeApprenticeChestPlateMeta = (LeatherArmorMeta) ThreeApprenticeChestPlate.getItemMeta();
+        ThreeApprenticeChestPlateMeta.setDisplayName(ChatColor.GREEN + "Apprentice Chestplate ✪✪✪");
+        ThreeApprenticeChestPlateMeta.setColor(Color.GREEN);
+        ArrayList<String> ThreeApprenticeChestPlateLore = new ArrayList<String>();
+        ThreeApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.3Star"));
+        ThreeApprenticeChestPlateMeta.setLore(ThreeApprenticeChestPlateLore);
+        ThreeApprenticeChestPlate.setItemMeta(ThreeApprenticeChestPlateMeta);
+        return ThreeApprenticeChestPlate;
+    }
+    public static ItemStack ThreeApprenticeLeggings(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack ThreeApprenticeLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
+        LeatherArmorMeta ThreeApprenticeLeggingsMeta = (LeatherArmorMeta) ThreeApprenticeLeggings.getItemMeta();
+        ThreeApprenticeLeggingsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Leggings ✪✪✪");
+        ThreeApprenticeLeggingsMeta.setColor(Color.GRAY);
+        ArrayList<String> ThreeApprenticeLeggingsLore = new ArrayList<String>();
+        ThreeApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.3Star"));
+        ThreeApprenticeLeggingsMeta.setLore(ThreeApprenticeLeggingsLore);
+        ThreeApprenticeLeggings.setItemMeta(ThreeApprenticeLeggingsMeta);
+        return ThreeApprenticeLeggings;
+    }
+    public static ItemStack ThreeApprenticeBoots() {
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack ThreeApprenticeBoots = new ItemStack(Material.LEATHER_BOOTS);
+        LeatherArmorMeta ThreeApprenticeBootsMeta = (LeatherArmorMeta) ThreeApprenticeBoots.getItemMeta();
+        ThreeApprenticeBootsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Boots ✪✪✪");
+        ThreeApprenticeBootsMeta.setColor(Color.GREEN);
+        ArrayList<String> ThreeApprenticeBootsLore = new ArrayList<String>();
+        ThreeApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.3Star"));
+        ThreeApprenticeBootsMeta.setLore(ThreeApprenticeBootsLore);
+        ThreeApprenticeBoots.setItemMeta(ThreeApprenticeBootsMeta);
+        return ThreeApprenticeBoots;
+    }
+    public static ItemStack FourApprenticeHelmet(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FourApprenticeHelmet = new ItemStack(Material.LEATHER_HELMET);
+        LeatherArmorMeta FourApprenticeHelmetMeta = (LeatherArmorMeta) FourApprenticeHelmet.getItemMeta();
+        FourApprenticeHelmetMeta.setDisplayName(ChatColor.GREEN + "Apprentice Helmet ✪✪✪✪");
+        FourApprenticeHelmetMeta.setColor(Color.GRAY);
+        ArrayList<String> FourApprenticeHelmetLore = new ArrayList<String>();
+        FourApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.4Star"));
+        FourApprenticeHelmetMeta.setLore(FourApprenticeHelmetLore);
+        FourApprenticeHelmet.setItemMeta(FourApprenticeHelmetMeta);
+        return FourApprenticeHelmet;
+    }
+    public static ItemStack FourApprenticeChestPlate(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FourApprenticeChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
+        LeatherArmorMeta FourApprenticeChestPlateMeta = (LeatherArmorMeta) FourApprenticeChestPlate.getItemMeta();
+        FourApprenticeChestPlateMeta.setDisplayName(ChatColor.GREEN + "Apprentice ChestPlate ✪✪✪✪");
+        FourApprenticeChestPlateMeta.setColor(Color.GREEN);
+        ArrayList<String> FourApprenticeChestPlateLore = new ArrayList<String>();
+        FourApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.4Star"));
+        FourApprenticeChestPlateMeta.setLore(FourApprenticeChestPlateLore);
+        FourApprenticeChestPlate.setItemMeta(FourApprenticeChestPlateMeta);
+        return FourApprenticeChestPlate;
+    }
+    public static ItemStack FourApprenticeLeggings(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FourApprenticeLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
+        LeatherArmorMeta FourApprenticeLeggingsMeta = (LeatherArmorMeta) FourApprenticeLeggings.getItemMeta();
+        FourApprenticeLeggingsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Leggings ✪✪✪✪");
+        FourApprenticeLeggingsMeta.setColor(Color.GRAY);
+        ArrayList<String> FourApprenticeLeggingsLore = new ArrayList<String>();
+        FourApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.4Star"));
+        FourApprenticeLeggingsMeta.setLore(FourApprenticeLeggingsLore);
+        FourApprenticeLeggings.setItemMeta(FourApprenticeLeggingsMeta);
+        return FourApprenticeLeggings;
+    }
+    public static ItemStack FourApprenticeBoots() {
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FourApprenticeBoots = new ItemStack(Material.LEATHER_BOOTS);
+        LeatherArmorMeta FourApprenticeBootsMeta = (LeatherArmorMeta) FourApprenticeBoots.getItemMeta();
+        FourApprenticeBootsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Boots ✪✪✪✪");
+        FourApprenticeBootsMeta.setColor(Color.GREEN);
+        ArrayList<String> FourApprenticeBootsLore = new ArrayList<String>();
+        FourApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.4Star"));
+        FourApprenticeBootsMeta.setLore(FourApprenticeBootsLore);
+        FourApprenticeBoots.setItemMeta(FourApprenticeBootsMeta);
+        return FourApprenticeBoots;
+    }
+    public static ItemStack FiveApprenticeHelmet(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FiveApprenticeHelmet = new ItemStack(Material.LEATHER_HELMET);
+        LeatherArmorMeta FiveApprenticeHelmetMeta = (LeatherArmorMeta) FiveApprenticeHelmet.getItemMeta();
+        FiveApprenticeHelmetMeta.setDisplayName(ChatColor.GREEN + "Apprentice Helmet ✪✪✪✪✪");
+        FiveApprenticeHelmetMeta.setColor(Color.GRAY);
+        ArrayList<String> FiveApprenticeHelmetLore = new ArrayList<String>();
+        FiveApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.5Star"));
+        FiveApprenticeHelmetMeta.setLore(FiveApprenticeHelmetLore);
+        FiveApprenticeHelmet.setItemMeta(FiveApprenticeHelmetMeta);
+        return FiveApprenticeHelmet;
+    }
+    public static ItemStack FiveApprenticeChestPlate(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FiveApprenticeChestPlate = new ItemStack(Material.LEATHER_CHESTPLATE);
+        LeatherArmorMeta FiveApprenticeChestPlateMeta = (LeatherArmorMeta) FiveApprenticeChestPlate.getItemMeta();
+        FiveApprenticeChestPlateMeta.setDisplayName(ChatColor.GREEN + "Apprentice ChestPlate ✪✪✪✪✪");
+        FiveApprenticeChestPlateMeta.setColor(Color.GREEN);
+        ArrayList<String> FiveApprenticeChestPlateLore = new ArrayList<String>();
+        FiveApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.5Star"));
+        FiveApprenticeChestPlateMeta.setLore(FiveApprenticeChestPlateLore);
+        FiveApprenticeChestPlate.setItemMeta(FiveApprenticeChestPlateMeta);
+        return FiveApprenticeChestPlate;
+    }
+    public static ItemStack FiveApprenticeLeggings(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FiveApprenticeLeggings = new ItemStack(Material.LEATHER_LEGGINGS);
+        LeatherArmorMeta FiveApprenticeLeggingsMeta = (LeatherArmorMeta) FiveApprenticeLeggings.getItemMeta();
+        FiveApprenticeLeggingsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Leggings ✪✪✪✪✪");
+        FiveApprenticeLeggingsMeta.setColor(Color.GRAY);
+        ArrayList<String> FiveApprenticeLeggingsLore = new ArrayList<String>();
+        FiveApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.5Star"));
+        FiveApprenticeLeggingsMeta.setLore(FiveApprenticeLeggingsLore);
+        FiveApprenticeLeggings.setItemMeta(FiveApprenticeLeggingsMeta);
+        return FiveApprenticeLeggings;
+    }
+    public static ItemStack FiveApprenticeBoots() {
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack FiveApprenticeBoots = new ItemStack(Material.LEATHER_BOOTS);
+        LeatherArmorMeta FiveApprenticeBootsMeta = (LeatherArmorMeta) FiveApprenticeBoots.getItemMeta();
+        FiveApprenticeBootsMeta.setDisplayName(ChatColor.GREEN + "Apprentice Boots ✪✪✪✪✪");
+        FiveApprenticeBootsMeta.setColor(Color.GREEN);
+        ArrayList<String> FiveApprenticeBootsLore = new ArrayList<String>();
+        FiveApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.5Star"));
+        FiveApprenticeBootsMeta.setLore(FiveApprenticeBootsLore);
+        FiveApprenticeBoots.setItemMeta(FiveApprenticeBootsMeta);
+        return FiveApprenticeBoots;
     }
 }

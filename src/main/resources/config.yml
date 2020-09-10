@@ -653,12 +653,12 @@ Gathering:
           Chance: 5
     LogXP:
       Multiplier: 1.0
-      ACACIA: 5.0
-      BIRCH: 5.0
-      DARK_OAK: 5.0
-      SPRUCE: 5.0
-      OAK: 5.0
-      JUNGLE: 5.0
+      ACACIA: 5000.0
+      BIRCH: 5000.0
+      DARK_OAK: 5000.0
+      SPRUCE: 5000.0
+      OAK: 5000.0
+      JUNGLE: 5000.0
 
   Butchering: #Butchering LifeSkill
     MeatXP:

@@ -24,70 +24,70 @@ public class CustomTools {
 
         return ApprenticeAxe;
     }
-    public static ItemStack PRIApprenticeAxe(){
-        ItemStack PRIApprenticeAxe = new ItemStack(Material.IRON_AXE);
-        ItemMeta PRIApprenticeAxeMeta = PRIApprenticeAxe.getItemMeta();
-        PRIApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> PRIApprenticeAxeLore = new ArrayList<String>();
-        PRIApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 50");
-        PRIApprenticeAxeLore.add(" ");
-        PRIApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
-        PRIApprenticeAxeMeta.setLore(PRIApprenticeAxeLore);
-        PRIApprenticeAxe.setItemMeta(PRIApprenticeAxeMeta);
+    public static ItemStack OneApprenticeAxe(){
+        ItemStack OneApprenticeAxe = new ItemStack(Material.IRON_AXE);
+        ItemMeta OneApprenticeAxeMeta = OneApprenticeAxe.getItemMeta();
+        OneApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> OneApprenticeAxeLore = new ArrayList<String>();
+        OneApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 50");
+        OneApprenticeAxeLore.add(" ");
+        OneApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
+        OneApprenticeAxeMeta.setLore(OneApprenticeAxeLore);
+        OneApprenticeAxe.setItemMeta(OneApprenticeAxeMeta);
 
-        return PRIApprenticeAxe;
+        return OneApprenticeAxe;
     }
-    public static ItemStack DUOApprenticeAxe(){
-        ItemStack DUOApprenticeAxe = new ItemStack(Material.IRON_AXE);
-        ItemMeta DUOApprenticeAxeMeta = DUOApprenticeAxe.getItemMeta();
-        DUOApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> DUOApprenticeAxeLore = new ArrayList<String>();
-        DUOApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 100");
-        DUOApprenticeAxeLore.add(" ");
-        DUOApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
-        DUOApprenticeAxeMeta.setLore(DUOApprenticeAxeLore);
-        DUOApprenticeAxe.setItemMeta(DUOApprenticeAxeMeta);
+    public static ItemStack TwoApprenticeAxe(){
+        ItemStack TwoApprenticeAxe = new ItemStack(Material.IRON_AXE);
+        ItemMeta TwoApprenticeAxeMeta = TwoApprenticeAxe.getItemMeta();
+        TwoApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> TwoApprenticeAxeLore = new ArrayList<String>();
+        TwoApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 100");
+        TwoApprenticeAxeLore.add(" ");
+        TwoApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
+        TwoApprenticeAxeMeta.setLore(TwoApprenticeAxeLore);
+        TwoApprenticeAxe.setItemMeta(TwoApprenticeAxeMeta);
 
-        return DUOApprenticeAxe;
+        return TwoApprenticeAxe;
     }
-    public static ItemStack TRIApprenticeAxe(){
-        ItemStack TRIApprenticeAxe = new ItemStack(Material.IRON_AXE);
-        ItemMeta TRIApprenticeAxeMeta = TRIApprenticeAxe.getItemMeta();
-        TRIApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> TRIApprenticeAxeLore = new ArrayList<String>();
-        TRIApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 150");
-        TRIApprenticeAxeLore.add(" ");
-        TRIApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
-        TRIApprenticeAxeMeta.setLore(TRIApprenticeAxeLore);
-        TRIApprenticeAxe.setItemMeta(TRIApprenticeAxeMeta);
+    public static ItemStack ThreeApprenticeAxe(){
+        ItemStack ThreeApprenticeAxe = new ItemStack(Material.IRON_AXE);
+        ItemMeta ThreeApprenticeAxeMeta = ThreeApprenticeAxe.getItemMeta();
+        ThreeApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> ThreeApprenticeAxeLore = new ArrayList<String>();
+        ThreeApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 150");
+        ThreeApprenticeAxeLore.add(" ");
+        ThreeApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
+        ThreeApprenticeAxeMeta.setLore(ThreeApprenticeAxeLore);
+        ThreeApprenticeAxe.setItemMeta(ThreeApprenticeAxeMeta);
 
-        return TRIApprenticeAxe;
+        return ThreeApprenticeAxe;
     }
-    public static ItemStack TETApprenticeAxe(){
-        ItemStack TETApprenticeAxe = new ItemStack(Material.IRON_AXE);
-        ItemMeta TETApprenticeAxeMeta = TETApprenticeAxe.getItemMeta();
-        TETApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD +"Master Axe");
-        ArrayList<String> TETApprenticeAxeLore = new ArrayList<String>();
-        TETApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 200");
-        TETApprenticeAxeLore.add(" ");
-        TETApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
-        TETApprenticeAxeMeta.setLore(TETApprenticeAxeLore);
-        TETApprenticeAxe.setItemMeta(TETApprenticeAxeMeta);
+    public static ItemStack FourApprenticeAxe(){
+        ItemStack FourApprenticeAxe = new ItemStack(Material.IRON_AXE);
+        ItemMeta FourApprenticeAxeMeta = FourApprenticeAxe.getItemMeta();
+        FourApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD +"Master Axe");
+        ArrayList<String> FourApprenticeAxeLore = new ArrayList<String>();
+        FourApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 200");
+        FourApprenticeAxeLore.add(" ");
+        FourApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
+        FourApprenticeAxeMeta.setLore(FourApprenticeAxeLore);
+        FourApprenticeAxe.setItemMeta(FourApprenticeAxeMeta);
 
-        return TETApprenticeAxe;
+        return FourApprenticeAxe;
     }
-    public static ItemStack PENApprenticeAxe(){
-        ItemStack PENApprenticeAxe = new ItemStack(Material.IRON_AXE);
-        ItemMeta PENApprenticeAxeMeta = PENApprenticeAxe.getItemMeta();
-        PENApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> PENApprenticeAxeLore = new ArrayList<String>();
-        PENApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 240");
-        PENApprenticeAxeLore.add(" ");
-        PENApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
-        PENApprenticeAxeMeta.setLore(PENApprenticeAxeLore);
-        PENApprenticeAxe.setItemMeta(PENApprenticeAxeMeta);
+    public static ItemStack FiveApprenticeAxe(){
+        ItemStack FiveApprenticeAxe = new ItemStack(Material.IRON_AXE);
+        ItemMeta FiveApprenticeAxeMeta = FiveApprenticeAxe.getItemMeta();
+        FiveApprenticeAxeMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> FiveApprenticeAxeLore = new ArrayList<String>();
+        FiveApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 240");
+        FiveApprenticeAxeLore.add(" ");
+        FiveApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
+        FiveApprenticeAxeMeta.setLore(FiveApprenticeAxeLore);
+        FiveApprenticeAxe.setItemMeta(FiveApprenticeAxeMeta);
 
-        return PENApprenticeAxe;
+        return FiveApprenticeAxe;
     }
     
     public static ItemStack MasterAxe(){
@@ -103,70 +103,70 @@ public class CustomTools {
 
         return MasterAxe;
     }
-    public static ItemStack PRIMasterAxe(){
-        ItemStack PRIMasterAxe = new ItemStack(Material.NETHERITE_AXE);
-        ItemMeta PRIMasterAxeMeta = PRIMasterAxe.getItemMeta();
-        PRIMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> PRIMasterAxeLore = new ArrayList<String>();
-        PRIMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 80");
-        PRIMasterAxeLore.add(" ");
-        PRIMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
-        PRIMasterAxeMeta.setLore(PRIMasterAxeLore);
-        PRIMasterAxe.setItemMeta(PRIMasterAxeMeta);
+    public static ItemStack OneMasterAxe(){
+        ItemStack OneMasterAxe = new ItemStack(Material.NETHERITE_AXE);
+        ItemMeta OneMasterAxeMeta = OneMasterAxe.getItemMeta();
+        OneMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> OneMasterAxeLore = new ArrayList<String>();
+        OneMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 80");
+        OneMasterAxeLore.add(" ");
+        OneMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
+        OneMasterAxeMeta.setLore(OneMasterAxeLore);
+        OneMasterAxe.setItemMeta(OneMasterAxeMeta);
 
-        return PRIMasterAxe;
+        return OneMasterAxe;
     }
-    public static ItemStack DUOMasterAxe(){
-        ItemStack DUOMasterAxe = new ItemStack(Material.NETHERITE_AXE);
-        ItemMeta DUOMasterAxeMeta = DUOMasterAxe.getItemMeta();
-        DUOMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> DUOMasterAxeLore = new ArrayList<String>();
-        DUOMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 140");
-        DUOMasterAxeLore.add(" ");
-        DUOMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
-        DUOMasterAxeMeta.setLore(DUOMasterAxeLore);
-        DUOMasterAxe.setItemMeta(DUOMasterAxeMeta);
+    public static ItemStack TwoMasterAxe(){
+        ItemStack TwoMasterAxe = new ItemStack(Material.NETHERITE_AXE);
+        ItemMeta TwoMasterAxeMeta = TwoMasterAxe.getItemMeta();
+        TwoMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> TwoMasterAxeLore = new ArrayList<String>();
+        TwoMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 140");
+        TwoMasterAxeLore.add(" ");
+        TwoMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
+        TwoMasterAxeMeta.setLore(TwoMasterAxeLore);
+        TwoMasterAxe.setItemMeta(TwoMasterAxeMeta);
 
-        return DUOMasterAxe;
+        return TwoMasterAxe;
     }
-    public static ItemStack TRIMasterAxe(){
-        ItemStack TRIMasterAxe = new ItemStack(Material.NETHERITE_AXE);
-        ItemMeta TRIMasterAxeMeta = TRIMasterAxe.getItemMeta();
-        TRIMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> TRIMasterAxeLore = new ArrayList<String>();
-        TRIMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 220");
-        TRIMasterAxeLore.add(" ");
-        TRIMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
-        TRIMasterAxeMeta.setLore(TRIMasterAxeLore);
-        TRIMasterAxe.setItemMeta(TRIMasterAxeMeta);
+    public static ItemStack ThreeMasterAxe(){
+        ItemStack ThreeMasterAxe = new ItemStack(Material.NETHERITE_AXE);
+        ItemMeta ThreeMasterAxeMeta = ThreeMasterAxe.getItemMeta();
+        ThreeMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> ThreeMasterAxeLore = new ArrayList<String>();
+        ThreeMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 220");
+        ThreeMasterAxeLore.add(" ");
+        ThreeMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
+        ThreeMasterAxeMeta.setLore(ThreeMasterAxeLore);
+        ThreeMasterAxe.setItemMeta(ThreeMasterAxeMeta);
 
-        return TRIMasterAxe;
+        return ThreeMasterAxe;
     }
-    public static ItemStack TETMasterAxe(){
-        ItemStack TETMasterAxe = new ItemStack(Material.NETHERITE_AXE);
-        ItemMeta TETMasterAxeMeta = TETMasterAxe.getItemMeta();
-        TETMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD +"Master Axe");
-        ArrayList<String> TETMasterAxeLore = new ArrayList<String>();
-        TETMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 300");
-        TETMasterAxeLore.add(" ");
-        TETMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
-        TETMasterAxeMeta.setLore(TETMasterAxeLore);
-        TETMasterAxe.setItemMeta(TETMasterAxeMeta);
+    public static ItemStack FourMasterAxe(){
+        ItemStack FourMasterAxe = new ItemStack(Material.NETHERITE_AXE);
+        ItemMeta FourMasterAxeMeta = FourMasterAxe.getItemMeta();
+        FourMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD +"Master Axe");
+        ArrayList<String> FourMasterAxeLore = new ArrayList<String>();
+        FourMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 300");
+        FourMasterAxeLore.add(" ");
+        FourMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
+        FourMasterAxeMeta.setLore(FourMasterAxeLore);
+        FourMasterAxe.setItemMeta(FourMasterAxeMeta);
 
-        return TETMasterAxe;
+        return FourMasterAxe;
     }
-    public static ItemStack PENMasterAxe(){
-        ItemStack PENMasterAxe = new ItemStack(Material.NETHERITE_AXE);
-        ItemMeta PENMasterAxeMeta = PENMasterAxe.getItemMeta();
-        PENMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
-        ArrayList<String> PENMasterAxeLore = new ArrayList<String>();
-        PENMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 400");
-        PENMasterAxeLore.add(" ");
-        PENMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
-        PENMasterAxeMeta.setLore(PENMasterAxeLore);
-        PENMasterAxe.setItemMeta(PENMasterAxeMeta);
+    public static ItemStack FiveMasterAxe(){
+        ItemStack FiveMasterAxe = new ItemStack(Material.NETHERITE_AXE);
+        ItemMeta FiveMasterAxeMeta = FiveMasterAxe.getItemMeta();
+        FiveMasterAxeMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe");
+        ArrayList<String> FiveMasterAxeLore = new ArrayList<String>();
+        FiveMasterAxeLore.add(ChatColor.DARK_GRAY + "Mastery: 400");
+        FiveMasterAxeLore.add(" ");
+        FiveMasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
+        FiveMasterAxeMeta.setLore(FiveMasterAxeLore);
+        FiveMasterAxe.setItemMeta(FiveMasterAxeMeta);
 
-        return PENMasterAxe;
+        return FiveMasterAxe;
     }
     
 }

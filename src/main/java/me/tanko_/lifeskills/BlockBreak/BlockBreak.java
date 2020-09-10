@@ -21,10 +21,10 @@ public class BlockBreak implements Listener {
         Block block = e.getBlock();
         //Axes
         ArrayList<ItemStack> Axes = new ArrayList<ItemStack>();
-        Collections.addAll(Axes,CustomTools.ApprenticeAxe(),CustomTools.PRIApprenticeAxe(),CustomTools.DUOApprenticeAxe(),
-                CustomTools.TRIApprenticeAxe(),CustomTools.TETApprenticeAxe(),CustomTools.PENApprenticeAxe(),
-                CustomTools.MasterAxe(),CustomTools.PRIMasterAxe(),CustomTools.DUOMasterAxe(),CustomTools.TRIMasterAxe(),
-                CustomTools.TETMasterAxe(),CustomTools.PENMasterAxe());
+        Collections.addAll(Axes,CustomTools.ApprenticeAxe(),CustomTools.OneApprenticeAxe(),CustomTools.TwoApprenticeAxe(),
+                CustomTools.ThreeApprenticeAxe(),CustomTools.FourApprenticeAxe(),CustomTools.FiveApprenticeAxe(),
+                CustomTools.MasterAxe(),CustomTools.OneMasterAxe(),CustomTools.TwoMasterAxe(),CustomTools.ThreeMasterAxe(),
+                CustomTools.FourMasterAxe(),CustomTools.FiveMasterAxe());
 
         ItemStack tool = player.getInventory().getItemInMainHand();
         if (!e.isDropItems()) {
