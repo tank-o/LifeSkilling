@@ -686,3 +686,75 @@ Cooking: #Cooking LifeSkill
 Alchemy: #Alchemy LifeSkill
 Riding: #Riding LifeSkill
 Fishing: #Fishing LifeSkill
+
+
+#
+#Armour Mastery Values
+#
+Armour:
+  Master:
+    Helmet:
+      Mastery:
+        Base: 50
+        1Star: 70
+        2Star: 95
+        3Star: 120
+        4Star: 160
+        5Star: 200
+    Chestplate:
+      Mastery:
+        Base: 90
+        1Star: 120
+        2Star: 160
+        3Star: 200
+        4Star: 250
+        5Star: 300
+    Leggings:
+      Mastery:
+        Base: 60
+        1Star: 90
+        2Star: 120
+        3Star: 160
+        4Star: 200
+        5Star: 250
+    Boots:
+      Mastery:
+        Base: 40
+        1Star: 60
+        2Star: 80
+        3Star: 100
+        4Star: 125
+        5Star: 150
+  Apprentice:
+    Helmet:
+      Mastery:
+        Base: 15
+        1Star: 20
+        2Star: 30
+        3Star: 40
+        4Star: 60
+        5Star: 80
+    Chestplate:
+      Mastery:
+        Base: 40
+        1Star: 55
+        2Star: 70
+        3Star: 85
+        4Star: 100
+        5Star: 120
+    Leggings:
+      Mastery:
+        Base: 25
+        1Star: 40
+        2Star: 55
+        3Star: 70
+        4Star: 85
+        5Star: 100
+    Boots:
+      Mastery:
+        Base: 15
+        1Star: 25
+        2Star: 35
+        3Star: 45
+        4Star: 55
+        5Star: 70

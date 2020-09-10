@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Lumbering {
-    Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
-    ArrayList<ItemStack> Drops = new ArrayList<ItemStack>();
-    public void GetDrops(Player player, String Wood){
+    public static void GetDrops(Player player, String Wood){
+        ArrayList<ItemStack> Drops = new ArrayList<ItemStack>();
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         String ID = player.getUniqueId().toString();
         int GatheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mastery");
         int LumberingMastery = PlayerData.getFile().getInt(ID + ".Lumbering.Mastery");
@@ -45,20 +45,17 @@ public class Lumbering {
         int LegendaryAmount = ThreadLocalRandom.current().nextInt(MinLegendary, MaxLegendary + 1);
 
         if (lootNum <= CommonChance){
-            CommonDrops(lootNum,TimberAmount,Wood,LogAmount);
+            CommonDrops(Drops,lootNum,TimberAmount,Wood,LogAmount);
         }else if (lootNum <= UncommonChance) {
-            UncommonDrops(UncommonAmount,lootNum,UncommonChance,Wood);
+            UncommonDrops(Drops,UncommonAmount,lootNum,UncommonChance,Wood);
         }else if (lootNum <= RareChance){
-            RareDrops(RareAmount,lootNum,RareChance);
+            RareDrops(Drops,RareAmount,lootNum,RareChance);
         }else if (lootNum <= LegendaryChance){
-            LegendaryDrops(LegendaryAmount,lootNum,LegendaryChance);
+            LegendaryDrops(Drops,LegendaryAmount,lootNum,LegendaryChance);
         }
-
-
-
     }
 
-    public void CommonDrops(int lootNum,int timberAmount, String wood,int logAmount){
+    public static void CommonDrops(ArrayList<ItemStack> Drops,int lootNum,int timberAmount, String wood,int logAmount){
         ItemStack Wood = LumberingMaterials.OakTimber();
         switch(wood){
             case "acacia":
@@ -85,7 +82,7 @@ public class Lumbering {
             }
         }
     }
-    public void UncommonDrops(int amount,int lootNum,int chance,String wood){
+    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance,String wood){
         ItemStack Plank = LumberingMaterials.OakPlank();
         switch(wood){
             case "acacia":
@@ -107,14 +104,14 @@ public class Lumbering {
             }
         }
     }
-    public void RareDrops(int amount,int lootNum,int chance){
+    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
         if ((lootNum >= 0) || (lootNum <= chance)){
             for (int i=0;i < amount;i++) {
                 Drops.add(OtherMaterials.GlowDust());
             }
         }
     }
-    public void LegendaryDrops(int amount,int lootNum,int chance){
+    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
 
     }
 }

@@ -1,6 +1,7 @@
 package me.tanko_.lifeskills.BlockBreak;
 
 import me.tanko_.lifeskills.CustomItems.CustomTools;
+import me.tanko_.lifeskills.Lumbering.Lumbering;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -31,19 +32,18 @@ public class BlockBreak implements Listener {
 
         }else{
                 if (Axes.contains(tool)){
-
                     if (block.getType().equals(Material.ACACIA_WOOD)){
-
+                        Lumbering.GetDrops(player,"acacia");
                     }else if (block.getType().equals(Material.BIRCH_WOOD)){
-
+                        Lumbering.GetDrops(player,"birch");
                     }else if (block.getType().equals(Material.SPRUCE_WOOD)){
-
+                        Lumbering.GetDrops(player,"spruce");
                     }else if (block.getType().equals(Material.OAK_WOOD)){
-
+                        Lumbering.GetDrops(player,"oak");
                     }else if (block.getType().equals(Material.JUNGLE_WOOD)){
-
+                        Lumbering.GetDrops(player,"jungle");
                     }else if (block.getType().equals(Material.DARK_OAK_WOOD)){
-
+                        Lumbering.GetDrops(player,"darkoak");
                     }
                 }
             }
