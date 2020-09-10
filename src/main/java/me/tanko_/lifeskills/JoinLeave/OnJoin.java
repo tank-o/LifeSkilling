@@ -9,17 +9,19 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class OnJoin implements Listener {
 
     @EventHandler
-    public void OnBlockBreak(PlayerJoinEvent e){
+    public void OnJoin(PlayerJoinEvent e){
         Player player = e.getPlayer();
         String ID = player.getUniqueId().toString();
 
         if (!PlayerData.getFile().contains(ID)) {
+            player.sendMessage("Creating file");
             PlayerData.getFile().createSection(ID);
             //Gathering
             PlayerData.getFile().createSection(ID + ".Gathering");
             PlayerData.getFile().createSection(ID + ".Gathering.Level");
             PlayerData.getFile().createSection(ID + ".Gathering.Mastery");
             PlayerData.getFile().set(ID + ".Gathering.Mastery",0);
+            PlayerData.getFile().set(ID + ".Gathering.Level",0);
             //Butchering
             PlayerData.getFile().createSection(ID + ".Gathering.Butchering");
             PlayerData.getFile().createSection(ID + ".Gathering.Butchering.Mastery");
@@ -64,6 +66,8 @@ public class OnJoin implements Listener {
             PlayerData.getFile().set(ID + ".Sailing.Level",0);
             PlayerData.getFile().set(ID + ".Sailing.XP",0);
             PlayerData.getFile().set(ID + ".Sailing.Mastery",0);
+
+            PlayerData.save();
         }
     }
 

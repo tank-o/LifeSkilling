@@ -2,3 +2,7 @@ name: LifeSkills
 version: ${project.version}
 main: me.tanko_.lifeskills.LifeSkills
 api-version: 1.16
+commands:
+  tgive:
+    description: give player a customitem
+    usage: /<command> <target player> <item>
