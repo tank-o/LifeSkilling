@@ -19,9 +19,11 @@ public class OnJoin implements Listener {
             //Gathering
             PlayerData.getFile().createSection(ID + ".Gathering");
             PlayerData.getFile().createSection(ID + ".Gathering.Level");
+            PlayerData.getFile().createSection(ID + ".Gathering.XP");
             PlayerData.getFile().createSection(ID + ".Gathering.Mastery");
             PlayerData.getFile().createSection(ID + ".Gathering.XPMulti");
             PlayerData.getFile().set(ID + ".Gathering.Mastery",0);
+            PlayerData.getFile().set(ID + ".Gathering.XP",0);
             PlayerData.getFile().set(ID + ".Gathering.Level",0);
             PlayerData.getFile().set(ID + ".Gathering.XPMulti",0);
             //Butchering
