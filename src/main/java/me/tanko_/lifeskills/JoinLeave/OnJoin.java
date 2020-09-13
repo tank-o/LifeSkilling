@@ -16,11 +16,11 @@ public class OnJoin implements Listener {
         if (!PlayerData.getFile().contains(ID)) {
             player.sendMessage("Creating file");
             PlayerData.getFile().createSection(ID);
+            PlayerData.getFile().createSection(ID + ".Mastery");
             //Gathering
             PlayerData.getFile().createSection(ID + ".Gathering");
             PlayerData.getFile().createSection(ID + ".Gathering.Level");
             PlayerData.getFile().createSection(ID + ".Gathering.XP");
-            PlayerData.getFile().createSection(ID + ".Gathering.Mastery");
             PlayerData.getFile().createSection(ID + ".Gathering.XPMulti");
             PlayerData.getFile().set(ID + ".Gathering.Mastery",0);
             PlayerData.getFile().set(ID + ".Gathering.XP",0);
