@@ -47,5 +47,17 @@ public class OtherMaterials {
         EnhanceStone.setItemMeta(EnhanceStoneMeta);
         return EnhanceStone;
     }
+    //Miscellaneous
+    public static ItemStack SkillsMenu(){
+        ItemStack skillMenu = new ItemStack(Material.TOTEM_OF_UNDYING);
+        ItemMeta skillMenuMeta = skillMenu.getItemMeta();
+        skillMenuMeta.setDisplayName(ChatColor.YELLOW + "Life Skills Menu" + ChatColor.GRAY + " (Right Click)");
+        ArrayList<String> skillMenuLore = new ArrayList<>();
+
+        skillMenuLore.add(ChatColor.GRAY + "Use this item to explore life skilling");
+        skillMenuMeta.setLore(skillMenuLore);
+        skillMenu.setItemMeta(skillMenuMeta);
+        return skillMenu;
+    }
 
 }

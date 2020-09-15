@@ -18,18 +18,14 @@ public class Crafting implements Listener {
         CraftingInventory ci = e.getInventory();
         ItemStack craftinv[] = ci.getMatrix();
         ItemStack acaciatimber = LumberingMaterials.AcaciaTimber();
-        if ((craftinv[0].equals(acaciatimber) && craftinv[0].getAmount() >= 64) &&
-                (craftinv[1].equals(acaciatimber) && craftinv[1].getAmount() >= 64) &&
-                (craftinv[2].equals(air)) &&
-                (craftinv[0].equals(acaciatimber) && craftinv[0].getAmount() >= 64) &&
-                (craftinv[0].equals(acaciatimber) && craftinv[0].getAmount() >= 64) &&
-                (craftinv[5].equals(air)) &&
-                (craftinv[6].equals(air)) &&
-                (craftinv[7].equals(air)) &&
-                (craftinv[8].equals(air))){
+        if ((craftinv[1].equals(acaciatimber) && craftinv[1].getAmount() >= 10) && (craftinv[2].equals(acaciatimber) && craftinv[2].getAmount() >= 10) &&
+                (craftinv[3].equals(acaciatimber) && craftinv[3].getAmount() >= 10) && (craftinv[4].equals(air)) &&
+                (craftinv[5].equals(air)) && (craftinv[6].equals(air)) && (craftinv[7].equals(air)) &&
+                (craftinv[8].equals(air)) && (craftinv[9].equals(air))){
+
             ci.setResult(LumberingMaterials.AcaciaPlank());
-            craftinv[0].setAmount(craftinv[0].getAmount() - 64);
-            craftinv[1].setAmount(craftinv[1].getAmount() - 64);
+            craftinv[0].setAmount(craftinv[0].getAmount() - 10);
+            craftinv[1].setAmount(craftinv[1].getAmount() - 10);
 
 
         }

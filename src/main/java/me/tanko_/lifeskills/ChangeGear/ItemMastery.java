@@ -110,27 +110,27 @@ public class ItemMastery {
         }  //Tools
         else if (ItemName.equals(ChatColor.GREEN + "Apprentice Axe")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Apprentice.Mastery.Base");
-        } else if (ItemName.equals(ChatColor.GREEN + "Apprentice Axe ✪")) {
+        } else if (ItemName.equals(ChatColor.GREEN + "" + ChatColor.BOLD + "Apprentice Axe ✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Apprentice.Mastery.1Star");
-        } else if (ItemName.equals(ChatColor.GREEN + "Apprentice Axe ✪✪")) {
+        } else if (ItemName.equals(ChatColor.GREEN + "" + ChatColor.BOLD + "Apprentice Axe ✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Apprentice.Mastery.2Star");
-        } else if (ItemName.equals(ChatColor.GREEN + "Apprentice Axe ✪✪✪")) {
+        } else if (ItemName.equals(ChatColor.GREEN + "" + ChatColor.BOLD + "Apprentice Axe ✪✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Apprentice.Mastery.3Star");
-        } else if (ItemName.equals(ChatColor.GREEN + "Apprentice Axe ✪✪✪✪")) {
+        } else if (ItemName.equals(ChatColor.GREEN + "" + ChatColor.BOLD + "Apprentice Axe ✪✪✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Apprentice.Mastery.4Star");
-        } else if (ItemName.equals(ChatColor.GREEN + "Apprentice Axe ✪✪✪✪✪")) {
+        } else if (ItemName.equals(ChatColor.GREEN + "" + ChatColor.BOLD + "Apprentice Axe ✪✪✪✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Apprentice.Mastery.5Star");
         } else if (ItemName.equals(ChatColor.GOLD + "Master Axe")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Master.Mastery.Base");
-        } else if (ItemName.equals(ChatColor.GOLD + "Master Axe ✪")) {
+        } else if (ItemName.equals(ChatColor.GOLD + "" + ChatColor.BOLD + "✪ Master Axe")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Master.Mastery.1Star");
-        } else if (ItemName.equals(ChatColor.GOLD + "Master Axe ✪✪")) {
+        } else if (ItemName.equals(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe ✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Master.Mastery.2Star");
-        } else if (ItemName.equals(ChatColor.GOLD + "Master Axe ✪✪✪")) {
+        } else if (ItemName.equals(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe ✪✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Master.Mastery.3Star");
-        } else if (ItemName.equals(ChatColor.GOLD + "Master Axe ✪✪✪✪")) {
+        } else if (ItemName.equals(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe ✪✪✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Master.Mastery.4Star");
-        } else if (ItemName.equals(ChatColor.GOLD + "Master Axe ✪✪✪✪✪")) {
+        } else if (ItemName.equals(ChatColor.GOLD + "" + ChatColor.BOLD + "Master Axe ✪✪✪✪✪")) {
             Mastery = plugin.getConfig().getInt("Tools.Axes.Master.Mastery.5Star");
         }
         return Mastery;

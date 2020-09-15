@@ -1,6 +1,7 @@
 package me.tanko_.lifeskills;
 
 import me.tanko_.lifeskills.BlockBreak.BlockBreak;
+import me.tanko_.lifeskills.ChangeGear.ChangeHeldItem;
 import me.tanko_.lifeskills.Commands.GiveCommand;
 import me.tanko_.lifeskills.Crafting.Crafting;
 import me.tanko_.lifeskills.Data.PlayerData;
@@ -15,6 +16,7 @@ public final class LifeSkills extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new BlockBreak(),this);
         getServer().getPluginManager().registerEvents(new Crafting(),this);
         getServer().getPluginManager().registerEvents(new OnJoin(),this);
+        getServer().getPluginManager().registerEvents(new ChangeHeldItem(),this);
         //Commands
         getCommand("tgive").setExecutor(new GiveCommand());
 

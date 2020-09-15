@@ -1,5 +1,6 @@
 package me.tanko_.lifeskills.JoinLeave;
 
+import me.tanko_.lifeskills.CustomItems.OtherMaterials;
 import me.tanko_.lifeskills.Data.PlayerData;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -12,14 +13,18 @@ public class OnJoin implements Listener {
     public void OnJoin(PlayerJoinEvent e){
         Player player = e.getPlayer();
         String ID = player.getUniqueId().toString();
-
+        if (!player.getInventory().getItem(8).equals(OtherMaterials.SkillsMenu())){
+            player.getInventory().setItem(8, OtherMaterials.SkillsMenu());
+        }
         if (!PlayerData.getFile().contains(ID)) {
             player.sendMessage("Creating file");
             PlayerData.getFile().createSection(ID);
-            PlayerData.getFile().createSection(ID + ".Mastery");
+            PlayerData.getFile().createSection(ID + ".ArmourMastery");
+            PlayerData.getFile().set(ID + ".ArmourMastery",0);
             //Gathering
             PlayerData.getFile().createSection(ID + ".Gathering");
             PlayerData.getFile().createSection(ID + ".Gathering.Level");
+            PlayerData.getFile().createSection(ID + ".Gathering.Mastery");
             PlayerData.getFile().createSection(ID + ".Gathering.XP");
             PlayerData.getFile().createSection(ID + ".Gathering.XPMulti");
             PlayerData.getFile().set(ID + ".Gathering.Mastery",0);
