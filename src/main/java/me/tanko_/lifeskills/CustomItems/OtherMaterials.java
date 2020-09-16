@@ -15,7 +15,7 @@ public class OtherMaterials {
         GlowDustMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
         GlowDustMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         GlowDustMeta.setDisplayName(ChatColor.GREEN + "Glow Dust");
-        ArrayList<String> GlowDustLore = new ArrayList<String>();
+        ArrayList<String> GlowDustLore = new ArrayList<>();
         GlowDustLore.add(ChatColor.GRAY + "Dust found at the heart of nature");
         GlowDustMeta.setLore(GlowDustLore);
         GlowDust.setItemMeta(GlowDustMeta);
@@ -26,7 +26,7 @@ public class OtherMaterials {
         ItemStack EnhanceFragment = new ItemStack(Material.SCUTE);
         ItemMeta EnhanceFragmentMeta = EnhanceFragment.getItemMeta();
         EnhanceFragmentMeta.setDisplayName(ChatColor.BLUE + "Enhance Fragment");
-        ArrayList<String> EnhancementFragmentLore = new ArrayList<String>();
+        ArrayList<String> EnhancementFragmentLore = new ArrayList<>();
         EnhancementFragmentLore.add(ChatColor.DARK_GRAY + "Enhancement Material");
         EnhancementFragmentLore.add("");
         EnhancementFragmentLore.add(ChatColor.GRAY + "Combine these fragments with Glow");
@@ -39,7 +39,7 @@ public class OtherMaterials {
         ItemStack EnhanceStone = new ItemStack(Material.SLIME_BALL);
         ItemMeta EnhanceStoneMeta = EnhanceStone.getItemMeta();
         EnhanceStoneMeta.setDisplayName(ChatColor.LIGHT_PURPLE + "Enhance Stone");
-        ArrayList<String> EnhancementStoneLore = new ArrayList<String>();
+        ArrayList<String> EnhancementStoneLore = new ArrayList<>();
         EnhancementStoneLore.add(ChatColor.DARK_GRAY + "Enhancement Material");
         EnhancementStoneLore.add("");
         EnhancementStoneLore.add(ChatColor.GRAY + "Use these to improve your gear");

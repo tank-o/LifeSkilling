@@ -6,3 +6,6 @@ commands:
   tgive:
     description: give player a customitem
     usage: /<command> <target player> <item>
+  guimenu:
+    description: opens gui menu
+    usage: /<command>

@@ -10,12 +10,11 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class OnJoin implements Listener {
 
     @EventHandler
-    public void OnJoin(PlayerJoinEvent e){
+    public void Join(PlayerJoinEvent e){
         Player player = e.getPlayer();
         String ID = player.getUniqueId().toString();
-        if (!player.getInventory().getItem(8).equals(OtherMaterials.SkillsMenu())){
-            player.getInventory().setItem(8, OtherMaterials.SkillsMenu());
-        }
+        player.getInventory().setItem(8,OtherMaterials.SkillsMenu());
+
         if (!PlayerData.getFile().contains(ID)) {
             player.sendMessage("Creating file");
             PlayerData.getFile().createSection(ID);

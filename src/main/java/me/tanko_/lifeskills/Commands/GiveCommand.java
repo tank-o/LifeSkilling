@@ -15,7 +15,7 @@ public class GiveCommand implements CommandExecutor {
 
         if (sender instanceof Player){
             Player player = (Player) sender;
-            if (player.hasPermission("lifeskills.give")) {
+            if (player.hasPermission("lifeskills.tgive")) {
                 if (args[0].equals(null) || args[1].equals(null)) {
                     player.sendMessage(command.getUsage());
                 }else{
