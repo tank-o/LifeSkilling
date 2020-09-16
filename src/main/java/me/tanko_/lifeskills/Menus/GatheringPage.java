@@ -56,6 +56,7 @@ public class GatheringPage implements CommandExecutor{
         ItemStack Lumbering = new ItemStack(Material.OAK_LOG);
         ItemStack Butchering = new ItemStack(Material.MUTTON);
         ItemStack Filler = new ItemStack(Material.BLACK_STAINED_GLASS_PANE);
+        ItemStack BackButton = new ItemStack(Material.BARRIER);
 
         ItemMeta MiningMeta = Mining.getItemMeta();
         MiningMeta.setDisplayName(ChatColor.YELLOW + "" + ChatColor.BOLD + "Mining");
@@ -90,9 +91,13 @@ public class GatheringPage implements CommandExecutor{
         ButcheringMeta.setLore(ButcheringLore);
         Butchering.setItemMeta(MiningMeta);
 
+        ItemMeta BackMeta = BackButton.getItemMeta();
+        BackMeta.setDisplayName(ChatColor.RED + "" + ChatColor.BOLD + "Back");
+        BackButton.setItemMeta(BackMeta);
+
         ItemStack[] menu_items = {Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler,
                 Filler,Filler,Filler,Mining,Lumbering,Butchering,Filler,Filler,Filler,
-                Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler};
+                BackButton,Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler};
         for (int i = 0;i < GatheringMenu.getSize();i++){
             GatheringMenu.setItem(i,menu_items[i]);
         }

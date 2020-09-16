@@ -2135,6 +2135,22 @@ Cooking: #Cooking LifeSkill
 Alchemy: #Alchemy LifeSkill
 Riding: #Riding LifeSkill
 Fishing: #Fishing LifeSkill
+Processing: #Processing LifeSkill
+  CraftAmounts:
+    Chopping:
+      AcaciaPlank: 10
+      OakPlank: 10
+      BirchPlank: 10
+      DarkOakPlank: 10
+      SprucePlank: 10
+      JunglePlank: 10
+      AcaciaPlywood: 10
+      OakPlywood: 10
+      BirchPlywood: 10
+      DarkOakPlywood: 10
+      SprucePlywood: 10
+      JunglePlywood: 10
+    Grinding:  
 
 
 #
@@ -2210,12 +2226,12 @@ Armour:
 Tools:
   Axes:
     Master:
-      Base:
-      1Star:
-      2Star:
-      3Star:
-      4Star:
-      5Star:
+      Base: 50
+      1Star: 100
+      2Star: 150
+      3Star: 225
+      4Star: 300
+      5Star: 400
     Apprentice:
       Base:
       1Star:

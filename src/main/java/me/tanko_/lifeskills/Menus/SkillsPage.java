@@ -35,6 +35,7 @@ public class SkillsPage implements CommandExecutor {
 
         ItemStack Gathering = new ItemStack(Material.DIAMOND_PICKAXE);
         ItemStack Filler = new ItemStack(Material.BLACK_STAINED_GLASS_PANE);
+        ItemStack BackButton = new ItemStack(Material.BARRIER);
 
         ItemMeta GatheringMeta = Gathering.getItemMeta();
         GatheringMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Gathering");
@@ -50,11 +51,13 @@ public class SkillsPage implements CommandExecutor {
         GatheringMeta.setLore(GatheringLore);
         Gathering.setItemMeta(GatheringMeta);
 
-        
+        ItemMeta BackMeta = BackButton.getItemMeta();
+        BackMeta.setDisplayName(ChatColor.RED + "" + ChatColor.BOLD + "Back");
+        BackButton.setItemMeta(BackMeta);
 
         ItemStack[] menu_items = {Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler,
                 Filler,Filler,Filler,Filler,Gathering,Filler,Filler,Filler,Filler,
-                Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler};
+                BackButton,Filler,Filler,Filler,Filler,Filler,Filler,Filler,Filler};
         for (int i = 0;i < SkillMenu.getSize();i++){
             SkillMenu.setItem(i,menu_items[i]);
         }

@@ -2,6 +2,8 @@ package me.tanko_.lifeskills.CustomItems;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
@@ -94,7 +96,7 @@ public class LumberingMaterials {
     }
     //Uncommon
     public static ItemStack AcaciaPlank(){
-        ItemStack AcaciaPlank = new ItemStack(Material.ACACIA_PLANKS);
+        ItemStack AcaciaPlank = new ItemStack(Material.ACACIA_SLAB);
         ItemMeta AcaciaPlankMeta = AcaciaPlank.getItemMeta();
         AcaciaPlankMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Acacia Plank");
         ArrayList<String> AcaciaPlankLore = new ArrayList<String>();
@@ -105,9 +107,9 @@ public class LumberingMaterials {
         return AcaciaPlank;
     }
     public static ItemStack BirchPlank(){
-        ItemStack BirchPlank = new ItemStack(Material.BIRCH_PLANKS);
+        ItemStack BirchPlank = new ItemStack(Material.BIRCH_SLAB);
         ItemMeta BirchPlankMeta = BirchPlank.getItemMeta();
-        BirchPlankMeta.setDisplayName(ChatColor.GREEN + "Birch Plank");
+        BirchPlankMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Birch Plank");
         ArrayList<String> BirchPlankLore = new ArrayList<String>();
         BirchPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         BirchPlankLore.add(ChatColor.GRAY + "Process this item to get birch plywood");
@@ -117,9 +119,9 @@ public class LumberingMaterials {
         return BirchPlank;
     }
     public static ItemStack OakPlank(){
-        ItemStack OakPlank = new ItemStack(Material.OAK_PLANKS);
+        ItemStack OakPlank = new ItemStack(Material.OAK_SLAB);
         ItemMeta OakPlankMeta = OakPlank.getItemMeta();
-        OakPlankMeta.setDisplayName(ChatColor.GREEN + "Oak Plank");
+        OakPlankMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Oak Plank");
         ArrayList<String> OakPlankLore = new ArrayList<String>();
         OakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         OakPlankLore.add(ChatColor.GRAY + "Process this item to get oak plywood");
@@ -129,9 +131,9 @@ public class LumberingMaterials {
         return OakPlank;
     }
     public static ItemStack DarkOakPlank(){
-        ItemStack DarkOakPlank = new ItemStack(Material.DARK_OAK_PLANKS);
+        ItemStack DarkOakPlank = new ItemStack(Material.DARK_OAK_SLAB);
         ItemMeta DarkOakPlankMeta = DarkOakPlank.getItemMeta();
-        DarkOakPlankMeta.setDisplayName(ChatColor.GREEN + "Dark Oak Plank");
+        DarkOakPlankMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Dark Oak Plank");
         ArrayList<String> DarkOakPlankLore = new ArrayList<String>();
         DarkOakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         DarkOakPlankLore.add(ChatColor.GRAY + "Process this item to get dark oak plywood");
@@ -141,9 +143,9 @@ public class LumberingMaterials {
         return DarkOakPlank;
     }
     public static ItemStack SprucePlank(){
-        ItemStack SprucePlank = new ItemStack(Material.SPRUCE_PLANKS);
+        ItemStack SprucePlank = new ItemStack(Material.SPRUCE_SLAB);
         ItemMeta SprucePlankMeta = SprucePlank.getItemMeta();
-        SprucePlankMeta.setDisplayName(ChatColor.GREEN + "Spruce Plank");
+        SprucePlankMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Spruce Plank");
         ArrayList<String> SprucePlankLore = new ArrayList<String>();
         SprucePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         SprucePlankLore.add(ChatColor.GRAY + "Process this item to get spruce plywood");
@@ -153,9 +155,9 @@ public class LumberingMaterials {
         return SprucePlank;
     }
     public static ItemStack JunglePlank(){
-        ItemStack JunglePlank = new ItemStack(Material.SPRUCE_PLANKS);
+        ItemStack JunglePlank = new ItemStack(Material.JUNGLE_SLAB);
         ItemMeta JunglePlankMeta = JunglePlank.getItemMeta();
-        JunglePlankMeta.setDisplayName(ChatColor.GREEN + "Jungle Plank");
+        JunglePlankMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Jungle Plank");
         ArrayList<String> JunglePlankLore = new ArrayList<String>();
         JunglePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         JunglePlankLore.add(ChatColor.GRAY + "Process this item to get jungle plywood");
@@ -163,5 +165,89 @@ public class LumberingMaterials {
         JunglePlank.setItemMeta(JunglePlankMeta);
 
         return JunglePlank;
+    }
+    //Rare
+    public static ItemStack AcaciaPlywood(){
+        ItemStack AcaciaPlywood = new ItemStack(Material.ACACIA_PLANKS);
+        ItemMeta AcaciaPlywoodMeta = AcaciaPlywood.getItemMeta();
+        AcaciaPlywoodMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        AcaciaPlywoodMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        AcaciaPlywoodMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Acacia Plywood");
+        ArrayList<String> AcaciaPlywoodLore = new ArrayList<String>();
+        AcaciaPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        AcaciaPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        AcaciaPlywoodMeta.setLore(AcaciaPlywoodLore);
+        AcaciaPlywood.setItemMeta(AcaciaPlywoodMeta);
+        return AcaciaPlywood;
+    }
+    public static ItemStack BirchPlywood(){
+        ItemStack BirchPlywood = new ItemStack(Material.BIRCH_PLANKS);
+        ItemMeta BirchPlywoodMeta = BirchPlywood.getItemMeta();
+        BirchPlywoodMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Birch Plywood");
+        BirchPlywoodMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        BirchPlywoodMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> BirchPlywoodLore = new ArrayList<String>();
+        BirchPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        BirchPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        BirchPlywoodMeta.setLore(BirchPlywoodLore);
+        BirchPlywood.setItemMeta(BirchPlywoodMeta);
+
+        return BirchPlywood;
+    }
+    public static ItemStack OakPlywood(){
+        ItemStack OakPlywood = new ItemStack(Material.OAK_PLANKS);
+        ItemMeta OakPlywoodMeta = OakPlywood.getItemMeta();
+        OakPlywoodMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Oak Plywood");
+        OakPlywoodMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        OakPlywoodMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> OakPlywoodLore = new ArrayList<String>();
+        OakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        OakPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        OakPlywoodMeta.setLore(OakPlywoodLore);
+        OakPlywood.setItemMeta(OakPlywoodMeta);
+
+        return OakPlywood;
+    }
+    public static ItemStack DarkOakPlywood(){
+        ItemStack DarkOakPlywood = new ItemStack(Material.DARK_OAK_PLANKS);
+        ItemMeta DarkOakPlywoodMeta = DarkOakPlywood.getItemMeta();
+        DarkOakPlywoodMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Dark Oak Plywood");
+        DarkOakPlywoodMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        DarkOakPlywoodMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> DarkOakPlywoodLore = new ArrayList<String>();
+        DarkOakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        DarkOakPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        DarkOakPlywoodMeta.setLore(DarkOakPlywoodLore);
+        DarkOakPlywood.setItemMeta(DarkOakPlywoodMeta);
+
+        return DarkOakPlywood;
+    }
+    public static ItemStack SprucePlywood(){
+        ItemStack SprucePlywood = new ItemStack(Material.SPRUCE_PLANKS);
+        ItemMeta SprucePlywoodMeta = SprucePlywood.getItemMeta();
+        SprucePlywoodMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Spruce Plywood");
+        SprucePlywoodMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        SprucePlywoodMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> SprucePlywoodLore = new ArrayList<String>();
+        SprucePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        SprucePlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        SprucePlywoodMeta.setLore(SprucePlywoodLore);
+        SprucePlywood.setItemMeta(SprucePlywoodMeta);
+
+        return SprucePlywood;
+    }
+    public static ItemStack JunglePlywood(){
+        ItemStack JunglePlywood = new ItemStack(Material.JUNGLE_PLANKS);
+        ItemMeta JunglePlywoodMeta = JunglePlywood.getItemMeta();
+        JunglePlywoodMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Jungle Plywood");
+        JunglePlywoodMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        JunglePlywoodMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> JunglePlywoodLore = new ArrayList<String>();
+        JunglePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        JunglePlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        JunglePlywoodMeta.setLore(JunglePlywoodLore);
+        JunglePlywood.setItemMeta(JunglePlywoodMeta);
+
+        return JunglePlywood;
     }
 }

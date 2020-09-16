@@ -2,9 +2,8 @@ package me.tanko_.lifeskills;
 
 import me.tanko_.lifeskills.BlockBreak.BlockBreak;
 import me.tanko_.lifeskills.ChangeGear.ChangeHeldItem;
-import me.tanko_.lifeskills.ChangeGear.InvClickEvent;
+import me.tanko_.lifeskills.CheckInventories.InvClickEvent;
 import me.tanko_.lifeskills.Commands.GiveCommand;
-import me.tanko_.lifeskills.Crafting.Crafting;
 import me.tanko_.lifeskills.Data.PlayerData;
 import me.tanko_.lifeskills.JoinLeave.OnJoin;
 import me.tanko_.lifeskills.Menus.MainMenu;
@@ -19,7 +18,6 @@ public final class LifeSkills extends JavaPlugin {
     public void onEnable() {
         //Events
         getServer().getPluginManager().registerEvents(new BlockBreak(),this);
-        getServer().getPluginManager().registerEvents(new Crafting(),this);
         getServer().getPluginManager().registerEvents(new OnJoin(),this);
         getServer().getPluginManager().registerEvents(new ChangeHeldItem(),this);
         getServer().getPluginManager().registerEvents(new InteractItem(),this);
