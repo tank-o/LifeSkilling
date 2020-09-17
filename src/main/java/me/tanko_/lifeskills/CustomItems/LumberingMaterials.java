@@ -250,4 +250,10 @@ public class LumberingMaterials {
 
         return JunglePlywood;
     }
+    public static ItemStack ReinforcedStick(){
+        ItemStack ReinforcedStick = new ItemStack(Material.STICK);
+
+
+        return ReinforcedStick;
+    }
 }

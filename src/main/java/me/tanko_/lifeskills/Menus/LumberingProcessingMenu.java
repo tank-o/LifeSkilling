@@ -52,7 +52,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> OakPlankLore = new ArrayList<>();
         OakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         OakPlankLore.add("");
-        OakPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Oak Timber " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.OakPlank"));
+        OakPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Oak Timber x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.OakPlank"));
         OakPlankMeta.setLore(OakPlankLore);
         OakPlank.setItemMeta(OakPlankMeta);
 
@@ -60,7 +60,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> BirchPlankLore = new ArrayList<>();
         BirchPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         BirchPlankLore.add("");
-        BirchPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Birch Timber " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.BirchPlank"));
+        BirchPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Birch Timber x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.BirchPlank"));
         BirchPlankMeta.setLore(BirchPlankLore);
         BirchPlank.setItemMeta(BirchPlankMeta);
 
@@ -68,7 +68,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> JunglePlankLore = new ArrayList<>();
         JunglePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         JunglePlankLore.add("");
-        JunglePlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Jungle Timber " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.JunglePlank"));
+        JunglePlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Jungle Timber x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.JunglePlank"));
         JunglePlankMeta.setLore(JunglePlankLore);
         JunglePlank.setItemMeta(JunglePlankMeta);
 
@@ -76,7 +76,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> DarkOakPlankLore = new ArrayList<>();
         DarkOakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         DarkOakPlankLore.add("");
-        DarkOakPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "DarkOak Timber " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.DarkOakPlank"));
+        DarkOakPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "DarkOak Timber x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.DarkOakPlank"));
         DarkOakPlankMeta.setLore(DarkOakPlankLore);
         DarkOakPlank.setItemMeta(DarkOakPlankMeta);
 
@@ -84,7 +84,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> SprucePlankLore = new ArrayList<>();
         SprucePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         SprucePlankLore.add("");
-        SprucePlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Spruce Timber " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.SprucePlank"));
+        SprucePlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Spruce Timber x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.SprucePlank"));
         SprucePlankMeta.setLore(SprucePlankLore);
         SprucePlank.setItemMeta(SprucePlankMeta);
 
@@ -92,7 +92,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> AcaciaPlankLore = new ArrayList<>();
         AcaciaPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         AcaciaPlankLore.add("");
-        AcaciaPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Acacia Timber " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.AcaciaPlank"));
+        AcaciaPlankLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Acacia Timber x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.AcaciaPlank"));
         AcaciaPlankMeta.setLore(AcaciaPlankLore);
         AcaciaPlank.setItemMeta(AcaciaPlankMeta);
 
@@ -100,7 +100,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> OakPlywoodLore = new ArrayList<>();
         OakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         OakPlywoodLore.add("");
-        OakPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Oak Plank " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.OakPlywood"));
+        OakPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Oak Plank x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.OakPlywood"));
         OakPlywoodMeta.setLore(OakPlywoodLore);
         OakPlywood.setItemMeta(OakPlywoodMeta);
 
@@ -108,7 +108,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> BirchPlywoodLore = new ArrayList<>();
         BirchPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         BirchPlywoodLore.add("");
-        BirchPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Birch Plank " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.OakPlywood"));
+        BirchPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Birch Plank x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.OakPlywood"));
         BirchPlywoodMeta.setLore(BirchPlywoodLore);
         BirchPlywood.setItemMeta(BirchPlywoodMeta);
 
@@ -116,7 +116,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> JunglePlywoodLore = new ArrayList<>();
         JunglePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         JunglePlywoodLore.add("");
-        JunglePlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Jungle Plank " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.JunglePlywood"));
+        JunglePlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Jungle Plank x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.JunglePlywood"));
         JunglePlywoodMeta.setLore(JunglePlywoodLore);
         JunglePlywood.setItemMeta(JunglePlywoodMeta);
 
@@ -124,7 +124,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> DarkOakPlywoodLore = new ArrayList<>();
         DarkOakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         DarkOakPlywoodLore.add("");
-        DarkOakPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "DarkOak Plank x10");
+        DarkOakPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "DarkOak Plank x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.DarkOakPlywood"));
         DarkOakPlywoodMeta.setLore(DarkOakPlywoodLore);
         DarkOakPlywood.setItemMeta(DarkOakPlywoodMeta);
 
@@ -132,7 +132,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> SprucePlywoodLore = new ArrayList<>();
         SprucePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         SprucePlywoodLore.add("");
-        SprucePlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Spruce Plank " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.SprucePlywood"));
+        SprucePlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Spruce Plank x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.SprucePlywood"));
         SprucePlywoodMeta.setLore(SprucePlywoodLore);
         SprucePlywood.setItemMeta(SprucePlywoodMeta);
 
@@ -140,7 +140,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ArrayList<String> AcaciaPlywoodLore = new ArrayList<>();
         AcaciaPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         AcaciaPlywoodLore.add("");
-        AcaciaPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Acacia Plank " + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.AcaciaPlywood"));
+        AcaciaPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Acacia Plank x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.AcaciaPlywood"));
         AcaciaPlywoodMeta.setLore(AcaciaPlywoodLore);
         AcaciaPlywood.setItemMeta(AcaciaPlywoodMeta);
         //Menu Items
