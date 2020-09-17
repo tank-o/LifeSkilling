@@ -158,6 +158,36 @@ public class GiveCommand implements CommandExecutor {
                                     victim.getInventory().addItem(LumberingMaterials.DarkOakTimber());
                                 } else if (args[1].equalsIgnoreCase("sprucetimber")) {
                                     victim.getInventory().addItem(LumberingMaterials.SpruceTimber());
+                                } else if (args[1].equalsIgnoreCase("acaciaplank")) {
+                                    victim.getInventory().addItem(LumberingMaterials.AcaciaPlank());
+                                } else if (args[1].equalsIgnoreCase("birchplank")) {
+                                    victim.getInventory().addItem(LumberingMaterials.BirchPlank());
+                                } else if (args[1].equalsIgnoreCase("oakplank")) {
+                                    victim.getInventory().addItem(LumberingMaterials.OakPlank());
+                                } else if (args[1].equalsIgnoreCase("jungleplank")) {
+                                    victim.getInventory().addItem(LumberingMaterials.JunglePlank());
+                                } else if (args[1].equalsIgnoreCase("darkoakplank")) {
+                                    victim.getInventory().addItem(LumberingMaterials.DarkOakPlank());
+                                } else if (args[1].equalsIgnoreCase("spruceplank")) {
+                                    victim.getInventory().addItem(LumberingMaterials.SprucePlank());
+                                } else if (args[1].equalsIgnoreCase("acaciaplywood")) {
+                                    victim.getInventory().addItem(LumberingMaterials.AcaciaPlywood());
+                                } else if (args[1].equalsIgnoreCase("birchplywood")) {
+                                    victim.getInventory().addItem(LumberingMaterials.BirchPlywood());
+                                } else if (args[1].equalsIgnoreCase("oakplywood")) {
+                                    victim.getInventory().addItem(LumberingMaterials.OakPlywood());
+                                } else if (args[1].equalsIgnoreCase("jungleplywood")) {
+                                    victim.getInventory().addItem(LumberingMaterials.JunglePlywood());
+                                } else if (args[1].equalsIgnoreCase("darkoakplywood")) {
+                                    victim.getInventory().addItem(LumberingMaterials.DarkOakPlywood());
+                                } else if (args[1].equalsIgnoreCase("spruceplywood")) {
+                                    victim.getInventory().addItem(LumberingMaterials.SprucePlywood());
+                                } else if (args[1].equalsIgnoreCase("log")) {
+                                    victim.getInventory().addItem(LumberingMaterials.Log());
+                                } else if (args[1].equalsIgnoreCase("scantling")) {
+                                    victim.getInventory().addItem(LumberingMaterials.Scantling());
+                                } else if (args[1].equalsIgnoreCase("timbersquare")) {
+                                    victim.getInventory().addItem(LumberingMaterials.TimberSquare());
                                 }
                             }
                         }catch (NumberFormatException ex) {

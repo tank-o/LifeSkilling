@@ -49,6 +49,15 @@ public class CheckProcessing {
         }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.BLUE + "" + ChatColor.BOLD + "Jungle Plywood")) {
             e.setCancelled(true);
             Chop.Chop(player, LumberingMaterials.JunglePlywood());
+        }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.GREEN + "" + ChatColor.BOLD + "Scantling")) {
+            e.setCancelled(true);
+            Chop.Chop(player, LumberingMaterials.Scantling());
+        }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.BLUE + "" + ChatColor.BOLD + "Timber Square")) {
+            e.setCancelled(true);
+            Chop.Chop(player, LumberingMaterials.TimberSquare());
+        }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Reinforced Stick")) {
+            e.setCancelled(true);
+            Chop.Chop(player, LumberingMaterials.ReinforcedStick());
         }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.WHITE + "" + ChatColor.BOLD + "Grinding")) {
             e.setCancelled(true);
         } else {

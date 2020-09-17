@@ -250,9 +250,44 @@ public class LumberingMaterials {
 
         return JunglePlywood;
     }
+    public static ItemStack Scantling(){
+        ItemStack Scantling = new ItemStack(Material.STRIPPED_OAK_LOG);
+        ItemMeta ScantlingMeta = Scantling.getItemMeta();
+        ScantlingMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Scantling");
+        ArrayList<String> ScantlingLore = new ArrayList<String>();
+        ScantlingLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
+        ScantlingLore.add(ChatColor.GRAY + "Use this to craft Timer Squares");
+        ScantlingMeta.setLore(ScantlingLore);
+        Scantling.setItemMeta(ScantlingMeta);
+
+        return Scantling;
+    }
+   
+    public static ItemStack TimberSquare(){
+        ItemStack TimberSquare = new ItemStack(Material.STRIPPED_OAK_WOOD);
+        ItemMeta TimberSquareMeta = TimberSquare.getItemMeta();
+        TimberSquareMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Timber Square");
+        TimberSquareMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        TimberSquareMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> TimberSquareLore = new ArrayList<String>();
+        TimberSquareLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        TimberSquareLore.add(ChatColor.GRAY + "Use this to craft other materials");
+        TimberSquareMeta.setLore(TimberSquareLore);
+        TimberSquare.setItemMeta(TimberSquareMeta);
+
+        return TimberSquare;
+    }
     public static ItemStack ReinforcedStick(){
         ItemStack ReinforcedStick = new ItemStack(Material.STICK);
-
+        ItemMeta ReinforcedStickMeta = ReinforcedStick.getItemMeta();
+        ReinforcedStickMeta.setDisplayName(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Reinforced Stick");
+        ReinforcedStickMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        ReinforcedStickMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> ReinforcedStickLore = new ArrayList<>();
+        ReinforcedStickLore.add(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Tier 4 Material");
+        ReinforcedStickLore.add(ChatColor.GRAY + "Use this to craft tools");
+        ReinforcedStickMeta.setLore(ReinforcedStickLore);
+        ReinforcedStick.setItemMeta(ReinforcedStickMeta);
 
         return ReinforcedStick;
     }

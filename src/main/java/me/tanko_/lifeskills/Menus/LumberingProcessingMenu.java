@@ -47,6 +47,9 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ItemStack DarkOakPlywood = new ItemStack(LumberingMaterials.DarkOakPlywood());
         ItemStack SprucePlywood = new ItemStack(LumberingMaterials.SprucePlywood());
         ItemStack AcaciaPlywood = new ItemStack(LumberingMaterials.AcaciaPlywood());
+        ItemStack Scantling = new ItemStack(LumberingMaterials.Scantling());
+        ItemStack TimberSquare = new ItemStack(LumberingMaterials.TimberSquare());
+        ItemStack ReinforcedStick = new ItemStack(LumberingMaterials.ReinforcedStick());
         
         ItemMeta OakPlankMeta = OakPlank.getItemMeta();
         ArrayList<String> OakPlankLore = new ArrayList<>();
@@ -143,6 +146,31 @@ public class LumberingProcessingMenu implements CommandExecutor {
         AcaciaPlywoodLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Acacia Plank x" + plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.AcaciaPlywood"));
         AcaciaPlywoodMeta.setLore(AcaciaPlywoodLore);
         AcaciaPlywood.setItemMeta(AcaciaPlywoodMeta);
+
+        ItemMeta ScantlingMeta = Scantling.getItemMeta();
+        ArrayList<String> ScantlingLore = new ArrayList<>();
+        ScantlingLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
+        ScantlingLore.add("");
+        ScantlingLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Log x10");
+        ScantlingMeta.setLore(ScantlingLore);
+        Scantling.setItemMeta(ScantlingMeta);
+
+        ItemMeta TimberSquareMeta = TimberSquare.getItemMeta();
+        ArrayList<String> TimberSquareLore = new ArrayList<>();
+        TimberSquareLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
+        TimberSquareLore.add("");
+        TimberSquareLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Scantling x10");
+        TimberSquareMeta.setLore(TimberSquareLore);
+        TimberSquare.setItemMeta(TimberSquareMeta);
+
+        ItemMeta ReinforcedStickMeta = ReinforcedStick.getItemMeta();
+        ArrayList<String> ReinforcedStickLore = new ArrayList<>();
+        ReinforcedStickLore.add(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Tier 4 Material");
+        ReinforcedStickLore.add("");
+        ReinforcedStickLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Timber Square x30");
+        ReinforcedStickMeta.setLore(ReinforcedStickLore);
+        ReinforcedStick.setItemMeta(ReinforcedStickMeta);
+        
         //Menu Items
         ItemStack Chopping = new ItemStack(Material.DIAMOND_AXE);
         ItemStack Grinding  = new ItemStack(Material.ANVIL);
@@ -171,7 +199,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
 
 
         ItemStack[] menu_items = {OakPlank, BirchPlank, DarkOakPlank, JunglePlank, AcaciaPlank, SprucePlank, OakPlywood, BirchPlywood, DarkOakPlywood,
-                JunglePlywood, AcaciaPlywood, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
+                JunglePlywood, AcaciaPlywood, Scantling, TimberSquare, ReinforcedStick, Filler, Filler, Filler, Filler,
                 Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
                 Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
                 Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,

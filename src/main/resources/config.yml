@@ -2226,16 +2226,20 @@ Armour:
 Tools:
   Axes:
     Master:
-      Base: 50
-      1Star: 100
-      2Star: 150
-      3Star: 225
-      4Star: 300
-      5Star: 400
+      XPBonus: 5
+      Mastery:
+        Base: 50
+        1Star: 100
+        2Star: 150
+        3Star: 225
+        4Star: 300
+        5Star: 400
     Apprentice:
-      Base:
-      1Star:
-      2Star:
-      3Star:
-      4Star:
-      5Star:
+      XPBonus: 2
+      Mastery:
+        Base: 20
+        1Star: 60
+        2Star: 100
+        3Star: 140
+        4Star: 180
+        5Star: 220

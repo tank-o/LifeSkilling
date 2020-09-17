@@ -21,30 +21,50 @@ public class Chop {
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         HashMap<ItemStack,Integer> ingredients = new HashMap<>();
         if (Result.equals(LumberingMaterials.OakPlank())){
-            ingredients.put(LumberingMaterials.OakTimber(),plugin.getConfig().getInt("Processing.CraftAmounts.Chopping.OakPlank"));
-           RemoveItems(player,ingredients,Result);
+            ingredients.put(LumberingMaterials.OakTimber(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.JunglePlank())){
-
+            ingredients.put(LumberingMaterials.JungleTimber(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.SprucePlank())){
-
+            ingredients.put(LumberingMaterials.SpruceTimber(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.DarkOakPlank())){
-
+            ingredients.put(LumberingMaterials.DarkOakTimber(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.BirchPlank())){
-
+            ingredients.put(LumberingMaterials.BirchTimber(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.AcaciaPlank())){
-
+            ingredients.put(LumberingMaterials.AcaciaTimber(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.AcaciaPlywood())){
-
+            ingredients.put(LumberingMaterials.AcaciaPlank(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.BirchPlywood())){
-
+            ingredients.put(LumberingMaterials.BirchPlank(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.OakPlywood())){
-
+            ingredients.put(LumberingMaterials.OakPlank(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.JunglePlywood())){
-
+            ingredients.put(LumberingMaterials.JunglePlank(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.SprucePlywood())){
-
+            ingredients.put(LumberingMaterials.SprucePlank(),10);
+            RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.DarkOakPlywood())){
-
+            ingredients.put(LumberingMaterials.DarkOakPlank(),10);
+            RemoveItems(player,ingredients,Result);
+        } else if (Result.equals(LumberingMaterials.ReinforcedStick())){
+            ingredients.put(LumberingMaterials.TimberSquare(),30);
+            RemoveItems(player,ingredients,Result);
+        } else if (Result.equals(LumberingMaterials.Scantling())){
+            ingredients.put(LumberingMaterials.Log(),10);
+            RemoveItems(player,ingredients,Result);
+        } else if (Result.equals(LumberingMaterials.TimberSquare())){
+            ingredients.put(LumberingMaterials.Scantling(),10);
+            RemoveItems(player,ingredients,Result);
         }
     }
     private static void RemoveItems(Player player,HashMap<ItemStack,Integer> ingredients,ItemStack Result){
@@ -53,12 +73,9 @@ public class Chop {
         HashMap<ItemStack,Integer> itemLocations = new HashMap<>();
         for (int i = 0;i < player.getInventory().getSize();i++){
             for (ItemStack k : ingredients.keySet()){
-                System.out.println("Comparing " + k.getItemMeta().getDisplayName() + " and " + player.getInventory().getItem(i).getItemMeta().getDisplayName());
                 if ((player.getInventory().getItem(i) != null) && (player.getInventory().getItem(i).isSimilar(k))){
-                    player.sendMessage(k.getItemMeta().getDisplayName());
                     if (player.getInventory().getItem(i).getAmount() >= ingredients.get(k)){
                         found = found + 1;
-                        player.sendMessage("found an ingredient");
                         itemLocations.put(k,i);
                         if (found == ingredients.size()){
                             for (ItemStack j : itemLocations.keySet()){
@@ -66,6 +83,8 @@ public class Chop {
                             }
                             player.getInventory().addItem(Result);
                         }
+                    } else {
+                        player.sendMessage(ChatColor.RED + "You do not have enough materials to craft this");
                     }
                 }
             }
