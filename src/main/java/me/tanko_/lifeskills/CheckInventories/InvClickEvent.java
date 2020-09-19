@@ -19,12 +19,14 @@ public class InvClickEvent implements Listener {
 
         if (e.getView().getTitle().equalsIgnoreCase("Life Skill Menu")) {
             CheckMainMenu.Check(player,e);
-
         } else if (e.getView().getTitle().equalsIgnoreCase("Processing Menu")) {
             CheckProcessing.Check(player,e);
         }
-        if (e.getCurrentItem().equals(OtherMaterials.SkillsMenu())) {
-            e.setCancelled(true);
+        if (e.getCurrentItem() != null) {
+            if (e.getCurrentItem().equals(OtherMaterials.SkillsMenu())) {
+                player.openInventory(MainMenu.CreateMenu(player));
+                e.setCancelled(true);
+            }
         }
     }
 }

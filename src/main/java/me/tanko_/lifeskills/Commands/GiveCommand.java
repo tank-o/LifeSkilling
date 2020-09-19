@@ -50,6 +50,54 @@ public class GiveCommand implements CommandExecutor {
                                 } else if (args[1].equalsIgnoreCase("fiveapprenticeaxe")) {
                                     victim.getInventory().addItem(CustomTools.FiveApprenticeAxe());
                                     //armour
+                                }else if (args[1].equalsIgnoreCase("masterbutcher")) {
+                                    victim.getInventory().addItem(CustomTools.MasterButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("onemasterbutcher")) {
+                                    victim.getInventory().addItem(CustomTools.OneMasterButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("twomasterbutcher")) {
+                                    victim.getInventory().addItem(CustomTools.TwoMasterButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("threemasterbutcher")) {
+                                    victim.getInventory().addItem(CustomTools.ThreeMasterButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("fourmasterbutcher")) {
+                                    victim.getInventory().addItem(CustomTools.FourMasterButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("fivemasterbutcher")) {
+                                    victim.getInventory().addItem(CustomTools.FiveMasterButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("apprenticebutcher")) {
+                                    victim.getInventory().addItem(CustomTools.ApprenticeButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("oneapprenticebutcher")) {
+                                    victim.getInventory().addItem(CustomTools.OneApprenticeButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("twoapprenticebutcher")) {
+                                    victim.getInventory().addItem(CustomTools.TwoApprenticeButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("threeapprenticebutcher")) {
+                                    victim.getInventory().addItem(CustomTools.ThreeApprenticeButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("fourapprenticebutcher")) {
+                                    victim.getInventory().addItem(CustomTools.FourApprenticeButcherKnife());
+                                } else if (args[1].equalsIgnoreCase("fiveapprenticebutcher")) {
+                                    victim.getInventory().addItem(CustomTools.FiveApprenticeButcherKnife());
+                                }else if (args[1].equalsIgnoreCase("masterpick")) {
+                                    victim.getInventory().addItem(CustomTools.MasterPickaxe());
+                                } else if (args[1].equalsIgnoreCase("onemasterpick")) {
+                                    victim.getInventory().addItem(CustomTools.OneMasterPickaxe());
+                                } else if (args[1].equalsIgnoreCase("twomasterpick")) {
+                                    victim.getInventory().addItem(CustomTools.TwoMasterPickaxe());
+                                } else if (args[1].equalsIgnoreCase("threemasterpick")) {
+                                    victim.getInventory().addItem(CustomTools.ThreeMasterPickaxe());
+                                } else if (args[1].equalsIgnoreCase("fourmasterpick")) {
+                                    victim.getInventory().addItem(CustomTools.FourMasterPickaxe());
+                                } else if (args[1].equalsIgnoreCase("fivemasterpick")) {
+                                    victim.getInventory().addItem(CustomTools.FiveMasterPickaxe());
+                                } else if (args[1].equalsIgnoreCase("apprenticepick")) {
+                                    victim.getInventory().addItem(CustomTools.ApprenticePickaxe());
+                                } else if (args[1].equalsIgnoreCase("oneapprenticepick")) {
+                                    victim.getInventory().addItem(CustomTools.OneApprenticePickaxe());
+                                } else if (args[1].equalsIgnoreCase("twoapprenticepick")) {
+                                    victim.getInventory().addItem(CustomTools.TwoApprenticePickaxe());
+                                } else if (args[1].equalsIgnoreCase("threeapprenticepick")) {
+                                    victim.getInventory().addItem(CustomTools.ThreeApprenticePickaxe());
+                                } else if (args[1].equalsIgnoreCase("fourapprenticepick")) {
+                                    victim.getInventory().addItem(CustomTools.FourApprenticePickaxe());
+                                } else if (args[1].equalsIgnoreCase("fiveapprenticepick")) {
+                                    victim.getInventory().addItem(CustomTools.FiveApprenticePickaxe());
                                 } else if (args[1].equalsIgnoreCase("masterhelmet")) {
                                     victim.getInventory().addItem(CustomArmour.MasterHelmet());
                                 } else if (args[1].equalsIgnoreCase("onemasterhelmet")) {

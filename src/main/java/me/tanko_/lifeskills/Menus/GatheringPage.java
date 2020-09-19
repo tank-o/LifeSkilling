@@ -32,22 +32,25 @@ public class GatheringPage implements CommandExecutor{
     public static Inventory CreateMenu(Player player){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         String ID = player.getUniqueId().toString();
-
+        int GatheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mastery");
         //Mining
-        int MiningMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mining.Mastery");
-        int MiningRareChance = (plugin.getConfig().getInt("Gathering.Mining.Mastery." + MiningMastery + ".Rare.Chance")/10);
-        int MiningLegendaryChance = (plugin.getConfig().getInt("Gathering.Mining.Mastery." + MiningMastery + ".Legendary.Chance")/10);
-        int MiningUncommonChance = (plugin.getConfig().getInt("Gathering.Mining.Mastery." + MiningMastery + ".Uncommon.Chance")/10);
+        int MiningMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mining.Mastery") + GatheringMastery;
+        int MiningBracket = (MiningMastery/50) * 50;
+        int MiningRareChance = (plugin.getConfig().getInt("Gathering.Mining.Mastery." + MiningBracket + ".Rare.Chance")/10);
+        int MiningLegendaryChance = (plugin.getConfig().getInt("Gathering.Mining.Mastery." + MiningBracket + ".Legendary.Chance")/10);
+        int MiningUncommonChance = (plugin.getConfig().getInt("Gathering.Mining.Mastery." + MiningBracket + ".Uncommon.Chance")/10);
         //Lumbering
-        int LumberingMastery = PlayerData.getFile().getInt(ID + ".Gathering.Lumbering.Mastery");
-        int LumberingRareChance = (plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + LumberingMastery + ".Rare.Chance")/10);
-        int LumberingLegendaryChance = (plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + LumberingMastery + ".Legendary.Chance")/10);
-        int LumberingUncommonChance = (plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + LumberingMastery + ".Uncommon.Chance")/10);
+        int LumberingMastery = PlayerData.getFile().getInt(ID + ".Gathering.Lumbering.Mastery") + GatheringMastery;
+        int LumberingBracket = (LumberingMastery/50) * 50;
+        int LumberingRareChance = (plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + LumberingBracket + ".Rare.Chance")/10);
+        int LumberingLegendaryChance = (plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + LumberingBracket + ".Legendary.Chance")/10);
+        int LumberingUncommonChance = (plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + LumberingBracket + ".Uncommon.Chance")/10);
         //Butchering
-        int ButcheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Butchering.Mastery");
-        int ButcheringRareChance = (plugin.getConfig().getInt("Gathering.Butchering.Mastery." + ButcheringMastery + ".Rare.Chance")/10);
-        int ButcheringLegendaryChance = (plugin.getConfig().getInt("Gathering.Butchering.Mastery." + ButcheringMastery + ".Legendary.Chance")/10);
-        int ButcheringUncommonChance = (plugin.getConfig().getInt("Gathering.Butchering.Mastery." + ButcheringMastery + ".Uncommon.Chance")/10);
+        int ButcheringMastery = (PlayerData.getFile().getInt(ID + ".Gathering.Butchering.Mastery") + GatheringMastery);
+        int ButcheringBracket = (ButcheringMastery/50) * 50;
+        int ButcheringRareChance = (plugin.getConfig().getInt("Gathering.Butchering.Mastery." + ButcheringBracket + ".Rare.Chance")/10);
+        int ButcheringLegendaryChance = (plugin.getConfig().getInt("Gathering.Butchering.Mastery." + ButcheringBracket + ".Legendary.Chance")/10);
+        int ButcheringUncommonChance = (plugin.getConfig().getInt("Gathering.Butchering.Mastery." + ButcheringBracket + ".Uncommon.Chance")/10);
 
         //Inventory
         Inventory GatheringMenu = Bukkit.createInventory(player,27, "Life Skill Menu");
@@ -63,9 +66,9 @@ public class GatheringPage implements CommandExecutor{
         MiningMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
         ArrayList<String> MiningLore = new ArrayList<>();
         MiningLore.add(ChatColor.GRAY + "Mastery: " + MiningMastery);
-        MiningLore.add(ChatColor.GRAY + "Uncommon: " + MiningUncommonChance + "%");
-        MiningLore.add(ChatColor.GRAY + "Rare: " + MiningRareChance + "%");
-        MiningLore.add(ChatColor.GRAY + "Legendary: " + MiningLegendaryChance + "%");
+        MiningLore.add(ChatColor.WHITE + "Uncommon: " + MiningUncommonChance + "%");
+        MiningLore.add(ChatColor.WHITE + "Rare: " + MiningRareChance + "%");
+        MiningLore.add(ChatColor.WHITE + "Legendary: " + MiningLegendaryChance + "%");
         MiningMeta.setLore(MiningLore);
         Mining.setItemMeta(MiningMeta);
 
@@ -74,9 +77,9 @@ public class GatheringPage implements CommandExecutor{
         LumberingMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
         ArrayList<String> LumberingLore = new ArrayList<>();
         LumberingLore.add(ChatColor.GRAY + "Mastery: " + LumberingMastery);
-        LumberingLore.add(ChatColor.GRAY + "Uncommon: " + LumberingUncommonChance + "%");
-        LumberingLore.add(ChatColor.GRAY + "Rare: " + LumberingRareChance + "%");
-        LumberingLore.add(ChatColor.GRAY + "Legendary: " + LumberingLegendaryChance + "%");
+        LumberingLore.add(ChatColor.WHITE + "Uncommon: " + LumberingUncommonChance + "%");
+        LumberingLore.add(ChatColor.WHITE + "Rare: " + LumberingRareChance + "%");
+        LumberingLore.add(ChatColor.WHITE + "Legendary: " + LumberingLegendaryChance + "%");
         LumberingMeta.setLore(LumberingLore);
         Lumbering.setItemMeta(LumberingMeta);
         
@@ -85,11 +88,11 @@ public class GatheringPage implements CommandExecutor{
         ButcheringMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
         ArrayList<String> ButcheringLore = new ArrayList<>();
         ButcheringLore.add(ChatColor.GRAY + "Mastery: " + ButcheringMastery);
-        ButcheringLore.add(ChatColor.GRAY + "Uncommon: " + ButcheringUncommonChance + "%");
-        ButcheringLore.add(ChatColor.GRAY + "Rare: " + ButcheringRareChance + "%");
-        ButcheringLore.add(ChatColor.GRAY + "Legendary: " + ButcheringLegendaryChance + "%");
+        ButcheringLore.add(ChatColor.WHITE + "Uncommon: " + ButcheringUncommonChance + "%");
+        ButcheringLore.add(ChatColor.WHITE + "Rare: " + ButcheringRareChance + "%");
+        ButcheringLore.add(ChatColor.WHITE + "Legendary: " + ButcheringLegendaryChance + "%");
         ButcheringMeta.setLore(ButcheringLore);
-        Butchering.setItemMeta(MiningMeta);
+        Butchering.setItemMeta(ButcheringMeta);
 
         ItemMeta BackMeta = BackButton.getItemMeta();
         BackMeta.setDisplayName(ChatColor.RED + "" + ChatColor.BOLD + "Back");

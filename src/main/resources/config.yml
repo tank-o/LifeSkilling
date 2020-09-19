@@ -8,7 +8,7 @@ Gathering:
   Lumbering: #Lumbering LifeSkill
     Mastery:
       0:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -23,9 +23,9 @@ Gathering:
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
-          Chance: 5
+          Chance: 1000
       50:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -42,7 +42,7 @@ Gathering:
           Max: 1
           Chance: 5
       100:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -54,12 +54,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       150:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -71,12 +75,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       200:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -88,12 +96,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       250:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -105,12 +117,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       300:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -122,12 +138,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       350:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -139,12 +159,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       400:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -156,12 +180,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       450:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -173,12 +201,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       500:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -190,12 +222,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       550:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -207,12 +243,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       600:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -224,12 +264,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       650:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -241,12 +285,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       700:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -258,12 +306,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       750:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -275,12 +327,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       800:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -292,12 +348,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       850:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -309,12 +369,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       900:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -326,12 +390,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       950:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -343,12 +411,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1000:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -360,12 +432,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1050:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -377,12 +453,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1100:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -394,12 +474,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1150:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -411,12 +495,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1200:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -428,12 +516,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1250:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -445,12 +537,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1300:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -462,12 +558,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1350:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -479,12 +579,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1400:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -496,12 +600,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1450:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -513,12 +621,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1500:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -530,12 +642,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1550:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -547,12 +663,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1600:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -564,12 +684,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1650:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -581,12 +705,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1700:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -598,12 +726,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1750:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -615,12 +747,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1800:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -632,12 +768,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1850:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -649,12 +789,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1900:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -666,12 +810,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1950:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -683,12 +831,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       2000:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -700,6 +852,10 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
@@ -716,15 +872,19 @@ Gathering:
   Butchering: #Butchering LifeSkill
     Mastery:
       0:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -733,15 +893,19 @@ Gathering:
           Max: 1
           Chance: 5
       50:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -750,15 +914,19 @@ Gathering:
           Max: 1
           Chance: 5
       100:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -767,15 +935,19 @@ Gathering:
           Max: 1
           Chance: 5
       150:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -784,15 +956,19 @@ Gathering:
           Max: 1
           Chance: 5
       200:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -801,15 +977,19 @@ Gathering:
           Max: 1
           Chance: 5
       250:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -818,15 +998,19 @@ Gathering:
           Max: 1
           Chance: 5
       300:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -835,15 +1019,19 @@ Gathering:
           Max: 1
           Chance: 5
       350:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -852,15 +1040,19 @@ Gathering:
           Max: 1
           Chance: 5
       400:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -869,15 +1061,19 @@ Gathering:
           Max: 1
           Chance: 5
       450:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -886,15 +1082,19 @@ Gathering:
           Max: 1
           Chance: 5
       500:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -903,9 +1103,9 @@ Gathering:
           Max: 1
           Chance: 5
       550:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -915,14 +1115,18 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 20
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       600:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -937,9 +1141,9 @@ Gathering:
           Max: 1
           Chance: 5
       650:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -954,9 +1158,9 @@ Gathering:
           Max: 1
           Chance: 5
       700:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -971,9 +1175,9 @@ Gathering:
           Max: 1
           Chance: 5
       750:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -988,9 +1192,9 @@ Gathering:
           Max: 1
           Chance: 5
       800:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1005,9 +1209,9 @@ Gathering:
           Max: 1
           Chance: 5
       850:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1022,9 +1226,9 @@ Gathering:
           Max: 1
           Chance: 5
       900:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1039,9 +1243,9 @@ Gathering:
           Max: 1
           Chance: 5
       950:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1056,9 +1260,9 @@ Gathering:
           Max: 1
           Chance: 5
       1000:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1073,9 +1277,9 @@ Gathering:
           Max: 1
           Chance: 5
       1050:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1090,9 +1294,9 @@ Gathering:
           Max: 1
           Chance: 5
       1100:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1107,9 +1311,9 @@ Gathering:
           Max: 1
           Chance: 5
       1150:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1124,9 +1328,9 @@ Gathering:
           Max: 1
           Chance: 5
       1200:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 3
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1141,15 +1345,19 @@ Gathering:
           Max: 1
           Chance: 5
       1250:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1158,15 +1366,19 @@ Gathering:
           Max: 1
           Chance: 5
       1300:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1175,15 +1387,19 @@ Gathering:
           Max: 1
           Chance: 5
       1350:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1192,15 +1408,19 @@ Gathering:
           Max: 1
           Chance: 5
       1400:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1209,15 +1429,19 @@ Gathering:
           Max: 1
           Chance: 5
       1450:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1226,15 +1450,19 @@ Gathering:
           Max: 1
           Chance: 5
       1500:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1243,15 +1471,19 @@ Gathering:
           Max: 1
           Chance: 5
       1550:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
-          Max: 1
+          Max: 2
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1260,15 +1492,19 @@ Gathering:
           Max: 1
           Chance: 5
       1600:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1277,15 +1513,19 @@ Gathering:
           Max: 1
           Chance: 5
       1650:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1294,15 +1534,19 @@ Gathering:
           Max: 1
           Chance: 5
       1700:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1311,15 +1555,19 @@ Gathering:
           Max: 1
           Chance: 5
       1750:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1328,15 +1576,19 @@ Gathering:
           Max: 1
           Chance: 5
       1800:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1345,15 +1597,19 @@ Gathering:
           Max: 1
           Chance: 5
       1850:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1362,15 +1618,19 @@ Gathering:
           Max: 1
           Chance: 5
       1900:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1379,9 +1639,9 @@ Gathering:
           Max: 1
           Chance: 5
       1950:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
@@ -1391,20 +1651,28 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 20
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       2000:
-        Common: #Tier 1 Mats - Logs
-          Min: 1
-          Max: 1
+        Common: #Tier 1 Mats - Stone/Minerals
+          Min: 2
+          Max: 4
           Chance: 1000
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
           Chance: 100
         Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 20
+        Epic:
           Min: 1
           Max: 1
           Chance: 20
@@ -1413,16 +1681,16 @@ Gathering:
           Max: 1
           Chance: 5
     MeatXP:
-      PORK: 5.0
-      BEEF: 5.0
-      MUTTON: 5.0
-      CHICKEN: 5.0
-      RABBIT: 5.0
+      PORK: 5000
+      BEEF: 5000
+      LAMB: 5000
+      WOLF: 5000
+      RABBIT: 5000
 
   Mining: #Mining LifeSkill
     Mastery:
       0:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1434,12 +1702,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       50:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1451,12 +1723,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       100:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1468,12 +1744,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       150:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1485,12 +1765,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       200:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1502,12 +1786,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       250:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1519,12 +1807,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       300:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1536,12 +1828,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       350:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1553,12 +1849,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       400:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1570,12 +1870,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       450:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1587,12 +1891,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       500:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1604,12 +1912,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       550:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1621,12 +1933,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       600:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1638,12 +1954,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       650:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1655,12 +1975,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       700:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1672,12 +1996,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       750:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1689,12 +2017,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       800:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1706,12 +2038,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       850:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1723,12 +2059,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       900:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1740,12 +2080,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       950:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1757,12 +2101,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1000:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1774,12 +2122,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1050:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1791,12 +2143,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1100:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1808,12 +2164,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1150:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1825,12 +2185,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1200:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1842,12 +2206,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1250:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1859,12 +2227,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1300:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1876,12 +2248,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1350:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1893,12 +2269,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1400:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1910,12 +2290,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1450:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1927,12 +2311,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1500:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1944,12 +2332,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1550:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1961,12 +2353,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1600:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1978,12 +2374,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1650:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -1995,12 +2395,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1700:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -2012,12 +2416,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1750:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -2029,12 +2437,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1800:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -2046,12 +2458,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1850:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -2063,12 +2479,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1900:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -2080,12 +2500,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       1950:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -2097,12 +2521,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
       2000:
-        Common: #Tier 1 Mats - Logs
+        Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
           Max: 1
           Chance: 1000
@@ -2114,22 +2542,16 @@ Gathering:
           Min: 1
           Max: 1
           Chance: 20
+        Epic:
+          Min: 1
+          Max: 1
+          Chance: 10
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 5
-    BlockXP:
-      STONE: 1.0
-      COAL: 3.0
-      IRON: 5.0
-      GOLD: 7.0
-      REDSTONE: 7.0
-      LAPIS: 7.0
-      EMERALD: 15.0
-      DIAMOND: 12.0
-      QUARTZ: 5.0
-      DEBRIS: 20.0
-      NETHERACK: 1.0
+    XP:
+      STONE: 5000
 
 Cooking: #Cooking LifeSkill
 Alchemy: #Alchemy LifeSkill
@@ -2225,6 +2647,44 @@ Armour:
         5Star: 70
 Tools:
   Axes:
+    Master:
+      XPBonus: 5
+      Mastery:
+        Base: 50
+        1Star: 100
+        2Star: 150
+        3Star: 225
+        4Star: 300
+        5Star: 400
+    Apprentice:
+      XPBonus: 2
+      Mastery:
+        Base: 20
+        1Star: 60
+        2Star: 100
+        3Star: 140
+        4Star: 180
+        5Star: 220
+  ButcherKnives:
+    Master:
+      XPBonus: 5
+      Mastery:
+        Base: 50
+        1Star: 100
+        2Star: 150
+        3Star: 225
+        4Star: 300
+        5Star: 400
+    Apprentice:
+      XPBonus: 2
+      Mastery:
+        Base: 20
+        1Star: 60
+        2Star: 100
+        3Star: 140
+        4Star: 180
+        5Star: 220
+  Pickaxes:
     Master:
       XPBonus: 5
       Mastery:

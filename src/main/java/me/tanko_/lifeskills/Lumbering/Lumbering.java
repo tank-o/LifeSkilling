@@ -6,7 +6,6 @@ import me.tanko_.lifeskills.Data.PlayerData;
 import me.tanko_.lifeskills.GetRank.LevelToRank;
 import me.tanko_.lifeskills.LifeSkills;
 import org.bukkit.ChatColor;
-import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
@@ -15,12 +14,12 @@ import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Lumbering {
-    public static void GetDrops(Player player, String Wood, Location Block){
+    public static void GetDrops(Player player, String Wood){
         ArrayList<ItemStack> Drops = new ArrayList<ItemStack>();
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         String ID = player.getUniqueId().toString();
         int GatheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mastery");
-        int LumberingMastery = PlayerData.getFile().getInt(ID + ".Lumbering.Mastery");
+        int LumberingMastery = PlayerData.getFile().getInt(ID + ".Gathering.Lumbering.Mastery");
         int TotalMastery = GatheringMastery + LumberingMastery;
         int Bracket = (TotalMastery/50) * 50;
         int lootNum = ThreadLocalRandom.current().nextInt(1, 1000 + 1);
@@ -38,6 +37,10 @@ public class Lumbering {
         int MinRare = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Min");
         int MaxRare = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Max");
 
+        int EpicChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Chance");
+        int MinEpic = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Min");
+        int MaxEpic = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Max");
+
         int LegendaryChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Legendary.Chance");
         int MinLegendary = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Legendary.Min");
         int MaxLegendary = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Legendary.Max");
@@ -46,6 +49,7 @@ public class Lumbering {
         int LogAmount = ThreadLocalRandom.current().nextInt(MinCommon, MaxCommon + 1);
         int UncommonAmount = ThreadLocalRandom.current().nextInt(MinUncommon, MaxUncommon + 1);
         int RareAmount = ThreadLocalRandom.current().nextInt(MinRare, MaxRare + 1);
+        int EpicAmount = ThreadLocalRandom.current().nextInt(MinEpic, MaxEpic + 1);
         int LegendaryAmount = ThreadLocalRandom.current().nextInt(MinLegendary, MaxLegendary + 1);
 
         if (lootNum <= CommonChance){
@@ -57,14 +61,16 @@ public class Lumbering {
         if (lootNum <= RareChance){
             RareDrops(Drops,RareAmount,lootNum,RareChance);
         }
+        if (lootNum <= EpicChance){
+            EpicDrops(Drops,EpicAmount,lootNum,EpicChance);
+        }
         if (lootNum <= LegendaryChance){
             LegendaryDrops(Drops,LegendaryAmount,lootNum,LegendaryChance);
         }
         LumberingXP(player,Wood);
 
-        for(int i = 0; i < Drops.size(); i++)
-        {
-            player.getWorld().dropItemNaturally(Block, Drops.get(i));
+        for (ItemStack drop : Drops) {
+            player.getInventory().addItem(drop);
         }
     }
     public static void CommonDrops(ArrayList<ItemStack> Drops,int lootNum,int timberAmount, String wood,int logAmount){
@@ -89,7 +95,6 @@ public class Lumbering {
                 Wood = LumberingMaterials.SpruceTimber();
                 break;
         }
-        System.out.println(Wood);
         if ((lootNum >= 0) && (lootNum <= 750)){
             for (int i = 0; i < timberAmount; i++) {
                 Drops.add(Wood);
@@ -123,16 +128,27 @@ public class Lumbering {
                 Plank = LumberingMaterials.SprucePlank();
                 break;
         }
-        if (lootNum <= chance){
+        if (lootNum <= chance/2){
             for (int i = 0;i < amount;i++) {
                 Drops.add(Plank);
+            }
+        } else if ((lootNum <= chance) && (lootNum >= chance/2)){
+            for (int i = 0;i < amount;i++) {
+                Drops.add(OtherMaterials.GlowDust());
             }
         }
     }
     public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
         if ((lootNum >= 0) || (lootNum <= chance)){
             for (int i=0;i < amount;i++) {
-                Drops.add(OtherMaterials.GlowDust());
+                Drops.add(OtherMaterials.EnhanceFragment());
+            }
+        }
+    }
+    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
+        if ((lootNum >= 0) || (lootNum <= chance)){
+            for (int i=0;i < amount;i++) {
+                Drops.add(OtherMaterials.EnhanceStone());
             }
         }
     }
@@ -148,12 +164,13 @@ public class Lumbering {
     public static void LumberingXP(Player player,String Wood){
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         String ID = player.getUniqueId().toString();
-        double XP = PlayerData.getFile().getDouble(ID + ".Gathering..XP");
+        int GatheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mastery");
+        double XP = PlayerData.getFile().getDouble(ID + ".Gathering.XP");
         int Level = PlayerData.getFile().getInt(ID + ".Gathering.Level");
-        double XPToNext = (Level * Math.pow(1.3,Level/5) * 1000);
+        double XPToNext = (10277850 + (22.56924 - 10277850)/(1 + Math.pow((Level/13514.49),1.603196))) * 1000;
         double XPMulti = PlayerData.getFile().getDouble(ID + ".Gathering.Lumbering.XPMulti");
         if (Wood.equalsIgnoreCase("acacia")){
-            double acaciaXP = plugin.getConfig().getDouble("Gathering.Lumbering.LogXP.acacia");
+            double acaciaXP = plugin.getConfig().getDouble("Gathering.Lumbering.LogXP.ACACIA");
             XP = XP + acaciaXP;
         }else if (Wood.equalsIgnoreCase("birch")){
             double birchXP = plugin.getConfig().getDouble("Gathering.Lumbering.LogXP.BIRCH");
@@ -173,14 +190,16 @@ public class Lumbering {
         }
         while (XP >= XPToNext){
             Level += 1;
+            GatheringMastery = GatheringMastery + 5;
             player.sendMessage(ChatColor.MAGIC + "lfjdgsurmncidkjsovdu");
             player.sendMessage(ChatColor.GRAY + "Gathering " + LevelToRank.LevelToRank(Level));
             player.sendMessage(ChatColor.MAGIC + "lfjdgsurmncidkjsovdu");
             XP -= XPToNext;
-            XPToNext = (Level * Math.pow(1.3,Level/5) * 1000);
+            XPToNext = (10277850 + (22.56924 - 10277850)/(1 + Math.pow((Level/13514.49),1.603196))) * 1000;
         }
         PlayerData.getFile().set(ID + ".Gathering.Level",Level);
         PlayerData.getFile().set(ID + ".Gathering.XP",XP);
+        PlayerData.getFile().set(ID + ".Gathering.Mastery",GatheringMastery);
         PlayerData.save();
     }
 }

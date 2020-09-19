@@ -30,6 +30,7 @@ public class SkillsPage implements CommandExecutor {
     public static Inventory CreateMenu(Player player){
         String ID = player.getUniqueId().toString();
         int Level = PlayerData.getFile().getInt(ID + ".Gathering.Level");
+        int GatheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mastery");
         //Inventory
         Inventory SkillMenu = Bukkit.createInventory(player,27, "Life Skill Menu");
 
@@ -43,9 +44,9 @@ public class SkillsPage implements CommandExecutor {
         GatheringLore.add(LevelToRank.LevelToRank(Level));
         GatheringLore.add(ChatColor.GRAY + "Mastery: " + PlayerData.getFile().getInt( ID + ".Gathering.Mastery"));
         GatheringLore.add("");
-        GatheringLore.add(ChatColor.GRAY + "Lumbering: " + PlayerData.getFile().getInt( ID + ".Gathering.Lumbering.Mastery"));
-        GatheringLore.add(ChatColor.GRAY + "Mining: " + PlayerData.getFile().getInt( ID + ".Gathering.Mining.Mastery"));
-        GatheringLore.add(ChatColor.GRAY + "Butchering: " + PlayerData.getFile().getInt( ID + ".Gathering.Butchering.Mastery"));
+        GatheringLore.add(ChatColor.GRAY + "Lumbering: " + (PlayerData.getFile().getInt( ID + ".Gathering.Lumbering.Mastery") + GatheringMastery));
+        GatheringLore.add(ChatColor.GRAY + "Mining: " + (PlayerData.getFile().getInt( ID + ".Gathering.Mining.Mastery") + GatheringMastery));
+        GatheringLore.add(ChatColor.GRAY + "Butchering: " + (PlayerData.getFile().getInt( ID + ".Gathering.Butchering.Mastery") + GatheringMastery));
         GatheringLore.add("");
         GatheringLore.add(ChatColor.GRAY + "Click to view more info");
         GatheringMeta.setLore(GatheringLore);

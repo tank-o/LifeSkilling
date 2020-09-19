@@ -7,6 +7,7 @@ import me.tanko_.lifeskills.Commands.GiveCommand;
 import me.tanko_.lifeskills.Data.PlayerData;
 import me.tanko_.lifeskills.JoinLeave.OnJoin;
 import me.tanko_.lifeskills.Menus.MainMenu;
+import me.tanko_.lifeskills.MobKillEvent.MobKillEvent;
 import me.tanko_.lifeskills.OtherEvents.InteractItem;
 import me.tanko_.lifeskills.OtherEvents.ItemDropEvent;
 import me.tanko_.lifeskills.OtherEvents.PlayerDeath;
@@ -20,6 +21,7 @@ public final class LifeSkills extends JavaPlugin {
     public void onEnable() {
         //Events
         getServer().getPluginManager().registerEvents(new BlockBreak(),this);
+        getServer().getPluginManager().registerEvents(new MobKillEvent(),this);
         getServer().getPluginManager().registerEvents(new OnJoin(),this);
         getServer().getPluginManager().registerEvents(new ChangeHeldItem(),this);
         getServer().getPluginManager().registerEvents(new InteractItem(),this);

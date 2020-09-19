@@ -9,12 +9,11 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 
 public class OtherMaterials {
+    //Uncommon
     public static ItemStack GlowDust(){
         ItemStack GlowDust = new ItemStack(Material.GLOWSTONE_DUST);
         ItemMeta GlowDustMeta = GlowDust.getItemMeta();
-        GlowDustMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
-        GlowDustMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
-        GlowDustMeta.setDisplayName(ChatColor.GREEN + "Glow Dust");
+        GlowDustMeta.setDisplayName(ChatColor.GREEN + "" + ChatColor.BOLD + "Glow Dust");
         ArrayList<String> GlowDustLore = new ArrayList<>();
         GlowDustLore.add(ChatColor.GRAY + "Dust found at the heart of nature");
         GlowDustMeta.setLore(GlowDustLore);
@@ -22,10 +21,11 @@ public class OtherMaterials {
 
         return GlowDust;
     }
+    //Rare
     public static ItemStack EnhanceFragment(){
         ItemStack EnhanceFragment = new ItemStack(Material.SCUTE);
         ItemMeta EnhanceFragmentMeta = EnhanceFragment.getItemMeta();
-        EnhanceFragmentMeta.setDisplayName(ChatColor.BLUE + "Enhance Fragment");
+        EnhanceFragmentMeta.setDisplayName(ChatColor.BLUE + "" + ChatColor.BOLD + "Enhance Fragment");
         ArrayList<String> EnhancementFragmentLore = new ArrayList<>();
         EnhancementFragmentLore.add(ChatColor.DARK_GRAY + "Enhancement Material");
         EnhancementFragmentLore.add("");
@@ -35,10 +35,11 @@ public class OtherMaterials {
         EnhanceFragment.setItemMeta(EnhanceFragmentMeta);
         return EnhanceFragment;
     }
+    //Epic
     public static ItemStack EnhanceStone(){
         ItemStack EnhanceStone = new ItemStack(Material.SLIME_BALL);
         ItemMeta EnhanceStoneMeta = EnhanceStone.getItemMeta();
-        EnhanceStoneMeta.setDisplayName(ChatColor.LIGHT_PURPLE + "Enhance Stone");
+        EnhanceStoneMeta.setDisplayName(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Enhance Stone");
         ArrayList<String> EnhancementStoneLore = new ArrayList<>();
         EnhancementStoneLore.add(ChatColor.DARK_GRAY + "Enhancement Material");
         EnhancementStoneLore.add("");
@@ -46,6 +47,19 @@ public class OtherMaterials {
         EnhanceStoneMeta.setLore(EnhancementStoneLore);
         EnhanceStone.setItemMeta(EnhanceStoneMeta);
         return EnhanceStone;
+    }
+    //Legendary
+    public static ItemStack ManosFragment(){
+        ItemStack ManosFragment = new ItemStack(Material.SLIME_BALL);
+        ItemMeta ManosFragmentMeta = ManosFragment.getItemMeta();
+        ManosFragmentMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Manos Fragment");
+        ArrayList<String> ManosmentFragmentLore = new ArrayList<>();
+        ManosmentFragmentLore.add(ChatColor.DARK_GRAY + "Manosment Material");
+        ManosmentFragmentLore.add("");
+        ManosmentFragmentLore.add(ChatColor.GRAY + "Use these to create manos stones");
+        ManosFragmentMeta.setLore(ManosmentFragmentLore);
+        ManosFragment.setItemMeta(ManosFragmentMeta);
+        return ManosFragment;
     }
     //Miscellaneous
     public static ItemStack SkillsMenu(){

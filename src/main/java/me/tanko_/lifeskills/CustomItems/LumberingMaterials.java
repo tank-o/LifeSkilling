@@ -277,6 +277,7 @@ public class LumberingMaterials {
 
         return TimberSquare;
     }
+    //Epic
     public static ItemStack ReinforcedStick(){
         ItemStack ReinforcedStick = new ItemStack(Material.STICK);
         ItemMeta ReinforcedStickMeta = ReinforcedStick.getItemMeta();
