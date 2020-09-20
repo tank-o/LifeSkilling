@@ -176,7 +176,7 @@ public class MiningMaterials {
     }
     //Legendary
     public static ItemStack RefinedIngot(){
-        ItemStack RefinedIngot = new ItemStack(Material.NETHERITE_SCRAP);
+        ItemStack RefinedIngot = new ItemStack(Material.NETHERITE_INGOT);
         ItemMeta RefinedIngotMeta= RefinedIngot.getItemMeta();
         RefinedIngotMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Mixed Refined Ingot");
         RefinedIngotMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);

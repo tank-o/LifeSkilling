@@ -24,7 +24,11 @@ public class Butchering {
             int ButcheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Butchering.Mastery");
             int TotalMastery = GatheringMastery + ButcheringMastery;
             int Bracket = (TotalMastery/50) * 50;
-            int lootNum = ThreadLocalRandom.current().nextInt(1, 1000 + 1);
+            //Loot Number
+            double lootNum = ThreadLocalRandom.current().nextDouble(0, 101);
+            lootNum = lootNum*100;
+            lootNum = Math.round(lootNum);
+            lootNum = lootNum /100;
 
             int CommonChance = plugin.getConfig().getInt("Gathering.Butchering.Mastery." + Bracket + ".Common.Chance");
             int MinCommon = plugin.getConfig().getInt("Gathering.Butchering.Mastery." + Bracket + ".Common.Min");
@@ -56,23 +60,23 @@ public class Butchering {
                 CommonDrops(Drops,lootNum,MeatAmount,Meat);
             }
             if (lootNum <= UncommonChance) {
-                UncommonDrops(Drops,UncommonAmount,lootNum,UncommonChance);
+                UncommonDrops(Drops,UncommonAmount);
             }
             if (lootNum <= RareChance){
-                RareDrops(Drops,RareAmount,lootNum,RareChance);
+                RareDrops(Drops,RareAmount);
             }
             if (lootNum <= EpicChance){
-                EpicDrops(Drops,EpicAmount,lootNum,EpicChance);
+                EpicDrops(Drops,EpicAmount);
             }
             if (lootNum <= LegendaryChance){
-                LegendaryDrops(Drops,LegendaryAmount,lootNum,LegendaryChance);
+                LegendaryDrops(Drops,LegendaryAmount);
             }
             ButcheringXP(player,Meat);
             for (ItemStack drop : Drops) {
                 player.getInventory().addItem(drop);
             }
         }
-        public static void CommonDrops(ArrayList<ItemStack> Drops,int lootNum,int meatAmount, String meat){
+        public static void CommonDrops(ArrayList<ItemStack> Drops,double lootNum,int meatAmount, String meat){
             ItemStack Meat = ButcheringMaterials.LambMeat();
             switch(meat){
                 case "wolf":
@@ -91,29 +95,33 @@ public class Butchering {
                 }
             }
         }
-        public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-         if (lootNum >= chance){
+        public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount){
+            int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
+            if (internalNumber == 0){
                     for (int i = 0;i < amount;i++) {
                         Drops.add(OtherMaterials.GlowDust());
                     }
                 }
             }
-        public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-            if ((lootNum >= 0) || (lootNum <= chance)){
+        public static void RareDrops(ArrayList<ItemStack> Drops,int amount){
+            int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
+            if (internalNumber == 0){
                 for (int i=0;i < amount;i++) {
                     Drops.add(OtherMaterials.EnhanceFragment());
                 }
             }
         }
-        public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-            if ((lootNum >= 0) || (lootNum <= chance)){
+        public static void EpicDrops(ArrayList<ItemStack> Drops,int amount){
+            int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
+            if (internalNumber == 0){
                 for (int i=0;i < amount;i++) {
                     Drops.add(OtherMaterials.EnhanceStone());
                 }
             }
         }
-        public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-            if ((lootNum >= 0) || (lootNum <= chance)){
+        public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount){
+            int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
+            if (internalNumber == 0){
                 for (int i=0;i < amount;i++) {
                     Drops.add(OtherMaterials.EnhanceStone());
                 }

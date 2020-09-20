@@ -22,7 +22,11 @@ public class Lumbering {
         int LumberingMastery = PlayerData.getFile().getInt(ID + ".Gathering.Lumbering.Mastery");
         int TotalMastery = GatheringMastery + LumberingMastery;
         int Bracket = (TotalMastery/50) * 50;
-        int lootNum = ThreadLocalRandom.current().nextInt(1, 1000 + 1);
+        //Loot Number
+        double lootNum = ThreadLocalRandom.current().nextDouble(0, 101);
+        lootNum = lootNum*100;
+        lootNum = Math.round(lootNum);
+        lootNum = lootNum /100;
         player.sendMessage(String.valueOf(lootNum));
         player.sendMessage(String.valueOf(Bracket));
         int CommonChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Common.Chance");
@@ -56,16 +60,16 @@ public class Lumbering {
             CommonDrops(Drops,lootNum,TimberAmount,Wood,LogAmount);
         }
         if (lootNum <= UncommonChance) {
-            UncommonDrops(Drops,UncommonAmount,lootNum,UncommonChance,Wood);
+            UncommonDrops(Drops,UncommonAmount,UncommonChance,Wood);
         }
         if (lootNum <= RareChance){
-            RareDrops(Drops,RareAmount,lootNum,RareChance);
+            RareDrops(Drops,RareAmount,RareChance);
         }
         if (lootNum <= EpicChance){
-            EpicDrops(Drops,EpicAmount,lootNum,EpicChance);
+            EpicDrops(Drops,EpicAmount,EpicChance);
         }
         if (lootNum <= LegendaryChance){
-            LegendaryDrops(Drops,LegendaryAmount,lootNum,LegendaryChance);
+            LegendaryDrops(Drops,LegendaryAmount,LegendaryChance);
         }
         LumberingXP(player,Wood);
 
@@ -73,7 +77,7 @@ public class Lumbering {
             player.getInventory().addItem(drop);
         }
     }
-    public static void CommonDrops(ArrayList<ItemStack> Drops,int lootNum,int timberAmount, String wood,int logAmount){
+    public static void CommonDrops(ArrayList<ItemStack> Drops,double lootNum,int timberAmount, String wood,int logAmount){
         ItemStack Wood = LumberingMaterials.OakTimber();
         switch(wood){
             case "acacia":
@@ -95,19 +99,20 @@ public class Lumbering {
                 Wood = LumberingMaterials.SpruceTimber();
                 break;
         }
-        if ((lootNum >= 0) && (lootNum <= 750)){
+        if ((lootNum >= 0.0) && (lootNum <= 75.0)){
             for (int i = 0; i < timberAmount; i++) {
                 Drops.add(Wood);
             }
         }
-        if ((lootNum >= 250) && (lootNum <= 1000)) {
+        if ((lootNum >= 25.0) && (lootNum <= 100.0)) {
             for (int i = 0; i < logAmount; i++) {
                 Drops.add(LumberingMaterials.Log());
             }
         }
     }
-    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance,String wood){
+    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int chance,String wood){
         ItemStack Plank = LumberingMaterials.OakPlank();
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 2);
         switch(wood){
             case "acacia":
                 Plank = LumberingMaterials.AcaciaPlank();
@@ -128,32 +133,35 @@ public class Lumbering {
                 Plank = LumberingMaterials.SprucePlank();
                 break;
         }
-        if (lootNum <= chance/2){
+        if (internalNumber == 0){
             for (int i = 0;i < amount;i++) {
                 Drops.add(Plank);
             }
-        } else if ((lootNum <= chance) && (lootNum >= chance/2)){
+        } else if (internalNumber == 1){
             for (int i = 0;i < amount;i++) {
                 Drops.add(OtherMaterials.GlowDust());
             }
         }
     }
-    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-        if ((lootNum >= 0) || (lootNum <= chance)){
+    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
+        if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(OtherMaterials.EnhanceFragment());
             }
         }
     }
-    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-        if ((lootNum >= 0) || (lootNum <= chance)){
+    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
+        if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(OtherMaterials.EnhanceStone());
             }
         }
     }
-    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-        if ((lootNum >= 0) || (lootNum <= chance)){
+    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
+        if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(OtherMaterials.EnhanceStone());
             }

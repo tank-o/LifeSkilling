@@ -20,6 +20,8 @@ public class LumberingMaterials {
         LogLore.add(ChatColor.GRAY + "all trees");
         LogLore.add(ChatColor.GRAY + "");
         LogLore.add(ChatColor.DARK_GRAY + "Process this item to get log planks");
+        LogLore.add(ChatColor.GRAY + "");
+        LogLore.add(ChatColor.WHITE + "" + ChatColor.BOLD + "COMMON");
         LogMeta.setLore(LogLore);
         Log.setItemMeta(LogMeta);
         return Log;
@@ -30,12 +32,10 @@ public class LumberingMaterials {
         AcaciaTimberMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Acacia Timber");
         ArrayList<String> AcaciaTimberLore = new ArrayList<String>();
         AcaciaTimberLore.add(ChatColor.GRAY + "Process this item to get acacia planks");
+        AcaciaTimberLore.add(ChatColor.GRAY + "");
+        AcaciaTimberLore.add(ChatColor.WHITE + "" + ChatColor.BOLD + "COMMON");
         AcaciaTimberMeta.setLore(AcaciaTimberLore);
         AcaciaTimber.setItemMeta(AcaciaTimberMeta);
-
-        ItemStack AcaciaTimberStack = new ItemStack(Material.ACACIA_LOG,64);
-        AcaciaTimberStack.setItemMeta(AcaciaTimberMeta);
-
 
         return AcaciaTimber;
     }
@@ -45,6 +45,8 @@ public class LumberingMaterials {
         BirchTimberMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Birch Timber");
         ArrayList<String> BirchTimberLore = new ArrayList<String>();
         BirchTimberLore.add(ChatColor.GRAY + "Process this item to get birch planks");
+        BirchTimberLore.add("");
+        BirchTimberLore.add(ChatColor.WHITE + "" + ChatColor.BOLD + "COMMON");
         BirchTimberMeta.setLore(BirchTimberLore);
         BirchTimber.setItemMeta(BirchTimberMeta);
 
@@ -56,6 +58,8 @@ public class LumberingMaterials {
         OakTimberMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Oak Timber");
         ArrayList<String> OakTimberLore = new ArrayList<String>();
         OakTimberLore.add(ChatColor.GRAY + "Process this item to get oak planks");
+        OakTimberLore.add("");
+        OakTimberLore.add(ChatColor.WHITE + "" + ChatColor.BOLD + "COMMON");
         OakTimberMeta.setLore(OakTimberLore);
         OakTimber.setItemMeta(OakTimberMeta);
 
@@ -67,6 +71,8 @@ public class LumberingMaterials {
         SpruceTimberMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Spruce Timber");
         ArrayList<String> SpruceTimberLore = new ArrayList<String>();
         SpruceTimberLore.add(ChatColor.GRAY + "Process this item to get spruce planks");
+        SpruceTimberLore.add("");
+        SpruceTimberLore.add(ChatColor.WHITE + "" + ChatColor.BOLD + "COMMON");
         SpruceTimberMeta.setLore(SpruceTimberLore);
         SpruceTimber.setItemMeta(SpruceTimberMeta);
 
@@ -78,6 +84,8 @@ public class LumberingMaterials {
         JungleTimberMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Jungle Timber");
         ArrayList<String> JungleTimberLore = new ArrayList<String>();
         JungleTimberLore.add(ChatColor.GRAY + "Process this item to get jungle planks");
+        JungleTimberLore.add("");
+        JungleTimberLore.add(ChatColor.WHITE + "" + ChatColor.BOLD + "COMMON");
         JungleTimberMeta.setLore(JungleTimberLore);
         JungleTimber.setItemMeta(JungleTimberMeta);
 
@@ -89,6 +97,8 @@ public class LumberingMaterials {
         DarkOakTimberMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Dark Oak Timber");
         ArrayList<String> DarkOakTimberLore = new ArrayList<String>();
         DarkOakTimberLore.add(ChatColor.GRAY + "Process this item to get dark oak planks");
+        DarkOakTimberLore.add("");
+        DarkOakTimberLore.add(ChatColor.WHITE + "" + ChatColor.BOLD + "COMMON");
         DarkOakTimberMeta.setLore(DarkOakTimberLore);
         DarkOakTimber.setItemMeta(DarkOakTimberMeta);
 
@@ -102,6 +112,8 @@ public class LumberingMaterials {
         ArrayList<String> AcaciaPlankLore = new ArrayList<String>();
         AcaciaPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         AcaciaPlankLore.add(ChatColor.GRAY + "Process this item to get acacia plywood");
+        AcaciaPlankLore.add("");
+        AcaciaPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         AcaciaPlankMeta.setLore(AcaciaPlankLore);
         AcaciaPlank.setItemMeta(AcaciaPlankMeta);
         return AcaciaPlank;
@@ -113,6 +125,8 @@ public class LumberingMaterials {
         ArrayList<String> BirchPlankLore = new ArrayList<String>();
         BirchPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         BirchPlankLore.add(ChatColor.GRAY + "Process this item to get birch plywood");
+        BirchPlankLore.add("");
+        BirchPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         BirchPlankMeta.setLore(BirchPlankLore);
         BirchPlank.setItemMeta(BirchPlankMeta);
 
@@ -125,6 +139,8 @@ public class LumberingMaterials {
         ArrayList<String> OakPlankLore = new ArrayList<String>();
         OakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         OakPlankLore.add(ChatColor.GRAY + "Process this item to get oak plywood");
+        OakPlankLore.add("");
+        OakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         OakPlankMeta.setLore(OakPlankLore);
         OakPlank.setItemMeta(OakPlankMeta);
 
@@ -137,6 +153,8 @@ public class LumberingMaterials {
         ArrayList<String> DarkOakPlankLore = new ArrayList<String>();
         DarkOakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         DarkOakPlankLore.add(ChatColor.GRAY + "Process this item to get dark oak plywood");
+        DarkOakPlankLore.add("");
+        DarkOakPlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         DarkOakPlankMeta.setLore(DarkOakPlankLore);
         DarkOakPlank.setItemMeta(DarkOakPlankMeta);
 
@@ -149,6 +167,8 @@ public class LumberingMaterials {
         ArrayList<String> SprucePlankLore = new ArrayList<String>();
         SprucePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         SprucePlankLore.add(ChatColor.GRAY + "Process this item to get spruce plywood");
+        SprucePlankLore.add("");
+        SprucePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         SprucePlankMeta.setLore(SprucePlankLore);
         SprucePlank.setItemMeta(SprucePlankMeta);
 
@@ -161,6 +181,8 @@ public class LumberingMaterials {
         ArrayList<String> JunglePlankLore = new ArrayList<String>();
         JunglePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         JunglePlankLore.add(ChatColor.GRAY + "Process this item to get jungle plywood");
+        JunglePlankLore.add("");
+        JunglePlankLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         JunglePlankMeta.setLore(JunglePlankLore);
         JunglePlank.setItemMeta(JunglePlankMeta);
 
@@ -176,6 +198,8 @@ public class LumberingMaterials {
         ArrayList<String> AcaciaPlywoodLore = new ArrayList<String>();
         AcaciaPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         AcaciaPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        AcaciaPlywoodLore.add("");
+        AcaciaPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "RARE");
         AcaciaPlywoodMeta.setLore(AcaciaPlywoodLore);
         AcaciaPlywood.setItemMeta(AcaciaPlywoodMeta);
         return AcaciaPlywood;
@@ -189,6 +213,8 @@ public class LumberingMaterials {
         ArrayList<String> BirchPlywoodLore = new ArrayList<String>();
         BirchPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         BirchPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        BirchPlywoodLore.add("");
+        BirchPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "RARE");
         BirchPlywoodMeta.setLore(BirchPlywoodLore);
         BirchPlywood.setItemMeta(BirchPlywoodMeta);
 
@@ -203,6 +229,8 @@ public class LumberingMaterials {
         ArrayList<String> OakPlywoodLore = new ArrayList<String>();
         OakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         OakPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        OakPlywoodLore.add("");
+        OakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "RARE");
         OakPlywoodMeta.setLore(OakPlywoodLore);
         OakPlywood.setItemMeta(OakPlywoodMeta);
 
@@ -217,6 +245,8 @@ public class LumberingMaterials {
         ArrayList<String> DarkOakPlywoodLore = new ArrayList<String>();
         DarkOakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         DarkOakPlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        DarkOakPlywoodLore.add("");
+        DarkOakPlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "RARE");
         DarkOakPlywoodMeta.setLore(DarkOakPlywoodLore);
         DarkOakPlywood.setItemMeta(DarkOakPlywoodMeta);
 
@@ -231,6 +261,8 @@ public class LumberingMaterials {
         ArrayList<String> SprucePlywoodLore = new ArrayList<String>();
         SprucePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         SprucePlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        SprucePlywoodLore.add("");
+        SprucePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "RARE");
         SprucePlywoodMeta.setLore(SprucePlywoodLore);
         SprucePlywood.setItemMeta(SprucePlywoodMeta);
 
@@ -245,6 +277,8 @@ public class LumberingMaterials {
         ArrayList<String> JunglePlywoodLore = new ArrayList<String>();
         JunglePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         JunglePlywoodLore.add(ChatColor.GRAY + "Use this to craft new items");
+        JunglePlywoodLore.add("");
+        JunglePlywoodLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "RARE");
         JunglePlywoodMeta.setLore(JunglePlywoodLore);
         JunglePlywood.setItemMeta(JunglePlywoodMeta);
 
@@ -257,6 +291,8 @@ public class LumberingMaterials {
         ArrayList<String> ScantlingLore = new ArrayList<String>();
         ScantlingLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "Tier 2 Material");
         ScantlingLore.add(ChatColor.GRAY + "Use this to craft Timer Squares");
+        ScantlingLore.add("");
+        ScantlingLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ScantlingMeta.setLore(ScantlingLore);
         Scantling.setItemMeta(ScantlingMeta);
 
@@ -272,6 +308,8 @@ public class LumberingMaterials {
         ArrayList<String> TimberSquareLore = new ArrayList<String>();
         TimberSquareLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "Tier 3 Material");
         TimberSquareLore.add(ChatColor.GRAY + "Use this to craft other materials");
+        TimberSquareLore.add("");
+        TimberSquareLore.add(ChatColor.BLUE + "" + ChatColor.BOLD + "RARE");
         TimberSquareMeta.setLore(TimberSquareLore);
         TimberSquare.setItemMeta(TimberSquareMeta);
 
@@ -287,6 +325,8 @@ public class LumberingMaterials {
         ArrayList<String> ReinforcedStickLore = new ArrayList<>();
         ReinforcedStickLore.add(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Tier 4 Material");
         ReinforcedStickLore.add(ChatColor.GRAY + "Use this to craft tools");
+        ReinforcedStickLore.add("");
+        ReinforcedStickLore.add(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "EPIC");
         ReinforcedStickMeta.setLore(ReinforcedStickLore);
         ReinforcedStick.setItemMeta(ReinforcedStickMeta);
 

@@ -1,6 +1,5 @@
 package me.tanko_.lifeskills.Mining;
 
-import me.tanko_.lifeskills.CustomItems.LumberingMaterials;
 import me.tanko_.lifeskills.CustomItems.MiningMaterials;
 import me.tanko_.lifeskills.CustomItems.OtherMaterials;
 import me.tanko_.lifeskills.Data.PlayerData;
@@ -11,6 +10,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -23,9 +23,12 @@ public class Mining {
         int MiningMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mining.Mastery");
         int TotalMastery = GatheringMastery + MiningMastery;
         int Bracket = (TotalMastery/50) * 50;
-        int lootNum = ThreadLocalRandom.current().nextInt(1, 1000 + 1);
+        //Loot Number
+        double lootNum = ThreadLocalRandom.current().nextDouble(0, 101);
+        lootNum = lootNum*100;
+        lootNum = Math.round(lootNum);
+        lootNum = lootNum /100;
         player.sendMessage(String.valueOf(lootNum));
-        player.sendMessage(String.valueOf(Bracket));
         int CommonChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Chance");
         int MinCommon = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Min");
         int MaxCommon = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Max");
@@ -74,22 +77,22 @@ public class Mining {
             player.getInventory().addItem(drop);
         }
     }
-    public static void CommonDrops(ArrayList<ItemStack> Drops,int lootNum,int stoneAmount,int metalAmount){
+    public static void CommonDrops(ArrayList<ItemStack> Drops,double lootNum,int stoneAmount,int metalAmount){
         ItemStack Stone = MiningMaterials.RoughStone();
-        if ((lootNum >= 0) && (lootNum <= 750)){
+        if ((lootNum >= 0) && (lootNum <= 75.00)){
             for (int i = 0; i < stoneAmount; i++) {
                 Drops.add(Stone);
             }
         }
-        if ((lootNum >= 600) && (lootNum <= 733)) {
+        if ((lootNum >= 60.00) && (lootNum <= 73.33)) {
             for (int i = 0; i < metalAmount; i++) {
                 Drops.add(MiningMaterials.CopperOre());
             }
-        } else if ((lootNum >= 866) && (lootNum <= 1000)){
+        } else if ((lootNum >= 86.66) && (lootNum <= 100.00)){
             for (int i = 0; i < metalAmount; i++) {
                 Drops.add(MiningMaterials.IronOre());
             }
-        } else if ((lootNum >= 733) && (lootNum <= 866)){
+        } else if ((lootNum >= 73.33) && (lootNum <= 86.66)){
             for (int i = 0; i < metalAmount; i++) {
                 Drops.add(MiningMaterials.GoldOre());
             }
@@ -97,60 +100,64 @@ public class Mining {
 
 
     }
-    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-        if (lootNum <= chance/3){
+    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 3);
+        if (internalNumber == 0){
             for (int i = 0;i < amount;i++) {
                 Drops.add(MiningMaterials.CopperFragment());
             }
-        } else if ((lootNum <= chance/3) && (lootNum >= (2* chance/3))){
+        } else if (internalNumber == 1){
             for (int i = 0;i < amount;i++) {
                 Drops.add(MiningMaterials.IronFragment());
             }
-        } else if ((lootNum <= (2* chance/3)) && (lootNum >= chance)){
+        } else if (internalNumber == 2){
             for (int i = 0;i < amount;i++) {
                 Drops.add(MiningMaterials.GoldFragment());
             }
         }
 
     }
-    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-        if ((lootNum >= 0) || (lootNum <= chance/4)){
+    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 4);
+        if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(OtherMaterials.EnhanceFragment());
             }
-        } else  if ((lootNum <= chance/4) && (lootNum >= (2* chance/4))){
+        } else  if (internalNumber == 1){
             for (int i=0;i < amount;i++) {
                 Drops.add(MiningMaterials.CopperIngot());
             }
-        } else if ((lootNum <= (2* chance/4)) && (lootNum >= (3* chance/4))){
+        } else if (internalNumber == 2){
             for (int i=0;i < amount;i++) {
                 Drops.add(MiningMaterials.IronIngot());
             }
-        } else if ((lootNum <= (3* chance/4)) && (lootNum >= chance)){
+        } else if (internalNumber == 3){
             for (int i=0;i < amount;i++) {
                 Drops.add(MiningMaterials.GoldIngot());
             }
         }
     }
-    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-        if ((lootNum >= 0) || (lootNum <= chance/2)){
+    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 2);
+        if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
-                Drops.add(MiningMaterials.RefinedIngot());
+                Drops.add(MiningMaterials.MixedRefinedScrap());
             }
-        } else if ((lootNum > chance/2) || (lootNum <= chance)){
+        } else if (internalNumber == 1){
             for (int i=0;i < amount;i++) {
                 Drops.add(OtherMaterials.EnhanceStone());
             }
         }
     }
-    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int lootNum,int chance){
-        if ((lootNum >= 0) || (lootNum <= chance/2)){
+    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 2);
+        if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(MiningMaterials.AncientMinersStone());
             }
-        } else if ((lootNum > chance/2) || (lootNum <= chance)){
-            for (int i=0;i < amount;i++) {
-                Drops.add(OtherMaterials.EnhanceStone());
+        } else if (internalNumber == 1) {
+            for (int i = 0; i < amount; i++) {
+                Drops.add(MiningMaterials.RefinedIngot());
             }
         }
     }

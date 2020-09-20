@@ -16,6 +16,8 @@ public class ButcheringMaterials {
         ArrayList<String> WolfMeatLore = new ArrayList<>();
         WolfMeatLore.add("");
         WolfMeatLore.add(ChatColor.GRAY + "Use this in cooking recipes");
+        WolfMeatLore.add("");;
+        WolfMeatLore.add(ChatColor.WHITE + "COMMON");
         WolfMeatMeta.setLore(WolfMeatLore);
         WolfMeat.setItemMeta(WolfMeatMeta);
         return WolfMeat;
@@ -27,6 +29,8 @@ public class ButcheringMaterials {
         ArrayList<String> LambMeatLore = new ArrayList<>();
         LambMeatLore.add("");
         LambMeatLore.add(ChatColor.GRAY + "Use this in cooking recipes");
+        LambMeatLore.add("");;
+        LambMeatLore.add(ChatColor.WHITE + "COMMON");
         LambMeatMeta.setLore(LambMeatLore);
         LambMeat.setItemMeta(LambMeatMeta);
         return LambMeat;
@@ -38,6 +42,8 @@ public class ButcheringMaterials {
         ArrayList<String> PorkLore = new ArrayList<>();
         PorkLore.add("");
         PorkLore.add(ChatColor.GRAY + "Use this in cooking recipes");
+        PorkLore.add("");;
+        PorkLore.add(ChatColor.WHITE + "COMMON");
         PorkMeta.setLore(PorkLore);
         Pork.setItemMeta(PorkMeta);
         return Pork;

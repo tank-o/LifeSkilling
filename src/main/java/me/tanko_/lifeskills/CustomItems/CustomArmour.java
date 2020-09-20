@@ -19,6 +19,8 @@ public class CustomArmour {
         MasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterHelmetLore = new ArrayList<String>();
         MasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.Base"));
+        MasterHelmetLore.add("");;
+        MasterHelmetLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         MasterHelmetMeta.setLore(MasterHelmetLore);
         MasterHelmet.setItemMeta(MasterHelmetMeta);
         return MasterHelmet;
@@ -31,6 +33,8 @@ public class CustomArmour {
         MasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterChestPlateLore = new ArrayList<String>();
         MasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.Base"));
+        MasterChestPlateLore.add("");;
+        MasterChestPlateLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         MasterChestPlateMeta.setLore(MasterChestPlateLore);
         MasterChestPlate.setItemMeta(MasterChestPlateMeta);
         return MasterChestPlate;
@@ -43,6 +47,8 @@ public class CustomArmour {
         MasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterLeggingsLore = new ArrayList<String>();
         MasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.Base"));
+        MasterLeggingsLore.add("");;
+        MasterLeggingsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         MasterLeggingsMeta.setLore(MasterLeggingsLore);
         MasterLeggings.setItemMeta(MasterLeggingsMeta);
         return MasterLeggings;
@@ -55,6 +61,8 @@ public class CustomArmour {
         MasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> MasterBootsLore = new ArrayList<String>();
         MasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.Base"));
+        MasterBootsLore.add("");;
+        MasterBootsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         MasterBootsMeta.setLore(MasterBootsLore);
         MasterBoots.setItemMeta(MasterBootsMeta);
         return MasterBoots;
@@ -68,6 +76,8 @@ public class CustomArmour {
         OneMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterHelmetLore = new ArrayList<String>();
         OneMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.1Star"));
+        OneMasterHelmetLore.add("");;
+        OneMasterHelmetLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         OneMasterHelmetMeta.setLore(OneMasterHelmetLore);
         OneMasterHelmet.setItemMeta(OneMasterHelmetMeta);
         return OneMasterHelmet;
@@ -80,6 +90,8 @@ public class CustomArmour {
         OneMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterChestPlateLore = new ArrayList<String>();
         OneMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.1Star"));
+        OneMasterChestPlateLore.add("");;
+        OneMasterChestPlateLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         OneMasterChestPlateMeta.setLore(OneMasterChestPlateLore);
         OneMasterChestPlate.setItemMeta(OneMasterChestPlateMeta);
         return OneMasterChestPlate;
@@ -92,6 +104,8 @@ public class CustomArmour {
         OneMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterLeggingsLore = new ArrayList<String>();
         OneMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.1Star"));
+        OneMasterLeggingsLore.add("");;
+        OneMasterLeggingsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         OneMasterLeggingsMeta.setLore(OneMasterLeggingsLore);
         OneMasterLeggings.setItemMeta(OneMasterLeggingsMeta);
         return OneMasterLeggings;
@@ -104,6 +118,8 @@ public class CustomArmour {
         OneMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> OneMasterBootsLore = new ArrayList<String>();
         OneMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.1Star"));
+        OneMasterBootsLore.add("");;
+        OneMasterBootsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         OneMasterBootsMeta.setLore(OneMasterBootsLore);
         OneMasterBoots.setItemMeta(OneMasterBootsMeta);
         return OneMasterBoots;
@@ -116,6 +132,8 @@ public class CustomArmour {
         TwoMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterHelmetLore = new ArrayList<String>();
         TwoMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.2Star"));
+        TwoMasterHelmetLore.add("");;
+        TwoMasterHelmetLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         TwoMasterHelmetMeta.setLore(TwoMasterHelmetLore);
         TwoMasterHelmet.setItemMeta(TwoMasterHelmetMeta);
         return TwoMasterHelmet;
@@ -128,6 +146,8 @@ public class CustomArmour {
         TwoMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterChestPlateLore = new ArrayList<String>();
         TwoMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.2Star"));
+        TwoMasterChestPlateLore.add("");;
+        TwoMasterChestPlateLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         TwoMasterChestPlateMeta.setLore(TwoMasterChestPlateLore);
         TwoMasterChestPlate.setItemMeta(TwoMasterChestPlateMeta);
         return TwoMasterChestPlate;
@@ -140,6 +160,8 @@ public class CustomArmour {
         TwoMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterLeggingsLore = new ArrayList<String>();
         TwoMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.2Star"));
+        TwoMasterLeggingsLore.add("");;
+        TwoMasterLeggingsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         TwoMasterLeggingsMeta.setLore(TwoMasterLeggingsLore);
         TwoMasterLeggings.setItemMeta(TwoMasterLeggingsMeta);
         return TwoMasterLeggings;
@@ -152,6 +174,8 @@ public class CustomArmour {
         TwoMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> TwoMasterBootsLore = new ArrayList<String>();
         TwoMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.2Star"));
+        TwoMasterBootsLore.add("");;
+        TwoMasterBootsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         TwoMasterBootsMeta.setLore(TwoMasterBootsLore);
         TwoMasterBoots.setItemMeta(TwoMasterBootsMeta);
         return TwoMasterBoots;
@@ -164,6 +188,8 @@ public class CustomArmour {
         ThreeMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterHelmetLore = new ArrayList<String>();
         ThreeMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.3Star"));
+        ThreeMasterHelmetLore.add("");;
+        ThreeMasterHelmetLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         ThreeMasterHelmetMeta.setLore(ThreeMasterHelmetLore);
         ThreeMasterHelmet.setItemMeta(ThreeMasterHelmetMeta);
         return ThreeMasterHelmet;
@@ -176,6 +202,8 @@ public class CustomArmour {
         ThreeMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterChestPlateLore = new ArrayList<String>();
         ThreeMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.3Star"));
+        ThreeMasterChestPlateLore.add("");;
+        ThreeMasterChestPlateLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         ThreeMasterChestPlateMeta.setLore(ThreeMasterChestPlateLore);
         ThreeMasterChestPlate.setItemMeta(ThreeMasterChestPlateMeta);
         return ThreeMasterChestPlate;
@@ -188,6 +216,8 @@ public class CustomArmour {
         ThreeMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterLeggingsLore = new ArrayList<String>();
         ThreeMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.3Star"));
+        ThreeMasterLeggingsLore.add("");;
+        ThreeMasterLeggingsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         ThreeMasterLeggingsMeta.setLore(ThreeMasterLeggingsLore);
         ThreeMasterLeggings.setItemMeta(ThreeMasterLeggingsMeta);
         return ThreeMasterLeggings;
@@ -200,6 +230,8 @@ public class CustomArmour {
         ThreeMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> ThreeMasterBootsLore = new ArrayList<String>();
         ThreeMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.3Star"));
+        ThreeMasterBootsLore.add("");;
+        ThreeMasterBootsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         ThreeMasterBootsMeta.setLore(ThreeMasterBootsLore);
         ThreeMasterBoots.setItemMeta(ThreeMasterBootsMeta);
         return ThreeMasterBoots;
@@ -212,6 +244,8 @@ public class CustomArmour {
         FourMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterHelmetLore = new ArrayList<String>();
         FourMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.4Star"));
+        FourMasterHelmetLore.add("");;
+        FourMasterHelmetLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FourMasterHelmetMeta.setLore(FourMasterHelmetLore);
         FourMasterHelmet.setItemMeta(FourMasterHelmetMeta);
         return FourMasterHelmet;
@@ -224,6 +258,8 @@ public class CustomArmour {
         FourMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterChestPlateLore = new ArrayList<String>();
         FourMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.4Star"));
+        FourMasterChestPlateLore.add("");;
+        FourMasterChestPlateLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FourMasterChestPlateMeta.setLore(FourMasterChestPlateLore);
         FourMasterChestPlate.setItemMeta(FourMasterChestPlateMeta);
         return FourMasterChestPlate;
@@ -236,6 +272,8 @@ public class CustomArmour {
         FourMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterLeggingsLore = new ArrayList<String>();
         FourMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.4Star"));
+        FourMasterLeggingsLore.add("");;
+        FourMasterLeggingsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FourMasterLeggingsMeta.setLore(FourMasterLeggingsLore);
         FourMasterLeggings.setItemMeta(FourMasterLeggingsMeta);
         return FourMasterLeggings;
@@ -248,6 +286,8 @@ public class CustomArmour {
         FourMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> FourMasterBootsLore = new ArrayList<String>();
         FourMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.4Star"));
+        FourMasterBootsLore.add("");;
+        FourMasterBootsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FourMasterBootsMeta.setLore(FourMasterBootsLore);
         FourMasterBoots.setItemMeta(FourMasterBootsMeta);
         return FourMasterBoots;
@@ -260,6 +300,8 @@ public class CustomArmour {
         FiveMasterHelmetMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterHelmetLore = new ArrayList<String>();
         FiveMasterHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Helmet.Mastery.5Star"));
+        FiveMasterHelmetLore.add("");;
+        FiveMasterHelmetLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FiveMasterHelmetMeta.setLore(FiveMasterHelmetLore);
         FiveMasterHelmet.setItemMeta(FiveMasterHelmetMeta);
         return FiveMasterHelmet;
@@ -272,6 +314,8 @@ public class CustomArmour {
         FiveMasterChestPlateMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterChestPlateLore = new ArrayList<String>();
         FiveMasterChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Chestplate.Mastery.5Star"));
+        FiveMasterChestPlateLore.add("");;
+        FiveMasterChestPlateLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FiveMasterChestPlateMeta.setLore(FiveMasterChestPlateLore);
         FiveMasterChestPlate.setItemMeta(FiveMasterChestPlateMeta);
         return FiveMasterChestPlate;
@@ -284,6 +328,8 @@ public class CustomArmour {
         FiveMasterLeggingsMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterLeggingsLore = new ArrayList<String>();
         FiveMasterLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Leggings.Mastery.5Star"));
+        FiveMasterLeggingsLore.add("");;
+        FiveMasterLeggingsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FiveMasterLeggingsMeta.setLore(FiveMasterLeggingsLore);
         FiveMasterLeggings.setItemMeta(FiveMasterLeggingsMeta);
         return FiveMasterLeggings;
@@ -295,6 +341,8 @@ public class CustomArmour {
         FiveMasterBootsMeta.setDisplayName(ChatColor.GOLD + "Master Boots ✪✪✪✪✪");
         FiveMasterBootsMeta.setColor(Color.ORANGE);
         ArrayList<String> FiveMasterBootsLore = new ArrayList<String>();
+        FiveMasterBootsLore.add("");;
+        FiveMasterBootsLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         FiveMasterBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Master.Boots.Mastery.5Star"));
         FiveMasterBootsMeta.setLore(FiveMasterBootsLore);
         FiveMasterBoots.setItemMeta(FiveMasterBootsMeta);
@@ -308,6 +356,8 @@ public class CustomArmour {
         ApprenticeHelmetMeta.setColor(Color.GRAY);
         ArrayList<String> ApprenticeHelmetLore = new ArrayList<String>();
         ApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.Base"));
+        ApprenticeHelmetLore.add("");;
+        ApprenticeHelmetLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ApprenticeHelmetMeta.setLore(ApprenticeHelmetLore);
         ApprenticeHelmet.setItemMeta(ApprenticeHelmetMeta);
         return ApprenticeHelmet;
@@ -320,6 +370,8 @@ public class CustomArmour {
         ApprenticeChestPlateMeta.setColor(Color.GREEN);
         ArrayList<String> ApprenticeChestPlateLore = new ArrayList<String>();
         ApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.Base"));
+        ApprenticeChestPlateLore.add("");
+        ApprenticeChestPlateLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ApprenticeChestPlateMeta.setLore(ApprenticeChestPlateLore);
         ApprenticeChestPlate.setItemMeta(ApprenticeChestPlateMeta);
         return ApprenticeChestPlate;
@@ -332,6 +384,8 @@ public class CustomArmour {
         ApprenticeLeggingsMeta.setColor(Color.GRAY);
         ArrayList<String> ApprenticeLeggingsLore = new ArrayList<String>();
         ApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.Base"));
+        ApprenticeLeggingsLore.add("");;
+        ApprenticeLeggingsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ApprenticeLeggingsMeta.setLore(ApprenticeLeggingsLore);
         ApprenticeLeggings.setItemMeta(ApprenticeLeggingsMeta);
         return ApprenticeLeggings;
@@ -344,6 +398,8 @@ public class CustomArmour {
         ApprenticeBootsMeta.setColor(Color.GREEN);
         ArrayList<String> ApprenticeBootsLore = new ArrayList<String>();
         ApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.Base"));
+        ApprenticeBootsLore.add("");;
+        ApprenticeBootsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ApprenticeBootsMeta.setLore(ApprenticeBootsLore);
         ApprenticeBoots.setItemMeta(ApprenticeBootsMeta);
         return ApprenticeBoots;
@@ -357,6 +413,8 @@ public class CustomArmour {
         OneApprenticeHelmetMeta.setColor(Color.GRAY);
         ArrayList<String> OneApprenticeHelmetLore = new ArrayList<String>();
         OneApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.1Star"));
+        OneApprenticeHelmetLore.add("");;
+        OneApprenticeHelmetLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         OneApprenticeHelmetMeta.setLore(OneApprenticeHelmetLore);
         OneApprenticeHelmet.setItemMeta(OneApprenticeHelmetMeta);
         return OneApprenticeHelmet;
@@ -369,6 +427,8 @@ public class CustomArmour {
         OneApprenticeChestPlateMeta.setColor(Color.GREEN);
         ArrayList<String> OneApprenticeChestPlateLore = new ArrayList<String>();
         OneApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.1Star"));
+        OneApprenticeChestPlateLore.add("");;
+        OneApprenticeChestPlateLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         OneApprenticeChestPlateMeta.setLore(OneApprenticeChestPlateLore);
         OneApprenticeChestPlate.setItemMeta(OneApprenticeChestPlateMeta);
         return OneApprenticeChestPlate;
@@ -381,6 +441,8 @@ public class CustomArmour {
         OneApprenticeLeggingsMeta.setColor(Color.GRAY);
         ArrayList<String> OneApprenticeLeggingsLore = new ArrayList<String>();
         OneApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.1Star"));
+        OneApprenticeLeggingsLore.add("");;
+        OneApprenticeLeggingsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         OneApprenticeLeggingsMeta.setLore(OneApprenticeLeggingsLore);
         OneApprenticeLeggings.setItemMeta(OneApprenticeLeggingsMeta);
         return OneApprenticeLeggings;
@@ -393,6 +455,8 @@ public class CustomArmour {
         OneApprenticeBootsMeta.setColor(Color.GREEN);
         ArrayList<String> OneApprenticeBootsLore = new ArrayList<String>();
         OneApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.1Star"));
+        OneApprenticeBootsLore.add("");;
+        OneApprenticeBootsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         OneApprenticeBootsMeta.setLore(OneApprenticeBootsLore);
         OneApprenticeBoots.setItemMeta(OneApprenticeBootsMeta);
         return OneApprenticeBoots;
@@ -405,6 +469,8 @@ public class CustomArmour {
         TwoApprenticeHelmetMeta.setColor(Color.GRAY);
         ArrayList<String> TwoApprenticeHelmetLore = new ArrayList<String>();
         TwoApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.2Star"));
+        TwoApprenticeHelmetLore.add("");;
+        TwoApprenticeHelmetLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         TwoApprenticeHelmetMeta.setLore(TwoApprenticeHelmetLore);
         TwoApprenticeHelmet.setItemMeta(TwoApprenticeHelmetMeta);
         return TwoApprenticeHelmet;
@@ -417,6 +483,8 @@ public class CustomArmour {
         TwoApprenticeChestPlateMeta.setColor(Color.GREEN);
         ArrayList<String> TwoApprenticeChestPlateLore = new ArrayList<String>();
         TwoApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.2Star"));
+        TwoApprenticeChestPlateLore.add("");;
+        TwoApprenticeChestPlateLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         TwoApprenticeChestPlateMeta.setLore(TwoApprenticeChestPlateLore);
         TwoApprenticeChestPlate.setItemMeta(TwoApprenticeChestPlateMeta);
         return TwoApprenticeChestPlate;
@@ -429,6 +497,8 @@ public class CustomArmour {
         TwoApprenticeLeggingsMeta.setColor(Color.GRAY);
         ArrayList<String> TwoApprenticeLeggingsLore = new ArrayList<String>();
         TwoApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.2Star"));
+        TwoApprenticeLeggingsLore.add("");;
+        TwoApprenticeLeggingsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         TwoApprenticeLeggingsMeta.setLore(TwoApprenticeLeggingsLore);
         TwoApprenticeLeggings.setItemMeta(TwoApprenticeLeggingsMeta);
         return TwoApprenticeLeggings;
@@ -441,6 +511,8 @@ public class CustomArmour {
         TwoApprenticeBootsMeta.setColor(Color.GREEN);
         ArrayList<String> TwoApprenticeBootsLore = new ArrayList<String>();
         TwoApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.2Star"));
+        TwoApprenticeBootsLore.add("");;
+        TwoApprenticeBootsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         TwoApprenticeBootsMeta.setLore(TwoApprenticeBootsLore);
         TwoApprenticeBoots.setItemMeta(TwoApprenticeBootsMeta);
         return TwoApprenticeBoots;
@@ -453,6 +525,8 @@ public class CustomArmour {
         ThreeApprenticeHelmetMeta.setColor(Color.GRAY);
         ArrayList<String> ThreeApprenticeHelmetLore = new ArrayList<String>();
         ThreeApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.3Star"));
+        ThreeApprenticeHelmetLore.add("");;
+        ThreeApprenticeHelmetLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ThreeApprenticeHelmetMeta.setLore(ThreeApprenticeHelmetLore);
         ThreeApprenticeHelmet.setItemMeta(ThreeApprenticeHelmetMeta);
         return ThreeApprenticeHelmet;
@@ -465,6 +539,8 @@ public class CustomArmour {
         ThreeApprenticeChestPlateMeta.setColor(Color.GREEN);
         ArrayList<String> ThreeApprenticeChestPlateLore = new ArrayList<String>();
         ThreeApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.3Star"));
+        ThreeApprenticeChestPlateLore.add("");;
+        ThreeApprenticeChestPlateLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ThreeApprenticeChestPlateMeta.setLore(ThreeApprenticeChestPlateLore);
         ThreeApprenticeChestPlate.setItemMeta(ThreeApprenticeChestPlateMeta);
         return ThreeApprenticeChestPlate;
@@ -477,6 +553,8 @@ public class CustomArmour {
         ThreeApprenticeLeggingsMeta.setColor(Color.GRAY);
         ArrayList<String> ThreeApprenticeLeggingsLore = new ArrayList<String>();
         ThreeApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.3Star"));
+        ThreeApprenticeLeggingsLore.add("");;
+        ThreeApprenticeLeggingsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ThreeApprenticeLeggingsMeta.setLore(ThreeApprenticeLeggingsLore);
         ThreeApprenticeLeggings.setItemMeta(ThreeApprenticeLeggingsMeta);
         return ThreeApprenticeLeggings;
@@ -489,6 +567,8 @@ public class CustomArmour {
         ThreeApprenticeBootsMeta.setColor(Color.GREEN);
         ArrayList<String> ThreeApprenticeBootsLore = new ArrayList<String>();
         ThreeApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.3Star"));
+        ThreeApprenticeBootsLore.add("");;
+        ThreeApprenticeBootsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         ThreeApprenticeBootsMeta.setLore(ThreeApprenticeBootsLore);
         ThreeApprenticeBoots.setItemMeta(ThreeApprenticeBootsMeta);
         return ThreeApprenticeBoots;
@@ -501,6 +581,8 @@ public class CustomArmour {
         FourApprenticeHelmetMeta.setColor(Color.GRAY);
         ArrayList<String> FourApprenticeHelmetLore = new ArrayList<String>();
         FourApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.4Star"));
+        FourApprenticeHelmetLore.add("");;
+        FourApprenticeHelmetLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FourApprenticeHelmetMeta.setLore(FourApprenticeHelmetLore);
         FourApprenticeHelmet.setItemMeta(FourApprenticeHelmetMeta);
         return FourApprenticeHelmet;
@@ -513,6 +595,8 @@ public class CustomArmour {
         FourApprenticeChestPlateMeta.setColor(Color.GREEN);
         ArrayList<String> FourApprenticeChestPlateLore = new ArrayList<String>();
         FourApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.4Star"));
+        FourApprenticeChestPlateLore.add("");;
+        FourApprenticeChestPlateLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FourApprenticeChestPlateMeta.setLore(FourApprenticeChestPlateLore);
         FourApprenticeChestPlate.setItemMeta(FourApprenticeChestPlateMeta);
         return FourApprenticeChestPlate;
@@ -525,6 +609,8 @@ public class CustomArmour {
         FourApprenticeLeggingsMeta.setColor(Color.GRAY);
         ArrayList<String> FourApprenticeLeggingsLore = new ArrayList<String>();
         FourApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.4Star"));
+        FourApprenticeLeggingsLore.add("");;
+        FourApprenticeLeggingsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FourApprenticeLeggingsMeta.setLore(FourApprenticeLeggingsLore);
         FourApprenticeLeggings.setItemMeta(FourApprenticeLeggingsMeta);
         return FourApprenticeLeggings;
@@ -537,6 +623,8 @@ public class CustomArmour {
         FourApprenticeBootsMeta.setColor(Color.GREEN);
         ArrayList<String> FourApprenticeBootsLore = new ArrayList<String>();
         FourApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.4Star"));
+        FourApprenticeBootsLore.add("");;
+        FourApprenticeBootsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FourApprenticeBootsMeta.setLore(FourApprenticeBootsLore);
         FourApprenticeBoots.setItemMeta(FourApprenticeBootsMeta);
         return FourApprenticeBoots;
@@ -549,6 +637,8 @@ public class CustomArmour {
         FiveApprenticeHelmetMeta.setColor(Color.GRAY);
         ArrayList<String> FiveApprenticeHelmetLore = new ArrayList<String>();
         FiveApprenticeHelmetLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Helmet.Mastery.5Star"));
+        FiveApprenticeHelmetLore.add("");;
+        FiveApprenticeHelmetLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FiveApprenticeHelmetMeta.setLore(FiveApprenticeHelmetLore);
         FiveApprenticeHelmet.setItemMeta(FiveApprenticeHelmetMeta);
         return FiveApprenticeHelmet;
@@ -561,6 +651,8 @@ public class CustomArmour {
         FiveApprenticeChestPlateMeta.setColor(Color.GREEN);
         ArrayList<String> FiveApprenticeChestPlateLore = new ArrayList<String>();
         FiveApprenticeChestPlateLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Chestplate.Mastery.5Star"));
+        FiveApprenticeChestPlateLore.add("");;
+        FiveApprenticeChestPlateLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FiveApprenticeChestPlateMeta.setLore(FiveApprenticeChestPlateLore);
         FiveApprenticeChestPlate.setItemMeta(FiveApprenticeChestPlateMeta);
         return FiveApprenticeChestPlate;
@@ -573,6 +665,8 @@ public class CustomArmour {
         FiveApprenticeLeggingsMeta.setColor(Color.GRAY);
         ArrayList<String> FiveApprenticeLeggingsLore = new ArrayList<String>();
         FiveApprenticeLeggingsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Leggings.Mastery.5Star"));
+        FiveApprenticeLeggingsLore.add("");;
+        FiveApprenticeLeggingsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FiveApprenticeLeggingsMeta.setLore(FiveApprenticeLeggingsLore);
         FiveApprenticeLeggings.setItemMeta(FiveApprenticeLeggingsMeta);
         return FiveApprenticeLeggings;
@@ -585,6 +679,8 @@ public class CustomArmour {
         FiveApprenticeBootsMeta.setColor(Color.GREEN);
         ArrayList<String> FiveApprenticeBootsLore = new ArrayList<String>();
         FiveApprenticeBootsLore.add(ChatColor.GRAY + "Mastery: " + plugin.getConfig().getInt("Armour.Apprentice.Boots.Mastery.5Star"));
+        FiveApprenticeBootsLore.add("");;
+        FiveApprenticeBootsLore.add(ChatColor.GREEN + "" + ChatColor.BOLD + "UNCOMMON");
         FiveApprenticeBootsMeta.setLore(FiveApprenticeBootsLore);
         FiveApprenticeBoots.setItemMeta(FiveApprenticeBootsMeta);
         return FiveApprenticeBoots;
