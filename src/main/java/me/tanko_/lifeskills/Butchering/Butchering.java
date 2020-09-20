@@ -24,11 +24,31 @@ public class Butchering {
             int ButcheringMastery = PlayerData.getFile().getInt(ID + ".Gathering.Butchering.Mastery");
             int TotalMastery = GatheringMastery + ButcheringMastery;
             int Bracket = (TotalMastery/50) * 50;
-            //Loot Number
-            double lootNum = ThreadLocalRandom.current().nextDouble(0, 101);
+            //Loot Numbers
+            double lootNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
             lootNum = lootNum*100;
             lootNum = Math.round(lootNum);
             lootNum = lootNum /100;
+
+            double UncommonNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+            UncommonNum = UncommonNum*100;
+            UncommonNum = Math.round(UncommonNum);
+            UncommonNum = UncommonNum /100;
+
+            double RareNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+            RareNum = RareNum*100;
+            RareNum = Math.round(RareNum);
+            RareNum = RareNum /100;
+
+            double EpicNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+            EpicNum = EpicNum*100;
+            EpicNum = Math.round(EpicNum);
+            EpicNum = EpicNum /100;
+
+            double LegendaryNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+            LegendaryNum = LegendaryNum*100;
+            LegendaryNum = Math.round(LegendaryNum);
+            LegendaryNum = LegendaryNum /100;
 
             int CommonChance = plugin.getConfig().getInt("Gathering.Butchering.Mastery." + Bracket + ".Common.Chance");
             int MinCommon = plugin.getConfig().getInt("Gathering.Butchering.Mastery." + Bracket + ".Common.Min");
@@ -59,16 +79,16 @@ public class Butchering {
             if (lootNum <= CommonChance){
                 CommonDrops(Drops,lootNum,MeatAmount,Meat);
             }
-            if (lootNum <= UncommonChance) {
+            if (UncommonNum <= UncommonChance) {
                 UncommonDrops(Drops,UncommonAmount);
             }
-            if (lootNum <= RareChance){
+            if (RareNum <= RareChance){
                 RareDrops(Drops,RareAmount);
             }
-            if (lootNum <= EpicChance){
+            if (EpicNum <= EpicChance){
                 EpicDrops(Drops,EpicAmount);
             }
-            if (lootNum <= LegendaryChance){
+            if (LegendaryNum <= LegendaryChance){
                 LegendaryDrops(Drops,LegendaryAmount);
             }
             ButcheringXP(player,Meat);

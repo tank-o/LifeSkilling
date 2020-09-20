@@ -332,4 +332,35 @@ public class LumberingMaterials {
 
         return ReinforcedStick;
     }
+    //Legendary
+    public static ItemStack LumberCore(){
+        ItemStack LumberCore = new ItemStack(Material.OAK_LOG);
+        ItemMeta LumberCoreMeta= LumberCore.getItemMeta();
+        LumberCoreMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Lumberjack Core");
+        LumberCoreMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        LumberCoreMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> LumberCoreLore = new ArrayList<>();
+        LumberCoreLore.add("");
+        LumberCoreLore.add(ChatColor.GRAY + "Use this to create new crafting materials");
+        LumberCoreLore.add("");
+        LumberCoreLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
+        LumberCoreMeta.setLore(LumberCoreLore);
+        LumberCore.setItemMeta(LumberCoreMeta);
+        return LumberCore;
+    }
+    public static ItemStack LumberManosStone(){
+        ItemStack LumberManosStone = new ItemStack(Material.DIAMOND);
+        ItemMeta LumberManosStoneMeta= LumberManosStone.getItemMeta();
+        LumberManosStoneMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Lumber Manos Stone");
+        LumberManosStoneMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        LumberManosStoneMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> LumberManosStoneLore = new ArrayList<>();
+        LumberManosStoneLore.add("");
+        LumberManosStoneLore.add(ChatColor.GRAY + "Use this to create new crafting materials");
+        LumberManosStoneLore.add("");
+        LumberManosStoneLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
+        LumberManosStoneMeta.setLore(LumberManosStoneLore);
+        LumberManosStone.setItemMeta(LumberManosStoneMeta);
+        return LumberManosStone;
+    }
 }

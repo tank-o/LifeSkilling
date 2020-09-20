@@ -15,12 +15,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -32,15 +36,19 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
+          Chance: 15.0
         Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
         Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
-          Chance: 0.5
+          Chance: 0.1
       100:
         Common: #Tier 1 Mats - Stone/Minerals
           Min: 1
@@ -49,12 +57,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -66,12 +78,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -83,12 +99,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -100,12 +120,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -117,12 +141,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -134,12 +162,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -151,12 +183,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -168,12 +204,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -185,12 +225,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -202,12 +246,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -219,12 +267,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -236,12 +288,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -253,12 +309,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -270,12 +330,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -287,12 +351,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -304,12 +372,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -321,12 +393,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -338,12 +414,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -355,12 +435,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -372,12 +456,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -389,12 +477,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -406,12 +498,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -423,12 +519,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -440,12 +540,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -457,12 +561,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -474,12 +582,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -491,12 +603,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -508,12 +624,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -525,12 +645,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -542,12 +666,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -559,12 +687,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -576,12 +708,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -593,12 +729,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -610,12 +750,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -627,12 +771,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -644,12 +792,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -661,12 +813,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -678,12 +834,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -695,12 +855,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -723,12 +887,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -757,12 +925,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -774,12 +946,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -791,12 +967,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -808,12 +988,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -825,12 +1009,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -842,12 +1030,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -859,12 +1051,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -876,12 +1072,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -893,12 +1093,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -910,12 +1114,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -927,12 +1135,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -944,12 +1156,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -961,12 +1177,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -978,12 +1198,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -995,12 +1219,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1012,12 +1240,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1029,12 +1261,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1046,12 +1282,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1063,12 +1303,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1080,12 +1324,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1097,12 +1345,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1114,12 +1366,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1131,12 +1387,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1148,12 +1408,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1165,12 +1429,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1182,12 +1450,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1199,12 +1471,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1216,12 +1492,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1233,12 +1513,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1250,12 +1534,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1267,12 +1555,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1284,12 +1576,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1301,12 +1597,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1318,12 +1618,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1335,12 +1639,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1352,12 +1660,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1369,12 +1681,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1386,12 +1702,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1403,12 +1723,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1429,12 +1753,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1446,12 +1774,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1463,12 +1795,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1480,12 +1816,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1497,12 +1837,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1514,12 +1858,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1531,12 +1879,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1548,12 +1900,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1565,12 +1921,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1582,12 +1942,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1599,12 +1963,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1616,12 +1984,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1633,12 +2005,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1650,12 +2026,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1667,12 +2047,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1684,12 +2068,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1701,12 +2089,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1718,12 +2110,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1735,12 +2131,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1752,12 +2152,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1769,12 +2173,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1786,12 +2194,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1803,12 +2215,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1820,12 +2236,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1837,12 +2257,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1854,12 +2278,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1871,12 +2299,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1888,12 +2320,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1905,12 +2341,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1922,12 +2362,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1939,12 +2383,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1956,12 +2404,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1973,12 +2425,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -1990,12 +2446,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2007,12 +2467,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2024,12 +2488,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2041,12 +2509,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2058,12 +2530,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2075,12 +2551,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2092,12 +2572,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2109,12 +2593,16 @@ Gathering:
         Uncommon: #Tier 2 Mats - Processed Logs/Miscellaneous
           Min: 1
           Max: 1
-          Chance: 10.0
-        Rare: #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Chance: 15.0
+        Rare:       #Mats - Basic Enhancement Materials, Basic Crafting Mats
+          Min: 1
+          Max: 1
+          Chance: 5.0
+        Epic: #Mats - Basic Enhancement Materials, Basic Crafting Mats
           Min: 1
           Max: 1
           Chance: 2.0
-        Legendary: #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
+        Legendary:    #Tier 3 Mats - Advanced Enhancement Materials, Advanced Crafting Mats
           Min: 1
           Max: 1
           Chance: 0.1
@@ -2126,21 +2614,6 @@ Alchemy: #Alchemy LifeSkill
 Riding: #Riding LifeSkill
 Fishing: #Fishing LifeSkill
 Processing: #Processing LifeSkill
-  CraftAmounts:
-    Chopping:
-      AcaciaPlank: 10
-      OakPlank: 10
-      BirchPlank: 10
-      DarkOakPlank: 10
-      SprucePlank: 10
-      JunglePlank: 10
-      AcaciaPlywood: 10
-      OakPlywood: 10
-      BirchPlywood: 10
-      DarkOakPlywood: 10
-      SprucePlywood: 10
-      JunglePlywood: 10
-    Grinding:  
 
 
 #

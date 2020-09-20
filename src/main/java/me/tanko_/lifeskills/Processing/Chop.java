@@ -1,6 +1,7 @@
 package me.tanko_.lifeskills.Processing;
 
 import me.tanko_.lifeskills.CustomItems.LumberingMaterials;
+import me.tanko_.lifeskills.CustomItems.OtherMaterials;
 import me.tanko_.lifeskills.LifeSkills;
 import me.tanko_.lifeskills.Lumbering.Lumbering;
 import org.bukkit.Bukkit;
@@ -64,6 +65,10 @@ public class Chop {
             RemoveItems(player,ingredients,Result);
         } else if (Result.equals(LumberingMaterials.TimberSquare())){
             ingredients.put(LumberingMaterials.Scantling(),10);
+            RemoveItems(player,ingredients,Result);
+        } else if (Result.equals(LumberingMaterials.LumberManosStone())){
+            ingredients.put(OtherMaterials.ManosFragment(),10);
+            ingredients.put(LumberingMaterials.LumberCore(),1);
             RemoveItems(player,ingredients,Result);
         }
     }

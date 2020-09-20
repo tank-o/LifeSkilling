@@ -1,13 +1,15 @@
 package me.tanko_.lifeskills.CheckInventories;
 
 import me.tanko_.lifeskills.CustomItems.LumberingMaterials;
+import me.tanko_.lifeskills.Menus.GrindingProcessingMenu;
+import me.tanko_.lifeskills.Menus.HeatingProcessingMenu;
 import me.tanko_.lifeskills.Menus.MainMenu;
 import me.tanko_.lifeskills.Processing.Chop;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
-public class CheckProcessing {
+public class CheckLumberingProcessing {
 
     public static void Check(Player player, InventoryClickEvent e){
         if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.RED + "" + ChatColor.BOLD + "Back")) {
@@ -58,7 +60,14 @@ public class CheckProcessing {
         }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Reinforced Stick")) {
             e.setCancelled(true);
             Chop.Chop(player, LumberingMaterials.ReinforcedStick());
+        }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.GOLD + "" + ChatColor.BOLD + "Lumber Manos Stone")) {
+            e.setCancelled(true);
+            Chop.Chop(player, LumberingMaterials.LumberManosStone());
         }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.WHITE + "" + ChatColor.BOLD + "Grinding")) {
+            e.setCancelled(true);
+            player.openInventory(GrindingProcessingMenu.CreateMenu(player));
+        }else if (e.getClickedInventory().getItem(e.getSlot()).getItemMeta().getDisplayName().equals(ChatColor.WHITE + "" + ChatColor.BOLD + "Heating")) {
+            player.openInventory(HeatingProcessingMenu.CreateMenu(player));
             e.setCancelled(true);
         } else {
             e.setCancelled(true);

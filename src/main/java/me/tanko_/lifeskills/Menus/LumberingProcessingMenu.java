@@ -8,6 +8,7 @@ import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemFlag;
@@ -33,7 +34,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         String ID = player.getUniqueId().toString();
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         //Inventory
-        Inventory ProcessingMenu = Bukkit.createInventory(player, 54, "Processing Menu");
+        Inventory ProcessingMenu = Bukkit.createInventory(player, 54, "Chopping Menu");
         //Woods
         ItemStack OakPlank = new ItemStack(LumberingMaterials.OakPlank());
         ItemStack BirchPlank = new ItemStack(LumberingMaterials.BirchPlank());
@@ -50,6 +51,7 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ItemStack Scantling = new ItemStack(LumberingMaterials.Scantling());
         ItemStack TimberSquare = new ItemStack(LumberingMaterials.TimberSquare());
         ItemStack ReinforcedStick = new ItemStack(LumberingMaterials.ReinforcedStick());
+        ItemStack LumberManosStone = new ItemStack(LumberingMaterials.LumberManosStone());
         
         ItemMeta OakPlankMeta = OakPlank.getItemMeta();
         ArrayList<String> OakPlankLore = new ArrayList<>();
@@ -170,13 +172,31 @@ public class LumberingProcessingMenu implements CommandExecutor {
         ReinforcedStickLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Timber Square x30");
         ReinforcedStickMeta.setLore(ReinforcedStickLore);
         ReinforcedStick.setItemMeta(ReinforcedStickMeta);
+
+        ItemMeta LumberManosStoneMeta = LumberManosStone.getItemMeta();
+        ArrayList<String> LumberManosStoneLore = new ArrayList<>();
+        LumberManosStoneLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "Tier 5 Material");
+        LumberManosStoneLore.add("");
+        LumberManosStoneLore.add(ChatColor.GRAY + "Requires: " + ChatColor.WHITE + "Manos Fragments x10");
+        LumberManosStoneLore.add(ChatColor.WHITE + "Lumber Core x1");
+        LumberManosStoneMeta.setLore(LumberManosStoneLore);
+        LumberManosStone.setItemMeta(LumberManosStoneMeta);
         
         //Menu Items
         ItemStack Chopping = new ItemStack(Material.DIAMOND_AXE);
         ItemStack Grinding  = new ItemStack(Material.ANVIL);
         ItemStack Filler = new ItemStack(Material.BLACK_STAINED_GLASS_PANE);
         ItemStack BackButton = new ItemStack(Material.BARRIER);
-        
+        ItemStack Heating = new ItemStack(Material.BLAZE_POWDER);
+
+        ItemMeta HeatingMeta = Heating.getItemMeta();
+        HeatingMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Heating");
+        HeatingMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
+        ArrayList<String> HeatingLore = new ArrayList<>();
+        HeatingLore.add(ChatColor.GRAY + "Heat resources to produce higher tier materials");
+        HeatingMeta.setLore(HeatingLore);
+        Heating.setItemMeta(HeatingMeta);
+
         ItemMeta ChoppingMeta = Chopping.getItemMeta();
         ChoppingMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Chopping");
         ChoppingMeta.addItemFlags(ItemFlag.HIDE_ATTRIBUTES);
@@ -193,17 +213,19 @@ public class LumberingProcessingMenu implements CommandExecutor {
         GrindingMeta.setLore(GrindingLore);
         Grinding.setItemMeta(GrindingMeta);
 
+
+
         ItemMeta BackMeta = BackButton.getItemMeta();
         BackMeta.setDisplayName(ChatColor.RED + "" + ChatColor.BOLD + "Back");
         BackButton.setItemMeta(BackMeta);
 
 
         ItemStack[] menu_items = {OakPlank, BirchPlank, DarkOakPlank, JunglePlank, AcaciaPlank, SprucePlank, OakPlywood, BirchPlywood, DarkOakPlywood,
-                JunglePlywood, AcaciaPlywood, Scantling, TimberSquare, ReinforcedStick, Filler, Filler, Filler, Filler,
+                JunglePlywood, AcaciaPlywood, Scantling, TimberSquare, ReinforcedStick, LumberManosStone, Filler, Filler, Filler,
                 Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
                 Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
                 Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler,
-                BackButton, Chopping, Grinding, Filler, Filler, Filler, Filler, Filler, Filler};
+                BackButton, Chopping, Grinding, Heating, Filler, Filler, Filler, Filler, Filler};
         for (int i = 0; i < ProcessingMenu.getSize(); i++) {
             ProcessingMenu.setItem(i, menu_items[i]);
         }

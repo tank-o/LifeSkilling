@@ -2,6 +2,8 @@ package me.tanko_.lifeskills.CustomItems;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -23,7 +25,7 @@ public class ButcheringMaterials {
         return WolfMeat;
     }
     public static ItemStack LambMeat(){
-        ItemStack LambMeat = new ItemStack(Material.BEEF);
+        ItemStack LambMeat = new ItemStack(Material.MUTTON);
         ItemMeta LambMeatMeta = LambMeat.getItemMeta();
         LambMeatMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Lamb Meat");
         ArrayList<String> LambMeatLore = new ArrayList<>();
@@ -36,9 +38,11 @@ public class ButcheringMaterials {
         return LambMeat;
     }
     public static ItemStack Pork(){
-        ItemStack Pork = new ItemStack(Material.BEEF);
+        ItemStack Pork = new ItemStack(Material.PORKCHOP);
         ItemMeta PorkMeta = Pork.getItemMeta();
         PorkMeta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "Pork");
+        PorkMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        PorkMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         ArrayList<String> PorkLore = new ArrayList<>();
         PorkLore.add("");
         PorkLore.add(ChatColor.GRAY + "Use this in cooking recipes");
@@ -48,4 +52,18 @@ public class ButcheringMaterials {
         Pork.setItemMeta(PorkMeta);
         return Pork;
     }
+    public static ItemStack SacredBone(){
+        ItemStack SacredBone = new ItemStack(Material.BONE);
+        ItemMeta SacredBoneMeta = SacredBone.getItemMeta();
+        SacredBoneMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Sacred Bone");
+        ArrayList<String> SacredBoneLore = new ArrayList<>();
+        SacredBoneLore.add("");
+        SacredBoneLore.add(ChatColor.GRAY + "Use this in crafting recipes");
+        SacredBoneLore.add("");;
+        SacredBoneLore.add(ChatColor.GOLD + "LEGENDARY");
+        SacredBoneMeta.setLore(SacredBoneLore);
+        SacredBone.setItemMeta(SacredBoneMeta);
+        return SacredBone;
+    }
+    
 }

@@ -23,11 +23,31 @@ public class Mining {
         int MiningMastery = PlayerData.getFile().getInt(ID + ".Gathering.Mining.Mastery");
         int TotalMastery = GatheringMastery + MiningMastery;
         int Bracket = (TotalMastery/50) * 50;
-        //Loot Number
-        double lootNum = ThreadLocalRandom.current().nextDouble(0, 101);
+        //Loot Numbers
+        double lootNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
         lootNum = lootNum*100;
         lootNum = Math.round(lootNum);
         lootNum = lootNum /100;
+
+        double UncommonNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+        UncommonNum = UncommonNum*100;
+        UncommonNum = Math.round(UncommonNum);
+        UncommonNum = UncommonNum /100;
+
+        double RareNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+        RareNum = RareNum*100;
+        RareNum = Math.round(RareNum);
+        RareNum = RareNum /100;
+
+        double EpicNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+        EpicNum = EpicNum*100;
+        EpicNum = Math.round(EpicNum);
+        EpicNum = EpicNum /100;
+
+        double LegendaryNum = ThreadLocalRandom.current().nextDouble(0, 100.01);
+        LegendaryNum = LegendaryNum*100;
+        LegendaryNum = Math.round(LegendaryNum);
+        LegendaryNum = LegendaryNum /100;
         player.sendMessage(String.valueOf(lootNum));
         int CommonChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Chance");
         int MinCommon = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Min");
@@ -41,9 +61,9 @@ public class Mining {
         int MinRare = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Min");
         int MaxRare = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Max");
 
-        int EpicChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Chance");
-        int MinEpic = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Min");
-        int MaxEpic = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Max");
+        int EpicChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Epic.Chance");
+        int MinEpic = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Epic.Min");
+        int MaxEpic = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Epic.Max");
 
         int LegendaryChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Legendary.Chance");
         int MinLegendary = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Legendary.Min");
@@ -59,17 +79,17 @@ public class Mining {
         if (lootNum <= CommonChance){
             CommonDrops(Drops,lootNum,StoneAmount,MetalAmount);
         }
-        if (lootNum <= UncommonChance) {
-            UncommonDrops(Drops,UncommonAmount,lootNum,UncommonChance);
+        if (UncommonNum <= UncommonChance) {
+            UncommonDrops(Drops,UncommonAmount,UncommonChance);
         }
-        if (lootNum <= RareChance){
-            RareDrops(Drops,RareAmount,lootNum,RareChance);
+        if (RareNum <= RareChance){
+            RareDrops(Drops,RareAmount,RareChance);
         }
-        if (lootNum <= EpicChance){
-            EpicDrops(Drops,EpicAmount,lootNum,EpicChance);
+        if (EpicNum <= EpicChance){
+            EpicDrops(Drops,EpicAmount,EpicChance);
         }
-        if (lootNum <= LegendaryChance){
-            LegendaryDrops(Drops,LegendaryAmount,lootNum,LegendaryChance);
+        if (LegendaryNum <= LegendaryChance){
+            LegendaryDrops(Drops,LegendaryAmount,LegendaryChance);
         }
         MiningXP(player);
 
@@ -100,7 +120,7 @@ public class Mining {
 
 
     }
-    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
+    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int chance){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 3);
         if (internalNumber == 0){
             for (int i = 0;i < amount;i++) {
@@ -117,7 +137,7 @@ public class Mining {
         }
 
     }
-    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
+    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int chance){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 4);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
@@ -137,7 +157,7 @@ public class Mining {
             }
         }
     }
-    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
+    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int chance){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 2);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
@@ -149,15 +169,19 @@ public class Mining {
             }
         }
     }
-    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,double lootNum,int chance){
-        int internalNumber = ThreadLocalRandom.current().nextInt(0, 2);
+    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+        int internalNumber = ThreadLocalRandom.current().nextInt(0, 7);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(MiningMaterials.AncientMinersStone());
             }
-        } else if (internalNumber == 1) {
+        } else if ((internalNumber >= 1) && (internalNumber <= 3)){
             for (int i = 0; i < amount; i++) {
                 Drops.add(MiningMaterials.RefinedIngot());
+            }
+        } else if ((internalNumber >= 4) && (internalNumber <= 6 )) {
+            for (int i = 0; i < amount; i++) {
+                Drops.add(OtherMaterials.ManosFragment());
             }
         }
     }

@@ -1,11 +1,7 @@
 package me.tanko_.lifeskills.CheckInventories;
 
 import me.tanko_.lifeskills.CustomItems.OtherMaterials;
-import me.tanko_.lifeskills.Menus.GatheringPage;
 import me.tanko_.lifeskills.Menus.MainMenu;
-import me.tanko_.lifeskills.Menus.LumberingProcessingMenu;
-import me.tanko_.lifeskills.Menus.SkillsPage;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -19,8 +15,12 @@ public class InvClickEvent implements Listener {
 
         if (e.getView().getTitle().equalsIgnoreCase("Life Skill Menu")) {
             CheckMainMenu.Check(player,e);
-        } else if (e.getView().getTitle().equalsIgnoreCase("Processing Menu")) {
-            CheckProcessing.Check(player,e);
+        } else if (e.getView().getTitle().equalsIgnoreCase("Chopping Menu")) {
+            CheckLumberingProcessing.Check(player,e);
+        }else if (e.getView().getTitle().equalsIgnoreCase("Grinding Menu")) {
+            CheckGrindingProcessing.Check(player,e);
+        }else if (e.getView().getTitle().equalsIgnoreCase("Heating Menu")) {
+            CheckHeatingProcessing.Check(player,e);
         }
         if (e.getCurrentItem() != null) {
             if (e.getCurrentItem().equals(OtherMaterials.SkillsMenu())) {

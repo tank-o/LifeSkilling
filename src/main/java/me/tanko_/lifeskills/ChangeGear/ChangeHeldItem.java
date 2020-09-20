@@ -21,7 +21,6 @@ public class ChangeHeldItem implements Listener {
         int MiningMastery = 0;
         int ButcheringMastery = 0;
         Player player = e.getPlayer();
-        player.sendMessage("you changed your item");
         String ID = player.getUniqueId().toString();
         ArrayList<String> ButcherKnives = new ArrayList<>();
         ArrayList<String> Axes = new ArrayList<>();
@@ -45,12 +44,10 @@ public class ChangeHeldItem implements Listener {
         PlayerData.getFile().set(ID + ".Gathering.Butchering.Mastery",ButcheringMastery);PlayerData.save();
         PlayerData.getFile().set(ID + ".Gathering.Mining.Mastery",MiningMastery);PlayerData.save();
         PlayerData.save();
-        player.sendMessage("Checking axes");
         for (int i = 0; i < Axes.size();i++) {
             if (tool != null) {
                 if (tool.getItemMeta().getDisplayName().equals(Axes.get(i))) {
                     LumberingMastery = ItemMastery.ReturnMastery(tool.getItemMeta().getDisplayName());
-                    player.sendMessage("yay");
                     PlayerData.getFile().set(ID + ".Gathering.Lumbering.Mastery", LumberingMastery);
                     PlayerData.save();
                     return;
@@ -62,8 +59,6 @@ public class ChangeHeldItem implements Listener {
             if (tool != null) {
                 if (tool.getItemMeta().getDisplayName().equals(ButcherKnives.get(i))) {
                     ButcheringMastery = ItemMastery.ReturnMastery(tool.getItemMeta().getDisplayName());
-                    player.sendMessage("yay");
-                    player.sendMessage(String.valueOf(ButcheringMastery));
                     PlayerData.getFile().set(ID + ".Gathering.Butchering.Mastery", ButcheringMastery);
                     PlayerData.save();
                     return;
@@ -75,8 +70,6 @@ public class ChangeHeldItem implements Listener {
             if (tool != null) {
                 if (tool.getItemMeta().getDisplayName().equals(Pickaxes.get(i))) {
                     MiningMastery = ItemMastery.ReturnMastery(tool.getItemMeta().getDisplayName());
-                    player.sendMessage("yay");
-                    player.sendMessage(String.valueOf(MiningMastery));
                     PlayerData.getFile().set(ID + ".Gathering.Mining.Mastery", MiningMastery);
                     PlayerData.save();
                     return;

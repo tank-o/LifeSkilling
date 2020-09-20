@@ -1,16 +1,20 @@
 package me.tanko_.lifeskills.BlockBreak;
 
 import me.tanko_.lifeskills.CustomItems.CustomTools;
+import me.tanko_.lifeskills.LifeSkills;
 import me.tanko_.lifeskills.Lumbering.Lumbering;
 import me.tanko_.lifeskills.Mining.Mining;
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
+import org.bukkit.block.BlockState;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.plugin.Plugin;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -21,8 +25,9 @@ public class BlockBreak implements Listener {
     public void BlockBreak(BlockBreakEvent e) {
         Player player = e.getPlayer();
         Block block = e.getBlock();
+        final BlockState state = block.getState();
         Location loc = e.getBlock().getLocation();
-
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         //Axes
         ArrayList<String> Axes = new ArrayList<>();
         Collections.addAll(Axes, CustomTools.ApprenticeAxe().getItemMeta().getDisplayName(), CustomTools.OneApprenticeAxe().getItemMeta().getDisplayName(), CustomTools.TwoApprenticeAxe().getItemMeta().getDisplayName(),
@@ -43,37 +48,81 @@ public class BlockBreak implements Listener {
             if (tool.getItemMeta().getDisplayName().equals(Axes.get(i))) {
                 if (block.getType().equals(Material.ACACIA_LOG)) {
                     Lumbering.GetDrops(player, "acacia");
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                        @Override
+                        public void run() {
+                            state.update(true,false);
+                        }
+                    },100);
                     return;
                 } else if (block.getType().equals(Material.BIRCH_LOG)) {
                     Lumbering.GetDrops(player, "birch");
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                        @Override
+                        public void run() {
+                            state.update(true,false);
+                        }
+                    },100);
                     return;
                 } else if (block.getType().equals(Material.OAK_LOG)) {
                     Lumbering.GetDrops(player, "oak");
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                        @Override
+                        public void run() {
+                            state.update(true,false);
+                        }
+                    },100);
                     return;
                 } else if (block.getType().equals(Material.SPRUCE_LOG)) {
                     Lumbering.GetDrops(player, "spruce");
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                        @Override
+                        public void run() {
+                            state.update(true,false);
+                        }
+                    },100);
                     return;
                 } else if (block.getType().equals(Material.JUNGLE_LOG)) {
                     Lumbering.GetDrops(player, "jungle");
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                        @Override
+                        public void run() {
+                            state.update(true,false);
+                        }
+                    },100);
                     return;
                 } else if (block.getType().equals(Material.DARK_OAK_LOG)) {
                     Lumbering.GetDrops(player, "darkoak");
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                        @Override
+                        public void run() {
+                            state.update(true,false);
+                        }
+                    },100);
                     return;
-                } else if (block.getType().equals(Material.STONE)){
-
                 }
             }
         }
         for (int k = 0; k < Pickaxes.size(); k++) {
             if (tool.getItemMeta().getDisplayName().equals(Pickaxes.get(k))) {
                 if (block.getType().equals(Material.STONE)) {
+                    e.setCancelled(true);
                     player.sendMessage("Hello");
-                    e.getBlock().setType(Material.COBBLESTONE);
+                    block.setType(Material.COBBLESTONE);
                     Mining.GetDrops(player);
+                    Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
+                        @Override
+                        public void run() {
+                            state.update(true,false);
+                        }
+                    },100);
                     return;
+                } else {
+                    e.setCancelled(true);
                 }
             }
         }
+
     }
 }
 
