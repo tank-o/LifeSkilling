@@ -89,6 +89,17 @@ public class OnJoin implements Listener {
             PlayerData.getFile().set(ID + ".Sailing.Mastery",0);
             PlayerData.getFile().set(ID + ".Sailing.XPMulti",0);
 
+            //Fishing
+            PlayerData.getFile().createSection(ID + ".Fishing");
+            PlayerData.getFile().createSection(ID + ".Fishing.Level");
+            PlayerData.getFile().createSection(ID + ".Fishing.XP");
+            PlayerData.getFile().createSection(ID + ".Fishing.Mastery");
+            PlayerData.getFile().createSection(ID + ".Fishing.XPMulti");
+            PlayerData.getFile().set(ID + ".Fishing.Level",0);
+            PlayerData.getFile().set(ID + ".Fishing.XP",0);
+            PlayerData.getFile().set(ID + ".Fishing.Mastery",0);
+            PlayerData.getFile().set(ID + ".Fishing.XPMulti",0);
+
             PlayerData.save();
 
 

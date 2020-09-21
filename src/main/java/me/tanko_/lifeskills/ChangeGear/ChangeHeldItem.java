@@ -25,18 +25,22 @@ public class ChangeHeldItem implements Listener {
         ArrayList<String> ButcherKnives = new ArrayList<>();
         ArrayList<String> Axes = new ArrayList<>();
         ArrayList<String> Pickaxes = new ArrayList<>();
+
         Collections.addAll(Axes, CustomTools.ApprenticeAxe().getItemMeta().getDisplayName(), CustomTools.OneApprenticeAxe().getItemMeta().getDisplayName(), CustomTools.TwoApprenticeAxe().getItemMeta().getDisplayName(),
                 CustomTools.ThreeApprenticeAxe().getItemMeta().getDisplayName(), CustomTools.FourApprenticeAxe().getItemMeta().getDisplayName(), CustomTools.FiveApprenticeAxe().getItemMeta().getDisplayName(),
                 CustomTools.MasterAxe().getItemMeta().getDisplayName(), CustomTools.OneMasterAxe().getItemMeta().getDisplayName(), CustomTools.TwoMasterAxe().getItemMeta().getDisplayName(), CustomTools.ThreeMasterAxe().getItemMeta().getDisplayName(),
                 CustomTools.FourMasterAxe().getItemMeta().getDisplayName(), CustomTools.FiveMasterAxe().getItemMeta().getDisplayName());
+
         Collections.addAll(Pickaxes, CustomTools.ApprenticePickaxe().getItemMeta().getDisplayName(), CustomTools.OneApprenticePickaxe().getItemMeta().getDisplayName(), CustomTools.TwoApprenticePickaxe().getItemMeta().getDisplayName(),
                 CustomTools.ThreeApprenticePickaxe().getItemMeta().getDisplayName(), CustomTools.FourApprenticePickaxe().getItemMeta().getDisplayName(), CustomTools.FiveApprenticePickaxe().getItemMeta().getDisplayName(),
                 CustomTools.MasterPickaxe().getItemMeta().getDisplayName(), CustomTools.OneMasterPickaxe().getItemMeta().getDisplayName(), CustomTools.TwoMasterPickaxe().getItemMeta().getDisplayName(), CustomTools.ThreeMasterPickaxe().getItemMeta().getDisplayName(),
                 CustomTools.FourMasterPickaxe().getItemMeta().getDisplayName(), CustomTools.FiveMasterPickaxe().getItemMeta().getDisplayName());
+
         Collections.addAll(ButcherKnives, CustomTools.ApprenticeButcherKnife().getItemMeta().getDisplayName(), CustomTools.OneApprenticeButcherKnife().getItemMeta().getDisplayName(), CustomTools.TwoApprenticeButcherKnife().getItemMeta().getDisplayName(),
                 CustomTools.ThreeApprenticeButcherKnife().getItemMeta().getDisplayName(), CustomTools.FourApprenticeButcherKnife().getItemMeta().getDisplayName(), CustomTools.FiveApprenticeButcherKnife().getItemMeta().getDisplayName(),
                 CustomTools.MasterButcherKnife().getItemMeta().getDisplayName(), CustomTools.OneMasterButcherKnife().getItemMeta().getDisplayName(), CustomTools.TwoMasterButcherKnife().getItemMeta().getDisplayName(), CustomTools.ThreeMasterButcherKnife().getItemMeta().getDisplayName(),
                 CustomTools.FourMasterButcherKnife().getItemMeta().getDisplayName(), CustomTools.FiveMasterButcherKnife().getItemMeta().getDisplayName());
+
         int toolslot =  e.getNewSlot();
         ItemStack tool = player.getInventory().getItem(toolslot);
 

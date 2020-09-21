@@ -75,12 +75,15 @@ public class Lumbering {
         int EpicAmount = ThreadLocalRandom.current().nextInt(MinEpic, MaxEpic + 1);
         int LegendaryAmount = ThreadLocalRandom.current().nextInt(MinLegendary, MaxLegendary + 1);
 
-        player.sendMessage(String.valueOf(EpicNum));
+        player.sendMessage(String.valueOf(CommonChance));
+        player.sendMessage(String.valueOf(UncommonChance));
+        player.sendMessage(String.valueOf(RareChance));
         player.sendMessage(String.valueOf(EpicChance));
+        player.sendMessage(String.valueOf(LegendaryChance));
+
         if (lootNum <= CommonChance){
             CommonDrops(Drops,lootNum,TimberAmount,Wood,LogAmount);
         }
-        
         if (UncommonNum <= UncommonChance) {
             UncommonDrops(Drops,UncommonAmount,UncommonChance,Wood);
         }
@@ -94,7 +97,6 @@ public class Lumbering {
         if (LegendaryNum <= LegendaryChance){
             LegendaryDrops(Drops,LegendaryAmount,LegendaryChance);
             player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY DROP!");
-            player.sendMessage(String.valueOf(LegendaryNum));
         }
         LumberingXP(player,Wood);
 

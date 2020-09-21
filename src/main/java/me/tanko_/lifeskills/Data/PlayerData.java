@@ -36,7 +36,6 @@ import java.io.IOException;
 
         //Get instance of file configuration
         public static FileConfiguration getFile(){
-
             return playerFileConfig;
         }
 

@@ -109,7 +109,7 @@ public class BlockBreak implements Listener {
                     e.setCancelled(true);
                     player.sendMessage("Hello");
                     block.setType(Material.COBBLESTONE);
-                    Mining.GetDrops(player);
+                    Mining.GetDrops(player,e.getBlock().getLocation());
                     Bukkit.getServer().getScheduler().scheduleSyncDelayedTask(plugin, new Runnable() {
                         @Override
                         public void run() {

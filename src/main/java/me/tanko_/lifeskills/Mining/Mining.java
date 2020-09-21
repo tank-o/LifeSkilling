@@ -2,20 +2,21 @@ package me.tanko_.lifeskills.Mining;
 
 import me.tanko_.lifeskills.CustomItems.MiningMaterials;
 import me.tanko_.lifeskills.CustomItems.OtherMaterials;
+import me.tanko_.lifeskills.CustomMobs.MarauderMiner;
 import me.tanko_.lifeskills.Data.PlayerData;
 import me.tanko_.lifeskills.GetRank.LevelToRank;
 import me.tanko_.lifeskills.LifeSkills;
 import org.bukkit.ChatColor;
+import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.Plugin;
 
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Mining {
-    public static void GetDrops(Player player){
+    public static void GetDrops(Player player, Location loc){
         ArrayList<ItemStack> Drops = new ArrayList<ItemStack>();
         Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         String ID = player.getUniqueId().toString();
@@ -48,24 +49,24 @@ public class Mining {
         LegendaryNum = LegendaryNum*100;
         LegendaryNum = Math.round(LegendaryNum);
         LegendaryNum = LegendaryNum /100;
-        player.sendMessage(String.valueOf(lootNum));
-        int CommonChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Chance");
+
+        double CommonChance = plugin.getConfig().getDouble("Gathering.Mining.Mastery." + Bracket + ".Common.Chance");
         int MinCommon = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Min");
         int MaxCommon = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Common.Max");
 
-        int UncommonChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Uncommon.Chance");
+        double UncommonChance = plugin.getConfig().getDouble("Gathering.Mining.Mastery." + Bracket + ".Uncommon.Chance");
         int MinUncommon = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Uncommon.Min");
         int MaxUncommon = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Uncommon.Max");
 
-        int RareChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Chance");
+        double RareChance = plugin.getConfig().getDouble("Gathering.Mining.Mastery." + Bracket + ".Rare.Chance");
         int MinRare = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Min");
         int MaxRare = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Rare.Max");
 
-        int EpicChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Epic.Chance");
+        double EpicChance = plugin.getConfig().getDouble("Gathering.Mining.Mastery." + Bracket + ".Epic.Chance");
         int MinEpic = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Epic.Min");
         int MaxEpic = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Epic.Max");
 
-        int LegendaryChance = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Legendary.Chance");
+        double LegendaryChance = plugin.getConfig().getDouble("Gathering.Mining.Mastery." + Bracket + ".Legendary.Chance");
         int MinLegendary = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Legendary.Min");
         int MaxLegendary = plugin.getConfig().getInt("Gathering.Mining.Mastery." + Bracket + ".Legendary.Max");
 
@@ -80,16 +81,23 @@ public class Mining {
             CommonDrops(Drops,lootNum,StoneAmount,MetalAmount);
         }
         if (UncommonNum <= UncommonChance) {
-            UncommonDrops(Drops,UncommonAmount,UncommonChance);
+            UncommonDrops(Drops,UncommonAmount);
         }
         if (RareNum <= RareChance){
-            RareDrops(Drops,RareAmount,RareChance);
+            RareDrops(Drops,RareAmount);
         }
         if (EpicNum <= EpicChance){
-            EpicDrops(Drops,EpicAmount,EpicChance);
+            player.sendMessage(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "EPIC DROP!");
+            EpicDrops(Drops,EpicAmount,player);
         }
         if (LegendaryNum <= LegendaryChance){
-            LegendaryDrops(Drops,LegendaryAmount,LegendaryChance);
+            player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY DROP!");
+            LegendaryDrops(Drops,LegendaryAmount,player);
+            player.sendMessage(String.valueOf(LegendaryNum));
+        }
+        if (lootNum <= 0.02){
+            loc.setY(loc.getBlockY() + 1);
+            MarauderMiner.MarauderMiner(player,loc);
         }
         MiningXP(player);
 
@@ -120,7 +128,7 @@ public class Mining {
 
 
     }
-    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 3);
         if (internalNumber == 0){
             for (int i = 0;i < amount;i++) {
@@ -137,7 +145,7 @@ public class Mining {
         }
 
     }
-    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+    public static void RareDrops(ArrayList<ItemStack> Drops,int amount){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 4);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
@@ -157,31 +165,36 @@ public class Mining {
             }
         }
     }
-    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,Player player){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 2);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(MiningMaterials.MixedRefinedScrap());
+                player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "Mixed Refined Scraps");
             }
         } else if (internalNumber == 1){
             for (int i=0;i < amount;i++) {
                 Drops.add(OtherMaterials.EnhanceStone());
+                player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "Enhance Stone");
             }
         }
     }
-    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,Player player){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 7);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
                 Drops.add(MiningMaterials.AncientMinersStone());
+                player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "Ancient Miner's Stone");
             }
         } else if ((internalNumber >= 1) && (internalNumber <= 3)){
             for (int i = 0; i < amount; i++) {
                 Drops.add(MiningMaterials.RefinedIngot());
+                player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "Mixed Refined Ingot");
             }
         } else if ((internalNumber >= 4) && (internalNumber <= 6 )) {
             for (int i = 0; i < amount; i++) {
                 Drops.add(OtherMaterials.ManosFragment());
+                player.sendMessage(ChatColor.AQUA + "" + ChatColor.BOLD + "Manos Fragment");
             }
         }
     }
