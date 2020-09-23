@@ -2,9 +2,13 @@ package me.tanko_.lifeskills.CustomItems;
 
 import me.tanko_.lifeskills.ChangeGear.ItemMastery;
 import me.tanko_.lifeskills.LifeSkills;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.RecipeChoice;
+import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.Plugin;
 
@@ -26,6 +30,13 @@ public class CustomTools {
         ApprenticeAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 2%");
         ApprenticeAxeMeta.setLore(ApprenticeAxeLore);
         ApprenticeAxe.setItemMeta(ApprenticeAxeMeta);
+
+        NamespacedKey key = new NamespacedKey(plugin,"apprentice_axe");
+        ShapedRecipe recipe = new ShapedRecipe(key,ApprenticeAxe);
+        recipe.shape("II ","IS "," S ");
+        recipe.setIngredient('I',new RecipeChoice.ExactChoice(MiningMaterials.RefinedIron()));
+        recipe.setIngredient('S',new RecipeChoice.ExactChoice(LumberingMaterials.ReinforcedStick()));
+        Bukkit.addRecipe(recipe);
 
         return ApprenticeAxe;
     }
@@ -117,6 +128,14 @@ public class CustomTools {
         MasterAxeLore.add(ChatColor.DARK_GRAY + "Gathering XP Boost: 5%");
         MasterAxeMeta.setLore(MasterAxeLore);
         MasterAxe.setItemMeta(MasterAxeMeta);
+
+        NamespacedKey key = new NamespacedKey(plugin,"master_axe");
+        ShapedRecipe recipe = new ShapedRecipe(key,MasterAxe);
+        recipe.shape("II ","IC "," S ");
+        recipe.setIngredient('I',new RecipeChoice.ExactChoice(MiningMaterials.ManosIngot()));
+        recipe.setIngredient('S',new RecipeChoice.ExactChoice(LumberingMaterials.ReinforcedStick()));
+        recipe.setIngredient('C',new RecipeChoice.ExactChoice(LumberingMaterials.LumberCore()));
+        Bukkit.addRecipe(recipe);
 
         return MasterAxe;
     }
