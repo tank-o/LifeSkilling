@@ -1,11 +1,18 @@
 package me.tanko_.lifeskills.CustomItems;
 
+import me.tanko_.lifeskills.LifeSkills;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.RecipeChoice;
+import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.plugin.Plugin;
+
 import java.util.ArrayList;
 
 public class OtherMaterials {
@@ -38,6 +45,7 @@ public class OtherMaterials {
     }
     //Epic
     public static ItemStack EnhanceStone(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         ItemStack EnhanceStone = new ItemStack(Material.SLIME_BALL);
         ItemMeta EnhanceStoneMeta = EnhanceStone.getItemMeta();
         EnhanceStoneMeta.setDisplayName(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "Enhance Stone");
@@ -49,6 +57,13 @@ public class OtherMaterials {
         EnhancementStoneLore.add(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "EPIC");
         EnhanceStoneMeta.setLore(EnhancementStoneLore);
         EnhanceStone.setItemMeta(EnhanceStoneMeta);
+
+        NamespacedKey key = new NamespacedKey(plugin,"enhance_stone");
+        ShapedRecipe recipe = new ShapedRecipe(key,EnhanceStone);
+        recipe.shape("FFF","FFF","FFF");
+        recipe.setIngredient('F',new RecipeChoice.ExactChoice(EnhanceFragment()));
+        Bukkit.addRecipe(recipe);
+
         return EnhanceStone;
     }
     //Legendary
@@ -67,9 +82,12 @@ public class OtherMaterials {
         return ManosFragment;
     }
     public static ItemStack ManosStone(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
         ItemStack ManosStone = new ItemStack(Material.DIAMOND);
         ItemMeta ManosStoneMeta = ManosStone.getItemMeta();
         ManosStoneMeta.setDisplayName(ChatColor.GOLD + "" + ChatColor.BOLD + "Manos Fragment");
+        ManosStoneMeta.addEnchant(Enchantment.WATER_WORKER,1,true);
+        ManosStoneMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         ArrayList<String> ManosStoneLore = new ArrayList<>();
         ManosStoneLore.add(ChatColor.DARK_GRAY + "Crafting Material");
         ManosStoneLore.add("");
@@ -78,6 +96,13 @@ public class OtherMaterials {
         ManosStoneLore.add(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY");
         ManosStoneMeta.setLore(ManosStoneLore);
         ManosStone.setItemMeta(ManosStoneMeta);
+
+        NamespacedKey key = new NamespacedKey(plugin,"manos_stone");
+        ShapedRecipe recipe = new ShapedRecipe(key,ManosStone);
+        recipe.shape("FFF","FFF","FFF");
+        recipe.setIngredient('F',new RecipeChoice.ExactChoice(ManosFragment()));
+        Bukkit.addRecipe(recipe);
+
         return ManosStone;
     }
     //Miscellaneous

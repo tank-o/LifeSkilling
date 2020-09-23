@@ -48,23 +48,23 @@ public class Lumbering {
         LegendaryNum = Math.round(LegendaryNum);
         LegendaryNum = LegendaryNum /100;
 
-        int CommonChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Common.Chance");
+        double CommonChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Common.Chance");
         int MinCommon = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Common.Min");
         int MaxCommon = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Common.Max");
 
-        int UncommonChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Uncommon.Chance");
+        double UncommonChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Uncommon.Chance");
         int MinUncommon = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Uncommon.Min");
         int MaxUncommon = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Uncommon.Max");
 
-        int RareChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Chance");
+        double RareChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Chance");
         int MinRare = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Min");
         int MaxRare = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Rare.Max");
 
-        int EpicChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Epic.Chance");
+        double EpicChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Epic.Chance");
         int MinEpic = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Epic.Min");
         int MaxEpic = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Epic.Max");
 
-        int LegendaryChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Legendary.Chance");
+        double LegendaryChance = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Legendary.Chance");
         int MinLegendary = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Legendary.Min");
         int MaxLegendary = plugin.getConfig().getInt("Gathering.Lumbering.Mastery." + Bracket + ".Legendary.Max");
 
@@ -85,17 +85,17 @@ public class Lumbering {
             CommonDrops(Drops,lootNum,TimberAmount,Wood,LogAmount);
         }
         if (UncommonNum <= UncommonChance) {
-            UncommonDrops(Drops,UncommonAmount,UncommonChance,Wood);
+            UncommonDrops(Drops,UncommonAmount,Wood);
         }
         if (RareNum <= RareChance){
-            RareDrops(Drops,RareAmount,RareChance);
+            RareDrops(Drops,RareAmount);
         }
         if (EpicNum <= EpicChance){
-            EpicDrops(Drops,EpicAmount,EpicChance);
+            EpicDrops(Drops,EpicAmount);
             player.sendMessage(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "EPIC DROP!");
         }
         if (LegendaryNum <= LegendaryChance){
-            LegendaryDrops(Drops,LegendaryAmount,LegendaryChance);
+            LegendaryDrops(Drops,LegendaryAmount);
             player.sendMessage(ChatColor.GOLD + "" + ChatColor.BOLD + "LEGENDARY DROP!");
         }
         LumberingXP(player,Wood);
@@ -137,7 +137,7 @@ public class Lumbering {
             }
         }
     }
-    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,int chance,String wood){
+    public static void UncommonDrops(ArrayList<ItemStack> Drops,int amount,String wood){
         ItemStack Plank = LumberingMaterials.OakPlank();
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 2);
         switch(wood){
@@ -170,7 +170,7 @@ public class Lumbering {
             }
         }
     }
-    public static void RareDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+    public static void RareDrops(ArrayList<ItemStack> Drops,int amount){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
@@ -178,7 +178,7 @@ public class Lumbering {
             }
         }
     }
-    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+    public static void EpicDrops(ArrayList<ItemStack> Drops,int amount){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 1);
         if (internalNumber == 0){
             for (int i=0;i < amount;i++) {
@@ -186,7 +186,7 @@ public class Lumbering {
             }
         }
     }
-    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount,int chance){
+    public static void LegendaryDrops(ArrayList<ItemStack> Drops,int amount){
         int internalNumber = ThreadLocalRandom.current().nextInt(0, 7);
         if (internalNumber >= 1){
             for (int i=0;i < amount;i++) {

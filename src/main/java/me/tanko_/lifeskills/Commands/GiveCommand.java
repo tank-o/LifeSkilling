@@ -1,8 +1,6 @@
 package me.tanko_.lifeskills.Commands;
 
-import me.tanko_.lifeskills.CustomItems.CustomArmour;
-import me.tanko_.lifeskills.CustomItems.CustomTools;
-import me.tanko_.lifeskills.CustomItems.LumberingMaterials;
+import me.tanko_.lifeskills.CustomItems.*;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -236,6 +234,16 @@ public class GiveCommand implements CommandExecutor {
                                     victim.getInventory().addItem(LumberingMaterials.Scantling());
                                 } else if (args[1].equalsIgnoreCase("timbersquare")) {
                                     victim.getInventory().addItem(LumberingMaterials.TimberSquare());
+                                } else if (args[1].equalsIgnoreCase("mixedingot")) {
+                                    victim.getInventory().addItem(MiningMaterials.RefinedIngot());
+                                } else if (args[1].equalsIgnoreCase("manosingot")) {
+                                    victim.getInventory().addItem(MiningMaterials.ManosIngot());
+                                } else if (args[1].equalsIgnoreCase("manosfragment")) {
+                                    victim.getInventory().addItem(OtherMaterials.ManosFragment());
+                                } else if (args[1].equalsIgnoreCase("minerstone")) {
+                                    victim.getInventory().addItem(MiningMaterials.AncientMinersStone());
+                                } else if (args[1].equalsIgnoreCase("lumbercore")) {
+                                    victim.getInventory().addItem(LumberingMaterials.LumberCore());
                                 }
                             }
                         }catch (NumberFormatException ex) {

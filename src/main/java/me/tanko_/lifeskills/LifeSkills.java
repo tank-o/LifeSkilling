@@ -4,6 +4,7 @@ import me.tanko_.lifeskills.BlockBreak.BlockBreak;
 import me.tanko_.lifeskills.ChangeGear.ChangeHeldItem;
 import me.tanko_.lifeskills.CheckInventories.InvClickEvent;
 import me.tanko_.lifeskills.Commands.GiveCommand;
+import me.tanko_.lifeskills.CustomItems.MiningMaterials;
 import me.tanko_.lifeskills.Data.PlayerData;
 import me.tanko_.lifeskills.JoinLeave.OnJoin;
 import me.tanko_.lifeskills.Menus.MainMenu;
@@ -38,5 +39,9 @@ public final class LifeSkills extends JavaPlugin {
         PlayerData.setup(this);
         PlayerData.getFile().options().copyDefaults(true);
         PlayerData.save();
+
+        //RegisterRecipes
+        MiningMaterials.ManosIngot();
+
     }
 }

@@ -95,7 +95,7 @@ public class Mining {
             LegendaryDrops(Drops,LegendaryAmount,player);
             player.sendMessage(String.valueOf(LegendaryNum));
         }
-        if (lootNum <= 0.02){
+        if (lootNum <= 0.01){
             loc.setY(loc.getBlockY() + 1);
             MarauderMiner.MarauderMiner(player,loc);
         }

@@ -1,11 +1,17 @@
 package me.tanko_.lifeskills.CustomItems;
 
+import me.tanko_.lifeskills.LifeSkills;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.RecipeChoice;
+import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.plugin.Plugin;
 
 import java.util.ArrayList;
 
@@ -233,6 +239,28 @@ public class MiningMaterials {
         AncientMinersStone.setItemMeta(AncientMinersStoneMeta);
         return AncientMinersStone;
     }
+    public static ItemStack ManosIngot(){
+        Plugin plugin = LifeSkills.getPlugin(LifeSkills.class);
+        ItemStack ManosIngot = new ItemStack(Material.NETHERITE_INGOT);
+        ItemMeta ManosIngotMeta= ManosIngot.getItemMeta();
+        ManosIngotMeta.setDisplayName(ChatColor.RED + "" + ChatColor.BOLD + "Manos Ingot");
+        ManosIngotMeta.addEnchant(Enchantment.PROTECTION_FALL,1,true);
+        ManosIngotMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        ArrayList<String> ManosIngotLore = new ArrayList<>();
+        ManosIngotLore.add(ChatColor.RED + "" + ChatColor.BOLD + "Tier 6 Material");
+        ManosIngotLore.add(ChatColor.GRAY + "Use this to create Master Tools");
+        ManosIngotLore.add("");
+        ManosIngotLore.add(ChatColor.RED + "" + ChatColor.BOLD + "UBER CRAFTING MATERIAL");
+        ManosIngotMeta.setLore(ManosIngotLore);
+        ManosIngot.setItemMeta(ManosIngotMeta);
 
-    
+        NamespacedKey key = new NamespacedKey(plugin,"manos_ingot");
+        ShapedRecipe recipe = new ShapedRecipe(key,ManosIngot);
+        recipe.shape("FFF","FIF","FFF");
+        recipe.setIngredient('F',new RecipeChoice.ExactChoice(OtherMaterials.ManosFragment()));
+        recipe.setIngredient('I',new RecipeChoice.ExactChoice(RefinedIngot()));
+        Bukkit.addRecipe(recipe);
+
+        return ManosIngot;
+    }    
 }
